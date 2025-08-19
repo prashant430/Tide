@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+{% include navigation-bar.html %}
+
+
+<section class="grid-center mh-100">
+  <div class="col-9_sm-12 grid">
+
+
+    {% assign targetCat = page.categories[0] %}
+    {% for post in site.categories[targetCat] limit:2 %}
+
+    <div class="col-6_md-6_sm-12 grid relative">
+      <div class="margin grid">
+     
+      <div class="col-12_sm-12 relative">
+        <a href="{{post.url}}">
+        {% if post.video == true %}
+        <video id="myVideo" class="bg-video bg_cover vw-100 vh-100" autoplay muted playsinline autobuffer="true" loop poster="{{item.cover_image}}">
+        <source src="{{post.video_path}}" type="video/mp4" />
+        Your browser does not support the video tag.
+        </video>
+        {% endif %}
+        <img class="img_lrge {{post.featured_image.position}}" src="{{ post.featured_image.image }}"></img>
+        </a>
+      </div>
+      <a href="{{post.url}}">
+        <div class="col-12 container">
+          <h4 class="subtitle mt-2"> {{ post.type }} I {{ post.issue_no }}</h4>
+          <h2 class="mob-padding mt-1 mb-1"> {{post.title}} </h2>
+          <p class="mob-padding long-text mb-2 no-margin"> {{post.short-description}} </p>
+        </div>
+      </a>
+      </div>
+    </div>
+
+  {% endfor %}
+
+
+
+  </div>
+</section>
+<section class="padded-1 mob-hide"></section>
+
+
+<!-- remaining posts -->
+<section class="grid-center">
+  <div class="grid">
+
+    {{content}}
+
+  </div>
+
+</section>
+
+
+
+
+<section class="padded"></section>

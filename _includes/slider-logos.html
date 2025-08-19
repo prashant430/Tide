@@ -1,0 +1,176 @@
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+<style>
+
+
+.slick-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+.slick-prev, .slick-next{
+border:0px solid;
+padding:1rem;
+background-color: rgba(0, 0, 0, 0);
+-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.slick-prev:hover, .slick-next:hover{
+background-color: rgba(0, 0, 0, 0);
+}
+.slick-prev img, .slick-next img{
+width:30rem;
+}
+
+.slick-prev {
+ transform: rotateZ(180deg);
+}
+
+
+/* .slick-list {
+  border-right: 1px solid black;
+} */
+
+.dots{
+  display: block;
+}
+
+.dots.arrows{
+  display: grid;
+  /* first and third numbers are for arrows size */
+  /*grid-template-columns: 100px 1fr 100px;*/
+  grid-template-columns: 1fr;
+
+}
+@media (max-width: 768px) {
+  .dots.arrows {
+    grid-template-columns: 1fr;
+  }
+}
+
+.slick-dots{
+  text-align: center;
+}
+
+.arrows .slick-dots{
+grid-column: span 3;
+}
+
+.slick-dots li{
+  display: inline-block;
+  padding: 5px;
+}
+.slick-dots button {
+  display: none;
+}
+.slick-dots li::before{
+  content: '•';
+  color:black;
+  font-size: 16px;
+  opacity: .5;
+}
+
+
+/* not code of the universal slider but this project in perticular */
+
+.slick-list{
+  border-right: 0px solid;
+}
+.logo {
+  padding: 1rem 3rem;
+}
+@media (max-width: 768px) {
+  .logo {
+    padding: 1rem;
+  }
+}
+
+
+</style>
+
+<section class="no-pad custom-parent">
+
+
+  <div class="slideShow
+  arrows
+  dots
+  ">
+
+  <div class="left">
+    <img src="/images/tide-magazine-sailing-lifestyle-travel-baltic.jpg">
+        
+  </div>
+
+  <div class="left">
+    <img src="/images/tide-magazine-sailing-lifestyle-travel-dkystra.jpg">
+        
+  </div>
+  <div class="left">
+    <img src="/images/tide-magazine-sailing-lifestyle-travel-edminston.jpg">
+        
+  </div>
+
+  <div class="left">
+    <img src="/images/tide-magazine-sailing-lifestyle-travel-perserverance.jpg">
+        
+  </div>
+
+  </div>
+</section>
+
+
+
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script>
+  $(document).ready(function () {
+    $('.slideShow').slick({
+      // auto play: true or false
+      autoplay: true,
+      // time in mili seconds for it to auto play
+      autoplaySpeed: 2000,
+      // speed in mili seconds for it to transition on slide
+      speed: 300,
+      // how many slides are on screen
+      slidesToShow: 1,
+      // how many slides will slide on click on arrows or on auto play
+      slidesToScroll: 1,
+      // are there dots under the slideshow for navigation
+      dots: false,
+      // does it loop (true) or when it gets to the end does it stop (false)
+      infinite: true,
+      // are all your slides the same width or are some wider and some thiner (mostly used in galleries with imgs at different aspect ratios)
+      variableWidth: false,
+      // does it focus on the center image ( mostly usefull with variableWidth: true, wont see alot of difference if you have set widths)
+      centerMode: false,
+      // are there arrows on the side
+      arrows: false,
+      //prevArrow: '<button class="hide-mob" type="button" class="slick-prev"></button>',
+      //nextArrow: '<button class="hide-mob" type="button" class="slick-next"></button>',
+      responsive: [
+        {
+          breakpoint: 1080,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+          },
+        },
+      ]
+    });
+    AOS.refresh();
+  });
+
+</script>

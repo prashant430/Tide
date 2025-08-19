@@ -1,0 +1,13 @@
+collections:
+ products:
+  output: true
+_inputs:
+  layout:
+    hidden: true
+_select_data:
+  positions:
+    img-left: Left
+    img-left-center: Left Centre
+    img-center: Centered
+    img-right-center: Right Centre
+    img-right: Right

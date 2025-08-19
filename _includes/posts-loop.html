@@ -1,0 +1,36 @@
+{% assign targetCat = page.categories[0] %}
+{% for post in site.categories[targetCat] offset:2 %}
+
+
+<div class="{% cycle 'col-8', 'col-4', 'col-4', 'col-4', 'col-4', 'col-4', 'col-8', 'col-4', 'col-4', 'col-4' %}_md-6_sm-12 grid relative">
+      <div class="margin grid">
+       
+        <div class="col-12_sm-12 relative">
+          <a href="{{post.url}}">
+  
+            {% if post.video == true %}
+            <video id="myVideo" class="bg-video bg_cover vw-100 vh-100" autoplay muted playsinline autobuffer="true" loop poster="{{post.cover_image}}">
+            <source src="{{post.video_path}}" type="video/mp4" />
+  
+            Your browser does not support the video tag.
+            </video>
+            {% endif %}
+          <img class="img-product {{post.featured_image.position}}" src="{{ post.featured_image.image }}"></img>
+  
+          </a>
+        </div>
+
+
+        <div class="col-12 container">
+          <a href="{{post.url}}">
+            <h4 class="subtitle mt-2"> {{ post.type }} I {{ post.issue_no }}</h4>
+            <h2 class="mob-padding mt-1 mb-1"> {{post.title}} </h2>
+            <p class="mob-padding long-text mb-2 no-margin"> {{post.short-description}} </p>
+          </a>
+         </div>
+
+
+     </div>
+    </div>
+
+    {% endfor %}

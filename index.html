@@ -1,0 +1,186 @@
+---
+layout: default
+title: Home TIDE Magazine Sailing Travel Lifestyle
+meta-description: >-
+  TIDE is adventure, travel, design, modernity, environment, technology, culture
+  and cuisine.
+desktop_first_image: /uploads/issue-13/issuenumber13-tm-cover-image-2.jpg
+desktop_first_image_position: img-left
+mobile_first_image: /uploads/issue-13/issuenumber13-tm-cover-image-2.jpg
+mobile_first_image_position: img-left-center
+sailing_image: /uploads/tide-magazine-sailing-crop.jpg
+lifestyle_image: /images/lifestyle.jpg
+environment_image: /uploads/1-2.png
+travel_image: /uploads/qua3qbvq.jpg
+sound_image: /uploads/tide-magazine-sailing-perseverance-8-crop.jpg
+design_image: /uploads/issue-05/tide-magazine-sailing-lifestyle-travel-issue05-design.jpg
+issue_out_now_image: /uploads/issue-13/tide-magazine-13-spreads-mockup-2.jpg
+---
+{% include navigation-bar.html %}
+
+<!-- Mobile version -->
+<section class="hide-3 grid-center aspect-100">
+  <div class="col-12_sm-12 relative">
+
+<img alt="Tide magazine travel articles" class="starter img_75 {{page.mobile_first_image_position}} filterable" src="{{page.mobile_first_image}}" />
+<img alt="Tide magazine travel articles" class="p0 img_aspect filterable hide" src="{{page.sailing_image}}" />
+<img alt="Tide magazine travel articles" class="p1 img_aspect filterable hide" src="{{page.lifestyle_image}}" />
+<img alt="Tide magazine travel articles" class="p2 img_aspect filterable hide" src="{{page.environment_image}}" />
+<img alt="Tide magazine travel articles" class="p3 img_aspect filterable hide" src="{{page.travel_image}}" />
+<img alt="Tide magazine travel articles" class="p4 img_aspect filterable hide" src="{{page.sound_image}}" />
+
+
+</div>
+</section>
+
+<!-- <section class="show-xl grid-center mh-100">
+  <div class="col-8_sm-hidden relative">
+
+<img alt="Tide magazine travel articles" class="starter bg-bottom img_cover filterable" src="{{page.first_image}}" />
+<img alt="Tide magazine travel articles" class="p0 img_cover filterable hide" src="{{page.sailing_image}}" />
+<img alt="Tide magazine travel articles" class="p1 img_cover filterable hide" src="{{page.lifestyle_image}}" />
+<img alt="Tide magazine travel articles" class="p2 img_cover filterable hide" src="{{page.environment_image}}" />
+<img alt="Tide magazine travel articles" class="p3 img_cover filterable hide" src="{{page.travel_image}}" />
+<img alt="Tide magazine travel articles" class="p4 img_cover filterable hide" src="{{page.sound_image}}" />
+
+
+ -->
+
+
+<!-- Desktop version -->
+<section class="grid-left  aspect-100 mob-hide">
+  <div class="col-10_sm-12 relative">
+
+<img alt="Tide magazine travel articles" class="starter img_starter {{page.desktop_first_image_position}} filterable" src="{{page.desktop_first_image}}" />
+<img alt="Tide magazine travel articles" class="p0 img_new filterable hide" src="{{page.sailing_image}}" />
+<img alt="Tide magazine travel articles" class="p1 img_new filterable hide" src="{{page.lifestyle_image}}" />
+<img alt="Tide magazine travel articles" class="p2 img_new filterable hide" src="{{page.environment_image}}" />
+<img alt="Tide magazine travel articles" class="p3 img_new filterable hide" src="{{page.travel_image}}" />
+<img alt="Tide magazine travel articles" class="p4 img_new filterable hide" src="{{page.design_image}}" />
+
+
+
+</div>
+</section>
+
+
+
+<section class="padded-05"></section>
+
+
+<!-- latest articles -->
+
+
+<section class="padded-2 grid-center no-padding">
+  {% for post in site.categories.all limit:5 %}
+    <div class="{% cycle 'col-7', 'col-5', 'col-4', 'col-4', 'col-4' %}_md-6_sm-12 grid relative">
+      <div class="margin grid">
+      <div class="col-12 container">
+        <a href="{{post.url}}">
+        <h4 class="subtitle"> {{ post.type }} I {{ post.issue_no }}</h4>
+      <h2 class="mob-padding mt-1 mb-1"> {{post.title}} </h2>
+    
+      <p class="mob-padding long-text mb-2"> {{post.short-description}} </p>
+    </a>
+    </div>
+    <div class="col-12_sm-12 relative">
+
+
+      <a href="{{post.url}}">
+
+      {% if post.video == true %}
+      <video id="myVideo" class="bg-video bg_cover vw-100 vh-100" autoplay muted playsinline autobuffer="true" loop poster="{{post.cover_image}}">
+      <source src="{{post.video_path}}" type="video/mp4" />
+
+      Your browser does not support the video tag.
+      </video>
+      {% endif %}
+
+
+    <img class="img-product {{post.featured_image.position}}" src="{{ post.featured_image.image }}" />
+  
+  </a>
+    </div>
+
+  </div>
+    <!-- <div class="col-12 padded-2"></div> -->
+    </div>
+
+  {% endfor %}
+
+
+
+</section>
+
+
+<!-- number 2 out now -->
+
+<section class="padded grid-center light-blue no-padding">
+  <div class="col-7_sm-11 bg-60 mob-hide" style="background-image:url('{{page.issue_out_now_image}}')">
+
+  </div>
+  <!-- <div class="col-1_sm-12 padded-1"></div> -->
+<div class="col-5_md-12_sm-12 flex-display">
+  <div class="block editable padded-2 mob-pad">
+      <h4 class="blue-text smaller mb-2">TIDE MAGAZINE I NUMBER THIRTEEN</h4>
+      <h2 class="mt-1 blue-text bigger mb-1">Our Sailing Lifestyle, Beautiful and Audacious</h2>
+      <h3 class="mb-1 white">In Stores Worldwide</h3>
+      <p class="present-before-paste">With their ancient histories, minimalist architecture and tastes of the sea, the Greek Islands are a sailing paradise – and the theme of our latest issue. We reveal the fresh spots that are exciting locals as much as summer visitors, from a run of recently launched eco-minded hotels to sweet new tavernas with heart. And we share the ultimate route to take around the northern Dodecanese, filled with secret bays and tucked-away anchorages, on what remains a frontier unexplored by most sailors. Elsewhere, we meet with the owner and Captain of <em>Kiboko 4</em>, the newly crowned Superyacht of the Year that skims across our cover, to discuss her 'Beautiful Lightness of Being' . And we explore second lives: that of the 78ft <em>Drumfire</em>, the boat reborn in Australia following many quiet years in the Med; and that of <em>Ravenger</em> – Refit of the Year – and sleek performance cruiser<em> Samurai</em> – plus much, much more. <br /><br /><em>‘Too oi theoí tha féroun ton ánemo’</em></p>
+      <p class="present-before-paste mt-2"><a class="btn-white " href="&lt;span data-cms-snippet-type=">"&gt;BUY NOW </a> <a class="btn-white" href="&lt;span data-cms-snippet-type=">"&gt; SUBSCRIBE </a></p>
+      <div>
+          <p>&nbsp;</p>
+      </div>
+  </div>
+</div>
+
+<div class="col-7_sm-11 bg-60 mob-show bg-small" style="background-image:url('{{page.issue_out_now_image}}')">
+
+</div>
+<div class="col-1_sm-12 padded-1 mob-show"></div>
+</section>
+
+
+
+
+
+
+<section class="padded-2 grid-center no-padding mt-mob">
+  {% for post in site.categories.all offset:5 limit:5 %}
+    <div class="{% cycle 'col-4', 'col-4', 'col-4', 'col-8', 'col-4' %}_md-6_sm-12 grid relative">
+      <div class="margin grid">
+        <a href="{{post.url}}">
+          <div class="col-12 container">
+          <h4 class="subtitle"> {{ post.type }} I {{ post.issue_no }}</h4>
+          <h2 class="mob-padding mt-1 mb-1"> {{post.title}} </h2>
+
+          <p class="mob-padding long-text mb-2"> {{post.short-description}} </p>
+
+          </div>
+        </a>
+      <div class="col-12_sm-12 relative">
+
+        <a href="{{post.url}}">
+
+        {% if item.video == true %}
+        <video id="myVideo" class="bg-video bg_cover vw-100 vh-100" autoplay muted playsinline autobuffer="true" loop poster="{{item.cover_image}}">
+        <source src="{{post.video_path}}" type="video/mp4" />
+
+        Your browser does not support the video tag.
+        </video>
+        {% endif %}
+
+        <img class="img-product {{post.featured_image.position}}" src="{{ post.featured_image.image }}" />
+        </a>
+
+      </div>
+
+  </div>
+
+    </div>
+
+  {% endfor %}
+
+ 
+</section>
+
+

@@ -1,0 +1,157 @@
+---
+layout: default
+hide-nav: hide-nav
+---
+
+
+<section class="padded-1 mob-hide"> </section>
+
+<section class="grid-center mob-hide"  style="overflow-y:scroll">
+  <div class="col-5_sm-12-bottom padded-2 blog-content" style="height: 100vh; overflow-y:scroll">
+    <h4 class="subtitle"> {{page.type}} I {{page.number}}</h4>
+    <h2 class="mt-2 bigger"> {{ page.title }} </h2>
+    <h4 class="mt-2 mb-2 subtitle"> {{page.byline }}</h4>
+
+    {{ content }}
+
+    <hr style="margin:2rem 0rem 0rem 0rem; width: 10vw;">
+ 
+  </div>
+
+  <div class="col-6_sm-11 grid" style="height: 100vh; overflow-y:scroll">
+    {% for item in page.images %}
+    <div class="{{item.width}} ">
+    <div class="bg-post-{{item.height}}" style="background-image:url('{{item.image}}')">
+
+ 
+      
+      </div>
+      {% if item.caption == true %}
+      <div class="border-textt"> <p > {{item.credit}} </p></div>
+      {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+
+ 
+
+  </div>
+
+
+
+
+</section>
+
+<!-- mobile blog layout -->
+
+<section class="mob-show grid-center">
+  {% for item in page.images limit:1 %}
+
+  <div class="col-11 mob-show bg-post-mob" style="background-image:url('{{item.image}}')" >
+
+  </div>
+
+ {% endfor %}
+
+
+ <div class="col-5_sm-12-bottom padded-2 blog-content mob-show-2">
+  <h4 class="subtitle"> {{page.type}} I {{page.number}}</h4>
+  <h2 class="mt-2 bigger"> {{ page.title }} </h2>
+  <h4 class="mt-2 mb-2 subtitle"> {{page.byline }}</h4>
+
+  {{ content }}
+
+  <hr style="margin:2rem 0rem 0rem 0rem; width: 10vw;">
+
+
+</div>
+
+
+<div class="col-6_sm-11 grid">
+  {% for item in page.images offset:1 %}
+  <div class="col-12 bg-post-mob-2" style="background-image:url('{{item.image}}')">
+
+
+    
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+
+
+
+
+
+{% if page.video == true %}
+<section class="padded-2"></section>
+
+<section class="">
+<section class="relative mh-100">
+
+
+  <video id="myVideo" class="bg-video bg_cover vw-100 vh-100" autoplay muted playsinline autobuffer="true" loop poster="{{page.cover_image}}">
+    <source src="{{page.video_path}}" type="video/mp4" />
+
+    Your browser does not support the video tag.
+    </video>
+  
+
+</section>
+</section>
+{% endif %}
+
+<section class="padded-line">
+<div class="border-btm">
+</section>
+
+
+
+<!-- assign variable pageCategory to the first category on the post (page) -->
+{% assign pageCategory = page.categories[0] %}
+<!-- assign relevant to the first category on the page and if the post url matches the page url do not assign relevant-->
+{% assign relevant = site.categories[pageCategory] | where_exp: "post", "post.url != page.url" %}
+
+<!-- output those with the variable relevant -->
+
+<section class="grid-center padded-3 no-padding">
+  <h2 class="col-12" style="padding: 0rem 1.25rem;"> Further Reading </h2>
+{% for post in relevant limit:3 %}
+
+
+<div class="col-4_md-6_sm-12 grid">
+  <div class="margin grid">
+  
+    <div class="col-12_sm-12 relative">
+
+        {% if post.video == true %}
+        <video id="myVideo" class="bg-video bg_cover vw-100 vh-100" autoplay muted playsinline autobuffer="true" loop poster="{{post.cover_image}}">
+        <source src="{{post.video_path}}" type="video/mp4" />
+
+        Your browser does not support the video tag.
+        </video>
+        {% endif %}
+
+
+        <img class="img-product {{post.featured_image.position}}" src="{{ post.featured_image.image }}"></img>
+
+    </div>
+
+    <div class="col-12 container">
+      <a href="{{post.url}}">
+      <h4 class="subtitle mt-2"> {{ post.type }} I {{ post.issue_no }}</h4>
+      <h2 class="mob-padding mt-1 mb-1"> {{post.title}} </h2>
+
+      <p class="mob-padding long-text mb-2"> {{post.short-description}} </p>
+      </a>
+    </div>
+
+  </div>
+</div>
+{% endfor %}
+
+</section>
+
+
+
+
