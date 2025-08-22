@@ -1,7 +1,7 @@
 ---
 layout: blog
 permalink: /articles/aragon
-title: The Rule of Aragon
+title: The Rule of Aragonsss
 type: Sailing
 byline: 'WORDS: SAMUEL JEFFERSON | IMAGES: STUART PEARCE'
 issue_no: number 12
