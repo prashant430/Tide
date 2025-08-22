@@ -1,7 +1,6 @@
 {% assign targetCat = page.categories[0] %}
 {% for post in site.categories[targetCat] offset:2 %}
 
-
 <div class="{% cycle 'col-8', 'col-4', 'col-4', 'col-4', 'col-4', 'col-4', 'col-8', 'col-4', 'col-4', 'col-4' %}_md-6_sm-12 grid relative">
       <div class="margin grid">
        
