@@ -12,7 +12,7 @@ footer:
       - name: "Design"
         url: "/sounds"
 
-  - title: "More"
+  - title: "Mores"
     links:
       - name: "Events"
         url: "{{site.data.links.subscribe_link}}"
