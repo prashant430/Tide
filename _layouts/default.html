@@ -88,23 +88,40 @@
 <header class="grid-spaceBetween justify-between pb-0 header">
 
         <div class="container-full burger-menu relative">
-           <div class="menu--block sidebar-menu pt-2">
-             <a class="link" href="{{site.data.links.subscribe_link}}" class="mt-big">Subscribe</a>
-             <a class="link" href="/sailing"> Sailing</a>
-             <a class="link" href="/lifestyle"> Lifestyle </a>
-             <a class="link" href="/environment">Environment</a>
-             <a class="link" href="/travel">Travel</a>
-             <a class="link" href="/design">Design</a>
-           </div> 
+            <div class="menu--block sidebar-menu pt-2">
+               {% for section in site.data.footer.footer %}
+                <a class="link" href="{{ real_url }}">{{ section.title }}</a>
+                {% endfor %}
+            </div>
+
+
+           
            <div class="sidebar-content d-flex ">
+              {% for section in site.data.footer.footer %}
               <div class="menu--block nav-bar pt-2">
-                <a class="link" href="{{site.data.links.subscribe_link}}" class="mt-big">Subscribe</a>
-                <a class="link" href="/sailing"> Sailing</a>
-                <a class="link" href="/lifestyle"> Lifestyle </a>
-                <a class="link" href="/environment">Environment</a>
-                <a class="link" href="/travel">Travel</a>
-                <a class="link" href="/design">Design</a>
+
+                {% for link in section.links %}
+                {% assign real_url = link.url %}
+                {% if link.url contains 'subscribe_link' %}
+                {% assign real_url = site.data.links.subscribe_link %}
+                {% elsif link.url contains 'buy_link' %}
+                {% assign real_url = site.data.links.buy_link %}
+                {% endif %}
+                <a class="black" href="{{ real_url }}">{{ link.name | upcase }}</a>
+                 {% endfor %}
               </div>
+                  {% endfor %}
+
+                    <div class="subtitle">
+                         {% for section in site.data.footer.footer %}
+                          {% for link in section.subtitle %}
+                            <a class="black" href="{{ link.url }}">{{ link.name | upcase }}</a>
+                         {% endfor %}
+                         {% endfor %}
+                      </div>
+
+
+
               <div class="menu--block image-with-text-block pt-2">
                 <img src="../images/mega-menu-image.png">
                 <div class="d-flex align-start justify-between">

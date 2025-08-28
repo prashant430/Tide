@@ -11,25 +11,11 @@ footer:
         url: /sounds
       - name: Design
         url: /sounds
-  - title: Mores
-    links:
-      - name: Events
-        url: '{{site.data.links.subscribe_link}}'
-      - name: Print Magazine
-        url: '{{site.data.links.buy_link}}'
+  - title: More from TIDE
   - title: Company
-    links:
-      - name: About Tide
-        url: '{{site.data.links.subscribe_link}}'
-      - name: For Partners
-        url: '{{site.data.links.buy_link}}'
-      - name: For Media
-        url: /sounds
-      - name: Contact
-        url: /sounds
-  - title: Legal
-    links:
-      - name: Terms & Conditions
-        url: '{{site.data.links.subscribe_link}}'
-      - name: Privacy Policy
-        url: /sounds
+  - subtitle:
+    - name: Legal
+      url: 'www.google.com'
+  - subtitle: 
+    - name: Stay connected
+      url: 'www.google.com'
