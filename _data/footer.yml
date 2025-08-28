@@ -1,0 +1,38 @@
+footer:
+  - title: "Categories"
+    links:
+      - name: "Sailing"
+        url: "{{site.data.links.buy_link}}"
+      - name: "Lifestyle"
+        url: "/sounds"
+      - name: "Environment"
+        url: "/sounds"
+      - name: "Travel"
+        url: "/sounds"
+      - name: "Design"
+        url: "/sounds"
+
+  - title: "More"
+    links:
+      - name: "Events"
+        url: "{{site.data.links.subscribe_link}}"
+      - name: "Print Magazine"
+        url: "{{site.data.links.buy_link}}"
+
+  - title: "Company"
+    links:
+      - name: "About Tide"
+        url: "{{site.data.links.subscribe_link}}"
+      - name: "For Partners"
+        url: "{{site.data.links.buy_link}}"
+      - name: "For Media"
+        url: "/sounds"
+      - name: "Contact"
+        url: "/sounds"
+
+  - title: "Legal"
+    links:
+      - name: "Terms & Conditions"
+        url: "{{site.data.links.subscribe_link}}"
+      - name: "Privacy Policy"
+        url: "/sounds"
