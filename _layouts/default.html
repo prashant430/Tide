@@ -58,6 +58,16 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+
+<!-- Swiper -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
   <!-- Lightgallery - image pop-up -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.1.8/lightgallery.min.js" defer></script>
 
@@ -76,62 +86,118 @@
 </head>
 <body class="{{page.colour-bg}}">
 
-  
-<header class="grid-center">
-  <div class="nav mt-2 block mob-hide" style="position:absolute; left:1%; top:0;margin-top: 1rem;">
-<!-- <a href="{{site.data.links.buy_link}}" class="btn-border"> Store </a> -->
-<a href="{{site.data.links.subscribe_link}}" class="btn-border"> Subscriptionss </a>
 
+<header class="grid-spaceBetween justify-between pb-0 header">
+
+  <div class="container-full w-full d-flex footer-main">
+  {% for section in site.data.footer.footer %}
+    <div class="col-2_sm-12 left footer-column">
+      <nav class="block">
+        <h4 class="text-sm mb-1 nav-heading">{{ section.title }}</h4>
+        {% for link in section.links %}
+          {% assign real_url = link.url %}
+          {% if link.url contains 'subscribe_link' %}
+            {% assign real_url = site.data.links.subscribe_link %}
+          {% elsif link.url contains 'buy_link' %}
+            {% assign real_url = site.data.links.buy_link %}
+          {% endif %}
+          <a class="black" href="{{ real_url }}">{{ link.name | upcase }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  {% endfor %}
+
+  <div class="col-4_sm-12 right footer-column-2">
+    <div class="mob-center px-4 social-links">
+      <a class="black block social-link" href="https://www.instagram.com/thetidemagazine" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a class="black block social-link" href="https://www.facebook.com/thetidemagazine/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+    </div>
+  </div>
 </div>
-<div class="col-8_sm-12 centered mob-left">
 
-  <a href="/index">
-    <img class="logo_header"  src="/images/tide-magazine-sailing-lifestyle-travel-logo-blue.png" />
-  </a>
+        <!-- <div class="container-full burger-menu relative">
+           <div class="menu--block sidebar-menu pt-2">
+             <a class="link" href="{{site.data.links.subscribe_link}}" class="mt-big">Subscribe</a>
+             <a class="link" href="/sailing"> Sailing</a>
+             <a class="link" href="/lifestyle"> Lifestyle </a>
+             <a class="link" href="/environment">Environment</a>
+             <a class="link" href="/travel">Travel</a>
+             <a class="link" href="/design">Design</a>
+           </div> 
+           <div class="sidebar-content d-flex ">
+              <div class="menu--block nav-bar pt-2">
+                <a class="link" href="{{site.data.links.subscribe_link}}" class="mt-big">Subscribe</a>
+                <a class="link" href="/sailing"> Sailing</a>
+                <a class="link" href="/lifestyle"> Lifestyle </a>
+                <a class="link" href="/environment">Environment</a>
+                <a class="link" href="/travel">Travel</a>
+                <a class="link" href="/design">Design</a>
+              </div>
+              <div class="menu--block image-with-text-block pt-2">
+                <img src="../images/mega-menu-image.png">
+                <div class="d-flex align-start justify-between">
+                  <div class="content-block">
+                      <h4 class="font-xs">NEW</h4>
+                      <h2 class="large-line-height" style="font-size: 22px; margin-bottom: 6px;">Three's a Charm</h2>
+                      <p class="w-36">The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced...</p>
+                  </div>
+                  <a class="large-line-height border-bottom font-xs" href="#">view</a>
+                </div>
+              </div>
+             <div class="menu--block rightbar pt-2">
+              <div class="related-article">
+                <img src="../images/hidden_gems.png" alt="Hidden Gems 1">
+                <span>Hidden Gems: The Cyclades</span>
+              </div>
+              <div class="related-article">
+                <img src="../images/hidden_gems.png" alt="Hidden Gems 2">
+                <span>Hidden Gems: Project Ö, Skjulskäret</span>
+              </div>
+              <div class="related-article">
+                <img src="../images/hidden_gems.png" alt="Three's a Charm">
+                <span>Three's a Charm</span>
+              </div>
+              <a class="view-all btn" href="#">VIEW ALL</a>
+            </div>
+           </div>
+          <div style="display: none;"> {% include footer-burger.html %} </div> 
+        </div> -->
 
-</div>
 
 
-  <!-- burger menu -->
-
-  <nav>
-          <div class="burger-button">
-           
-              <span class="burger-top"></span>
-              <span class="burger-middle"></span>
-              <span class="burger-bottom"></span>
-        
-          </div>
-           <div class="burger-menu relative">
-           
-            <!-- <img class="burger-img med-hide mob-hide" src="/images/tide-magazine-sailing-bequia-yaght-profile.jpg"> -->
-            <!-- <a href="/index.html" class="mt-4 mt-big hide-3"> Home</a> -->
-        
-        
-    
-            <a href="{{site.data.links.subscribe_link}}" class="mt-big"> Subscriptions </a>
-            <!-- <a class="mob-show" href="{{site.data.links.buy_link}}"> Store </a> -->
-            <a  class="" href="/sailing"> Sailing</a>
-            <a  class="" href="/lifestyle"> Lifestyle </a>
-     
-            <a href="/environment">Environment</a>
-            <a href="/travel">Travel</a>
-            <a href="/design">Design</a>
-
-            <!-- <a href="/sounds" class=""> Sounds </a> -->
-          
-
- 
-            {% include footer-burger.html %}
-     
-          </div>
-          
-       
-       
+        <div>
+          <div class="centered mob-left  onscroll-show relative">
+            <a href="/index">
+                <img class="logo_header" src="/images/tide-magazine-sailing-lifestyle-travel-logo-blue-white.png" />
+            </a>
+        </div>
+       </div>
+        <div class="scrolled-nav onscroll-show">
+          {% include navigation-bar.html %}
+        </div>
+        <div class="grid-spaceBetween justify-between container-full flex-display header-main pb-0 w-full main-block">
+        <nav class="z-index-2">
+            <div class="burger-button">
+                <img src="../images/burger_menu.svg" height="100%">
+            </div>
         </nav>
+
+        <div class="centered mob-left logo-block">
+            <a href="/index">
+                <img class="logo_header" src="/images/tide-magazine-sailing-lifestyle-travel-logo-blue.png" />
+            </a>
+        </div>
+
+        <div class="nav block mob-hide z-index-2">
+            <a href="{{site.data.links.subscribe_link}}" class="btn-border ">SUBSCRIBE</a>
+        </div>
+      </div>
+    {% include navigation-bar.html %}
+
 
 
 </header>
+
 
 
 {{content}}
@@ -144,59 +210,71 @@
 </section>
 
 
-<footer class="grid-center dark-blue padded-2 mob-padding">
+<footer class="grid-center bg-grey padded0">
 
-
-  <div class="col-5_sm-12 left">
-
-    <!-- <img class="logo_small mb-1 mob-center" src="/images/tide-logo-yellow.png"> -->
-        <div class="mob-center px-4">
-
-          <p class="white mb-1 mt-1 editable"> TIDE is an independent sailing, lifestyle and travel magazine, published in print and digital. <span class="mob-hide">We explore the shifts and changes at the core of the sailing world and the ocean adventure: the vessels, the people, the experiences, the destinations — the many facets that entice individuals around the world to pursue this alluring form of adventure.</span></p>
-       <a href="https://www.instagram.com/thetidemagazine" target="_blank" class="editable"><i class="fab fa-instagram white"></i></a>
-       <!-- <a href="https://www.linkedin.com/company/" target="_blank">  <i class="fab fa-linkedin white"></i></a> -->
-       <a href="https://www.facebook.com/thetidemagazine/" target="_blank" class="editable"> <i class="fab fa-facebook-square white"></i> </a>
-       <p  class="footer-text mt-1 mob-hide mb-1 white">  © <span id="year"></span>, TIDE Magazine. Website by <a target="_blank" href="https://klioh.com/"> Klioh Studio. </a>
-       </p>
-      </div>
-
+<div class="footer-logo w-full justify-between d-flex centered align-center container-full">
+  <img src="/images/tide-magazine-sailing-lifestyle-travel-logo-blue.png" style="height: 40px"/>
+  <a class="btn"> SUBSCRIBE </a>
 </div>
 
-<div class="col-1"></div>
-  <div class="col-3_sm-12 left mob-hide">
+<div class="container-full w-full d-flex footer-main">
+    <div class="col-2_sm-12 left footer-column">
 
-    <nav class="block px-4">
-      <h4 class="white text-sm mb-1"> MEDIA </h4> 
-      <a href="{{site.data.links.subscribe_link}}"> Subscriptions </a>
-      <!-- <a href="{{site.data.links.buy_link}}"> Store </a> -->
-      <!-- <a href="/sounds"> Playlist </a>
-       -->
-     
-    </nav>
+      <nav class="block">
+        <h4 class=" text-sm mb-1 nav-heading"> Categories </h4> 
+        <!-- <a class="black" href="{{site.data.links.subscribe_link}}"> Subscriptions </a> -->
+        <a class="black" href="{{site.data.links.buy_link}}"> Sailing </a>
+        <a class="black" href="/sounds"> LIFESTYLE </a>
+        <a class="black" href="/sounds"> ENVIRONMENT </a>
+        <a class="black" href="/sounds"> TRAVEL </a>
+        <a class="black" href="/sounds"> DESIGN </a>
+      </nav>
+    </div>
+
+      <div class="col-2_sm-12 left footer-column">
+
+      <nav class="block">
+        <h4 class=" text-sm mb-1 nav-heading"> More </h4> 
+        <a class="black" href="{{site.data.links.subscribe_link}}"> EVENTS </a>
+        <a class="black" href="{{site.data.links.buy_link}}"> PRINT MAGAZINE </a>
+      </nav>
+    </div>
+    <div class="col-2_sm-12 left footer-column">
+
+      <nav class="block">
+        <h4 class=" text-sm mb-1 nav-heading"> Company </h4> 
+        <a class="black" href="{{site.data.links.subscribe_link}}"> ABOUT TIDE </a>
+        <a class="black" href="{{site.data.links.buy_link}}"> FOR PARTNERS </a>
+        <a class="black" href="/sounds"> FOR MEDIA </a> 
+        <a class="black" href="/sounds"> CONTACT </a> 
+      </nav>
+    </div>
+
+     <div class="col-2_sm-12 left footer-column">
+
+      <nav class="block">
+        <h4 class=" text-sm mb-1 nav-heading"> Legal </h4> 
+        <a class="black" href="{{site.data.links.subscribe_link}}"> TERMS & CONDITIONS </a>
+        <a class="black" href="/sounds"> PRIVACY POLICY </a>
+      </nav>
+    </div>
+
+  
+    <div class="col-4_sm-12 right footer-column-2">
+
+      <!-- <img class="logo_small mb-1 mob-center" src="/images/tide-logo-yellow.png"> -->
+          <div class="mob-center px-4 social-links">
+
+            <!-- <p class=" mb-1 mt-1 editable"> TIDE is an independent sailing, lifestyle and travel magazine, published in print and digital. <span class="mob-hide">We explore the shifts and changes at the core of the sailing world and the ocean adventure: the vessels, the people, the experiences, the destinations — the many facets that entice individuals around the world to pursue this alluring form of adventure.</span></p> -->
+        <a class="black block social-link" href="https://www.instagram.com/thetidemagazine" target="_blank" class="editable"><i class="fab fa-instagram "></i></a>
+        <!-- <a href="https://www.linkedin.com/company/" target="_blank">  <i class="fab fa-linkedin "></i></a> -->
+        <a class="black block social-link" href="https://www.facebook.com/thetidemagazine/" target="_blank" class="editable"> <i class="fab fa-facebook-square "></i> </a>
+        <!-- <p  class="footer-text mt-1 mob-hide mb-1 ">  © <span id="year"></span>, TIDE Magazine. Website by <a target="_blank" href="https://klioh.com/"> Klioh Studio. </a> -->
+        </p>
+        </div>
+
   </div>
-
-  <div class="col-3_sm-12 left mob-hide ">
-    <nav class="block px-4 crimson">
-      <h4 class="white text-sm mb-1"> INFO </h4> 
-      <a href="{{site.data.links.subscribe_link}}"> Subscribe </a>
-      <!-- <a href="/shipping">Shipping </a> -->
-      <a href="/terms-and-conditions">T&Cs </a>
-          <a href="/contact"> Contact </a>
-     
-    </nav>
-  </div>
-
-
-
-  <div class="col-4_sm-12 centered hide-2 mt-1">
-    <nav class="centered white">
-      <!--<a href="/shipping" class="white">Shipping </a>-->
-      <a href="{{site.data.links.buy_link}}" class="white"> Magazine </a>
-          <a href="/contact" class="white"> Contact </a>
-    </nav>
-
-  </div>
-
+</div>
 
 
 </div>
