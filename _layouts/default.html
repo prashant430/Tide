@@ -1,191 +1,272 @@
 <!DOCTYPE html>
 <html>
-<head profile="http://www.w3.org/2005/10/profile">
+<head>
+<head  profile="http://www.w3.org/2005/10/profile">
 
-  <link rel="icon" type="image/png" href="/images/favicon-57.png" />
-  <meta charset="utf-8">
-  <title>{{ page.title }}</title>
-  <meta name="description" content="{{ page.meta-description }}">
-  <meta name="keywords" content="{{ page.meta-keywords }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index, follow">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link rel="icon"
+        type="image/png"
+        href="/images/favicon-57.png" />
 
-  {% if page.seo.hide-from-google == true %}
-  <meta name="robots" content="noindex, nofollow">
-  {% endif %}
+  <!-- Meta Data -->
+    <meta charset="utf-8">
 
-  <meta property="og:title" content="{{ page.title }}">
-  <meta property="og:description" content="{{ page.meta-description }}">
-  <meta property="og:image" content="{{ page.featured-image_path }}">
-  <meta property="og:url" content="{{ page.url }}">
-  <meta name="twitter:card" content="{{ page.meta-description }}">
-  <meta name="og:site_name" content="TIDE Magazine">
+    <!-- Meta data for SEO purposes. -->
+    <title> {{page.title}} </title>
+    <meta name="description" content="{{page.meta-description}}">
+    <meta name="keywords" content="{{page.meta-keywords}}">
 
-  <!-- Fonts & Libraries -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Crimson+Text:ital@0;1&family=Overpass:wght@200;300;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.1.8/css/lightgallery-bundle.min.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- meta data to tell the browser that your device is responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
-  <!-- Swiper -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    {% if page.seo.hide-from-google == true %}
+    <meta name="robots" content="noindex, nofollow">
+    {% else %}
+    <meta name="robots" content="index, follow">
+    {% endif %}
 
-  <!-- Scripts -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!--  Social media sharing META Tags -->
+    <meta property="og:title" content="{{page.title}}">
+    <meta property="og:description" content="{{page.meta-description}}">
+    <meta property="og:image" content="{{page.featured-image_path}}">
+    <meta property="og:url" content="{{page.url}}">
+    <meta name="twitter:card" content="{{page.meta-description}}">
+    <meta name="og:site_name" content="<!-- TIDE Magazine -->">
+
+  <!-- end of meta tags -->
+
+<!-- GOOGLE FONTS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Crimson+Text:ital@0;1&family=Overpass:wght@200;300;700&display=swap" rel="stylesheet">
+  <!-- Gridlex -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css"></link>
+
+  <!-- Font Awesome Version 5 for Icons  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
+
+  <!-- Magnific Popup for lightbox galleries   -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+
+  <!-- Lightgallery - popup image gallery -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.1.8/css/lightgallery-bundle.min.css" integrity="sha512-7xAjdVc23n18sYEAZKa79271IRUS1XzylIyJ8feyXvjrbbr4oId92993EiGTAP63Ob6KplRnmbNmBOg6bpLjYw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- AOS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!-- Swiper -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Lightgallery - image pop-up -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.1.8/lightgallery.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js" defer></script>
+
+  <!-- this is javascript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js" defer></script>
+
   <script src="/javascript/scripts.js" defer></script>
   <script src="/javascript/fading-words.js" defer></script>
 
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="/style.css" />
-</head>
 
-<body class="{{ page.colour-bg }}">
+  <!-- our own custom stylesheet -->
+  <link rel="stylesheet" href="/style.css"/>
+
+</head>
+<body class="{{page.colour-bg}}">
+
 
 <header class="grid-spaceBetween justify-between pb-0 header">
-  <!-- Updated Burger Menu -->
-  <div class="container-full burger-menu relative">
-    <div class="sidebar-content d-flex">
-      
-      <!-- Left Menu Links -->
-      <div class="menu--block nav-bar pt-2">
-        <nav class="block"></nav>
-        {% for section in site.data.footer.footer %}
-            <h4 class="text-sm mb-1 nav-heading">{{ section.title }}</h4>
-            {% for link in section.links %}
-              {% assign real_url = link.url %}
-              {% if link.url contains 'subscribe_link' %}
-                {% assign real_url = site.data.links.subscribe_link %}
-              {% elsif link.url contains 'buy_link' %}
-                {% assign real_url = site.data.links.buy_link %}
-              {% endif %}
-              <a class="link" href="{{ real_url }}">{{ link.name }}</a>
-            {% endfor %}
-        {% endfor %}
-       </nav>
-      </div>
 
-      <!-- Center Image with Text -->
-      <div class="menu--block image-with-text-block pt-2">
-        <img src="/images/mega-menu-image.png">
-        <div class="d-flex align-start justify-between">
-          <div class="content-block">
-            <h4 class="font-xs">NEW</h4>
-            <h2 class="large-line-height" style="font-size: 22px; margin-bottom: 6px;">Three's a Charm</h2>
-            <p class="w-36">The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced...</p>
-          </div>
-          <a class="large-line-height border-bottom font-xs" href="#">view</a>
+        <div class="container-full burger-menu relative">
+           <div class="menu--block sidebar-menu pt-2">
+             <a class="link" href="{{site.data.links.subscribe_link}}" class="mt-big">Subscribe</a>
+             <a class="link" href="/sailing"> Sailing</a>
+             <a class="link" href="/lifestyle"> Lifestyle </a>
+             <a class="link" href="/environment">Environment</a>
+             <a class="link" href="/travel">Travel</a>
+             <a class="link" href="/design">Design</a>
+           </div> 
+           <div class="sidebar-content d-flex ">
+              <div class="menu--block nav-bar pt-2">
+                <a class="link" href="{{site.data.links.subscribe_link}}" class="mt-big">Subscribe</a>
+                <a class="link" href="/sailing"> Sailing</a>
+                <a class="link" href="/lifestyle"> Lifestyle </a>
+                <a class="link" href="/environment">Environment</a>
+                <a class="link" href="/travel">Travel</a>
+                <a class="link" href="/design">Design</a>
+              </div>
+              <div class="menu--block image-with-text-block pt-2">
+                <img src="../images/mega-menu-image.png">
+                <div class="d-flex align-start justify-between">
+                  <div class="content-block">
+                      <h4 class="font-xs">NEW</h4>
+                      <h2 class="large-line-height" style="font-size: 22px; margin-bottom: 6px;">Three's a Charm</h2>
+                      <p class="w-36">The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced...</p>
+                  </div>
+                  <a class="large-line-height border-bottom font-xs" href="#">view</a>
+                </div>
+              </div>
+             <div class="menu--block rightbar pt-2">
+              <div class="related-article">
+                <img src="../images/hidden_gems.png" alt="Hidden Gems 1">
+                <span>Hidden Gems: The Cyclades</span>
+              </div>
+              <div class="related-article">
+                <img src="../images/hidden_gems.png" alt="Hidden Gems 2">
+                <span>Hidden Gems: Project Ö, Skjulskäret</span>
+              </div>
+              <div class="related-article">
+                <img src="../images/hidden_gems.png" alt="Three's a Charm">
+                <span>Three's a Charm</span>
+              </div>
+              <a class="view-all btn" href="#">VIEW ALL</a>
+            </div>
+           </div>
+          <div style="display: none;"> {% include footer-burger.html %} </div> 
+        </div>
+        <div>
+          <div class="centered mob-left  onscroll-show relative">
+            <a href="/index">
+                <img class="logo_header" src="/images/tide-magazine-sailing-lifestyle-travel-logo-blue-white.png" />
+            </a>
+        </div>
+       </div>
+        <div class="scrolled-nav onscroll-show">
+          {% include navigation-bar.html %}
+        </div>
+        <div class="grid-spaceBetween justify-between container-full flex-display header-main pb-0 w-full main-block">
+        <nav class="z-index-2">
+            <div class="burger-button">
+                <img src="../images/burger_menu.svg" height="100%">
+            </div>
+        </nav>
+
+        <div class="centered mob-left logo-block">
+            <a href="/index">
+                <img class="logo_header" src="/images/tide-magazine-sailing-lifestyle-travel-logo-blue.png" />
+            </a>
+        </div>
+
+        <div class="nav block mob-hide z-index-2">
+            <a href="{{site.data.links.subscribe_link}}" class="btn-border ">SUBSCRIBE</a>
         </div>
       </div>
-
-      <!-- Right Related Articles -->
-      <div class="menu--block rightbar pt-2">
-        <div class="related-article">
-          <img src="/images/hidden_gems.png" alt="Hidden Gems 1">
-          <span>Hidden Gems: The Cyclades</span>
-        </div>
-        <div class="related-article">
-          <img src="/images/hidden_gems.png" alt="Hidden Gems 2">
-          <span>Hidden Gems: Project Ö, Skjulskäret</span>
-        </div>
-        <div class="related-article">
-          <img src="/images/hidden_gems.png" alt="Three's a Charm">
-          <span>Three's a Charm</span>
-        </div>
-        <a class="view-all btn" href="#">VIEW ALL</a>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- Logo & Navigation -->
-  <div>
-    <div class="centered mob-left onscroll-show relative">
-      <a href="/index">
-        <img class="logo_header" src="/images/tide-magazine-sailing-lifestyle-travel-logo-blue-white.png" />
-      </a>
-    </div>
-  </div>
-
-  <div class="scrolled-nav onscroll-show">
     {% include navigation-bar.html %}
-  </div>
 
-  <div class="grid-spaceBetween justify-between container-full flex-display header-main pb-0 w-full main-block">
-    <nav class="z-index-2">
-      <div class="burger-button">
-        <img src="../images/burger_menu.svg" height="100%">
-      </div>
-    </nav>
 
-    <div class="centered mob-left logo-block">
-      <a href="/index">
-        <img class="logo_header" src="/images/tide-magazine-sailing-lifestyle-travel-logo-blue.png" />
-      </a>
-    </div>
 
-    <div class="nav block mob-hide z-index-2">
-      <a href="{{ site.data.links.subscribe_link }}" class="btn-border">SUBSCRIBE</a>
-    </div>
-  </div>
-
-  {% include navigation-bar.html %}
 </header>
 
-{{ content }}
+
+
+{{content}}
+
+<section class="mob-hide">
+  {% comment %}
+  {% include slider-logos.html %}
+  {% endcomment %}
+
+</section>
+
 
 <footer class="grid-center bg-grey padded0">
-  <div class="footer-logo w-full justify-between d-flex centered align-center container-full">
-    <img src="/images/tide-magazine-sailing-lifestyle-travel-logo-blue.png" style="height: 40px" />
-    <a class="btn">SUBSCRIBE</a>
-  </div>
 
-  <div class="container-full w-full d-flex footer-main">
-    {% for section in site.data.footer.footer %}
-      <div class="col-2_sm-12 left footer-column">
-        <nav class="block">
-          <h4 class="text-sm mb-1 nav-heading">{{ section.title }}</h4>
-          {% for link in section.links %}
-            {% assign real_url = link.url %}
-            {% if link.url contains 'subscribe_link' %}
-              {% assign real_url = site.data.links.subscribe_link %}
-            {% elsif link.url contains 'buy_link' %}
-              {% assign real_url = site.data.links.buy_link %}
-            {% endif %}
-            <a class="black" href="{{ real_url }}">{{ link.name | upcase }}</a>
-          {% endfor %}
-        </nav>
-      </div>
-    {% endfor %}
+<div class="footer-logo w-full justify-between d-flex centered align-center container-full">
+  <img src="/images/tide-magazine-sailing-lifestyle-travel-logo-blue.png" style="height: 40px"/>
+  <a class="btn"> SUBSCRIBE </a>
+</div>
 
-    <div class="col-4_sm-12 right footer-column-2">
-      <div class="mob-center px-4 social-links">
-        <a class="black block social-link" href="https://www.instagram.com/thetidemagazine" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a class="black block social-link" href="https://www.facebook.com/thetidemagazine/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-      </div>
+<div class="container-full w-full d-flex footer-main">
+    <div class="col-2_sm-12 left footer-column">
+
+      <nav class="block">
+        <h4 class=" text-sm mb-1 nav-heading"> Categories </h4> 
+        <!-- <a class="black" href="{{site.data.links.subscribe_link}}"> Subscriptions </a> -->
+        <a class="black" href="{{site.data.links.buy_link}}"> Sailing </a>
+        <a class="black" href="/sounds"> LIFESTYLE </a>
+        <a class="black" href="/sounds"> ENVIRONMENT </a>
+        <a class="black" href="/sounds"> TRAVEL </a>
+        <a class="black" href="/sounds"> DESIGN </a>
+      </nav>
     </div>
-  </div>
 
-  <div class="col-12 hide-2 centered">
-    <p class="footer-text mt-1">© <span id="year-mob"></span>, TIDE Magazine. Website by <a target="_blank" href="https://klioh.com/">Klioh Studio</a></p>
+      <div class="col-2_sm-12 left footer-column">
+
+      <nav class="block">
+        <h4 class=" text-sm mb-1 nav-heading"> More </h4> 
+        <a class="black" href="{{site.data.links.subscribe_link}}"> EVENTS </a>
+        <a class="black" href="{{site.data.links.buy_link}}"> PRINT MAGAZINE </a>
+      </nav>
+    </div>
+    <div class="col-2_sm-12 left footer-column">
+
+      <nav class="block">
+        <h4 class=" text-sm mb-1 nav-heading"> Company </h4> 
+        <a class="black" href="{{site.data.links.subscribe_link}}"> ABOUT TIDE </a>
+        <a class="black" href="{{site.data.links.buy_link}}"> FOR PARTNERS </a>
+        <a class="black" href="/sounds"> FOR MEDIA </a> 
+        <a class="black" href="/sounds"> CONTACT </a> 
+      </nav>
+    </div>
+
+     <div class="col-2_sm-12 left footer-column">
+
+      <nav class="block">
+        <h4 class=" text-sm mb-1 nav-heading"> Legal </h4> 
+        <a class="black" href="{{site.data.links.subscribe_link}}"> TERMS & CONDITIONS </a>
+        <a class="black" href="/sounds"> PRIVACY POLICY </a>
+      </nav>
+    </div>
+
+  
+    <div class="col-4_sm-12 right footer-column-2">
+
+      <!-- <img class="logo_small mb-1 mob-center" src="/images/tide-logo-yellow.png"> -->
+          <div class="mob-center px-4 social-links">
+
+            <!-- <p class=" mb-1 mt-1 editable"> TIDE is an independent sailing, lifestyle and travel magazine, published in print and digital. <span class="mob-hide">We explore the shifts and changes at the core of the sailing world and the ocean adventure: the vessels, the people, the experiences, the destinations — the many facets that entice individuals around the world to pursue this alluring form of adventure.</span></p> -->
+        <a class="black block social-link" href="https://www.instagram.com/thetidemagazine" target="_blank" class="editable"><i class="fab fa-instagram "></i></a>
+        <!-- <a href="https://www.linkedin.com/company/" target="_blank">  <i class="fab fa-linkedin "></i></a> -->
+        <a class="black block social-link" href="https://www.facebook.com/thetidemagazine/" target="_blank" class="editable"> <i class="fab fa-facebook-square "></i> </a>
+        <!-- <p  class="footer-text mt-1 mob-hide mb-1 ">  © <span id="year"></span>, TIDE Magazine. Website by <a target="_blank" href="https://klioh.com/"> Klioh Studio. </a> -->
+        </p>
+        </div>
+
   </div>
+</div>
+</div>
+<div class="col-12 hide-2 centered">
+  <p  class="footer-text mt-1">  © <span id="year-mob"></span>, TIDE Magazine. Website by <a target="_blank" href="https://klioh.com/"> Klioh Studio </a>
+ </p>
+</div>
+<div class="col-8 hide-3"> </div>
+
+
 </footer>
 
+
 <script>
+  // ------------ AUTO UPDATE FOOTER YEAR
+  document.getElementById("year").innerHTML = new Date().getFullYear();
   document.getElementById("year-mob").innerHTML = new Date().getFullYear();
+
 </script>
+
+  
+
+
+
+
 
 </body>
 </html>
