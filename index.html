@@ -9,39 +9,46 @@ desktop_first_image: /uploads/issue-13/issuenumber13-tm-cover-image-2.jpg
 desktop_first_image_position: img-left
 mobile_first_image: /uploads/issue-13/issuenumber13-tm-cover-image-2.jpg
 mobile_first_image_position: img-left-center
-sailing_image: /uploads/tide-magazine-sailing-crop.jpg
-lifestyle_image: /images/lifestyle.jpg
-environment_image: /uploads/1-2.png
+sailing_image: /uploads/perserveance-sailing-yaght-tide-magazine-playlist-soudns.png
+lifestyle_image: /images/sailing-stockholm.png
+environment_image: /uploads/TIDE-Magazine-issue04-finding-fjorland4.jpg
 travel_image: /uploads/qua3qbvq.jpg
 sound_image: /uploads/tide-magazine-sailing-perseverance-8-crop.jpg
 design_image: /uploads/issue-05/tide-magazine-sailing-lifestyle-travel-issue05-design.jpg
 issue_out_now_image: /uploads/issue-13/tide-magazine-13-spreads-mockup-2.jpg
-
 cards:
   - image: /uploads/tide-magazine-sailing-crop.jpg
-    alt: "Sailing Stockholm"
-    link: "/articles/itinerary-cuba"
-    tags: ["Travel", "Number 11"]
-    title: "Sailing Stockholm"
-    description: "The North American island nation has so much more beyond Havana, from isolated sandy cays to lively, vibrant city centres. Here, Cuba-born Maria Romeu, founder of CubaPlus Travel agency, has planned your visit for you"
-
+    alt: Sailing Stockholm
+    link: /articles/itinerary-cuba
+    tags:
+      - Travel
+      - Number 11
+    title: Sailing Stockholm
+    description: >-
+      The North American island nation has so much more beyond Havana, from
+      isolated sandy cays to lively, vibrant city centres. Here, Cuba-born Maria
+      Romeu, founder of CubaPlus Travel agency, has planned your visit for you
   - image: /uploads/qua3qbvq.jpg
-    alt: "Three's a Charm"
-    link: "/articles/itinerary-cuba"
-    tags: ["Travel", "Number 11"]
-    title: "Three's a Charm"
-    description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
+    alt: Three's a Charm
+    link: /articles/itinerary-cuba
+    tags:
+      - Travel
+      - Number 11
+    title: Three's a Charm
+    description: >-
+      The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
+      and breathed in the jasmine and wild thyme-fragranced...
   - image: /uploads/1-2.png
-    alt: "Nilaya Rises"
-    link: "/articles/itinerary-cuba"
-    tags: ["Travel", "Number 11"]
-    title: "Nilaya Rises"
-    description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
+    alt: Nilaya Rises
+    link: /articles/itinerary-cuba
+    tags:
+      - Travel
+      - Number 11
+    title: Nilaya Rises
+    description: >-
+      The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
+      and breathed in the jasmine and wild thyme-fragranced...
 ---
-
-
-
 <!-- Mobile version -->
 <section class="hide-3 grid-center">
   <div class="col-12_sm-12 relative">
@@ -56,7 +63,7 @@ cards:
         Your browser does not support the video tag.
         </video>
         {% endif %}
-        <img class="img_lrge min-heigh block {{page.mobile_first_image_position}}" src="./images/homepage-banner.png"></img>
+        <img class="img_lrge min-heigh block {{page.mobile_first_image_position}}" src="./images/homepage-banner.png" />
         </a>
       </div>
       <a href="{{post.url}}" class="content-on-hover vw-100 container-full pb-4  align-center ">
@@ -84,7 +91,7 @@ cards:
 
 
 </div>
-</section>
+</div></section>
 
 <!-- <section class="show-xl grid-center mh-100">
   <div class="col-8_sm-hidden relative">
@@ -106,7 +113,7 @@ cards:
         Your browser does not support the video tag.
         </video>
         {% endif %}
-        <img class="img_lrge min-heigh block {{page.mobile_first_image_position}}" src="./images/homepage-banner.png"></img>
+        <img class="img_lrge min-heigh block {{page.mobile_first_image_position}}" src="./images/homepage-banner.png" />
         </a>
       </div>
       <a href="{{post.url}}" class="content-on-hover vw-100 container-full pb-4 d-flex align-center h-full ">
@@ -121,7 +128,7 @@ cards:
         </div>
       </a>
       </div>
-    </div>
+    
 
 <!-- <img alt="Tide magazine travel articles" class="starter img_starter {{page.desktop_first_image_position}} filterable" src="{{page.desktop_first_image}}" /> 
 <img alt="Tide magazine travel articles" class="p0 img_new filterable hide" src="{{page.sailing_image}}" />
@@ -132,7 +139,7 @@ cards:
 
 
 
-</div>
+
 </section>
 
 
@@ -147,7 +154,7 @@ cards:
   {% for card in page.cards %}
   <div class="swiper-slide ddddd">
     <div class="featured-card{% if forloop.first %} aaaa{% endif %}">
-      <img src="{{ card.image }}" alt="{{ card.alt }}" class="w-full h-auto mb-20 d-block">
+      <img src="{{ card.image }}" alt="{{ card.alt }}" class="w-full h-auto mb-20 d-block" />
 
       <div class="featured-detail pt-24 px-10">
         <a href="{{ card.link }}">
@@ -179,13 +186,9 @@ cards:
 
 
 <section class="content_on_image position-relative w-full no-margin">
-  <img 
-    src="./images/hidden_gems.png"
-    alt="Cyclades scenery"
-    class="w-full h-full cover banner block min-heigh"
-  />
+  <img src="./images/hidden_gems.png" alt="Cyclades scenery" class="w-full h-full cover banner block min-heigh" />
   
-  <div class="w-full d-flex align-end justify-end h-full top-0 end-0 position-absolute no-margin z-index-1" > 
+  <div class="w-full d-flex align-end justify-end h-full top-0 end-0 position-absolute no-margin z-index-1"> 
     <div class="md:padded-4 h-full  blur text-on-image content-wrapper text-white z-index-2 mb:py-60 p-container mb:px-60 d-flex flex-column mb:justify-between justify-center">
         <div class="d-flex gap-10 uppercase mb-10 font-xs normal-letter-spacing mb-1 align-center overpass-font-family card-tags">
             <span>Travel</span> <span class="divider white-border"></span> <span>Number 11</span>
@@ -213,7 +216,7 @@ cards:
       <!-- Card 1 -->
       <div class="swiper-slide">
         <div class="featured-card">
-          <img src="./images/sailing-stockholm.png" class="w-full h-auto mb-20 d-block" >
+          <img src="./images/sailing-stockholm.png" class="w-full h-auto mb-20 d-block" />
           <!-- <%= image_tag "sailing_stockholm.jpg", alt: "Sailing Stockholm", class: "w-full h-auto mb-20 d-block" %> -->
           <div class="featured-detail pt-24 px-10">
             <a href="/articles/itinerary-cuba">
@@ -232,7 +235,7 @@ cards:
       <!-- Card 2 -->
       <div class="swiper-slide">
         <div class="featured-card">
-          <img src="./images/Three-a-Charm.png" class="w-full h-auto mb-20 d-block" >
+          <img src="./images/Three-a-Charm.png" class="w-full h-auto mb-20 d-block" />
           <!-- <%= image_tag "sailing_stockholm.jpg", alt: "Sailing Stockholm", class: "w-full h-auto mb-20 d-block" %> -->
           <div class="featured-detail pt-24 px-10">
             <a href="/articles/itinerary-cuba">
@@ -251,7 +254,7 @@ cards:
       <!-- Repeat for remaining cards -->
       <div class="swiper-slide">
         <div class="featured-card">
-          <img src="./images/sailing-stockholm.png" class="w-full h-auto mb-20 d-block" >
+          <img src="./images/sailing-stockholm.png" class="w-full h-auto mb-20 d-block" />
           <!-- <%= image_tag "sailing_stockholm.jpg", alt: "Sailing Stockholm", class: "w-full h-auto mb-20 d-block" %> -->
           <div class="featured-detail pt-24 px-10">
             <a href="/articles/itinerary-cuba">
@@ -284,13 +287,9 @@ cards:
 </section>
 
 <section class="content_on_image position-relative w-full  no-margin">
-  <img 
-    src="./images/Supersloop.png"
-    alt="Supersloop"
-    class="w-full h-full cover banner block min-heigh"
-  />
+  <img src="./images/Supersloop.png" alt="Supersloop" class="w-full h-full cover banner block min-heigh" />
   
-  <div class="w-full d-flex justify-start h-full top-0 position-absolute" > 
+  <div class="w-full d-flex justify-start h-full top-0 position-absolute"> 
     <div class="md:padded-6 h-full mb:w-60 blur blur-darker text-on-image content-wrapper text-white mb:py-60 p-container px-40 d-flex flex-column mb:justify-between justify-center z-index-1">
         <div class="d-flex gap-10 uppercase mb-10 font-xs normal-letter-spacing mb-1 align-center overpass-font-family card-tags">
             <span>Travel</span> <span class="divider white-border"></span> <span>Number 11</span>
@@ -317,7 +316,7 @@ cards:
       <!-- Card 1 -->
       <div class="swiper-slide">
         <div class="featured-card">
-          <img src="./images/sailing-stockholm.png" class="w-full h-auto mb-20 d-block" >
+          <img src="./images/sailing-stockholm.png" class="w-full h-auto mb-20 d-block" />
           <!-- <%= image_tag "sailing_stockholm.jpg", alt: "Sailing Stockholm", class: "w-full h-auto mb-20 d-block" %> -->
           <div class="featured-detail pt-24 px-10">
             <a href="/articles/itinerary-cuba">
@@ -336,7 +335,7 @@ cards:
       <!-- Card 2 -->
       <div class="swiper-slide">
         <div class="featured-card">
-          <img src="./images/Three-a-Charm.png" class="w-full h-auto mb-20 d-block" >
+          <img src="./images/Three-a-Charm.png" class="w-full h-auto mb-20 d-block" />
           <!-- <%= image_tag "sailing_stockholm.jpg", alt: "Sailing Stockholm", class: "w-full h-auto mb-20 d-block" %> -->
           <div class="featured-detail pt-24 px-10">
             <a href="/articles/itinerary-cuba">
@@ -355,7 +354,7 @@ cards:
       <!-- Repeat for remaining cards -->
       <div class="swiper-slide">
         <div class="featured-card">
-          <img src="./images/sailing-stockholm.png" class="w-full h-auto mb-20 d-block" >
+          <img src="./images/sailing-stockholm.png" class="w-full h-auto mb-20 d-block" />
           <!-- <%= image_tag "sailing_stockholm.jpg", alt: "Sailing Stockholm", class: "w-full h-auto mb-20 d-block" %> -->
           <div class="featured-detail pt-24 px-10">
             <a href="/articles/itinerary-cuba">
@@ -389,14 +388,14 @@ cards:
 
 <section class="subscribe-section no-margin">
         <div class="image-container">
-            <img src="./images/magazine.png" alt="Magazine" class="media-image">
+            <img src="./images/magazine.png" alt="Magazine" class="media-image" />
         </div>
         <div class="subscribe-text">
             <h2 class="h1 mb-1">Subscribe</h2>
             <div class="buttons">
               <div class="left-arrow arrow mb-1">
-                <svg  width="36" height="4" viewBox="0 0 36 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M0.823223 1.82322C0.725592 1.92085 0.725592 2.07915 0.823223 2.17678L2.41421 3.76777C2.51184 3.8654 2.67014 3.8654 2.76777 3.76777C2.8654 3.67014 2.8654 3.51184 2.76777 3.41421L1.35355 2L2.76777 0.585786C2.8654 0.488155 2.8654 0.329864 2.76777 0.232233C2.67014 0.134602 2.51184 0.134602 2.41421 0.232233L0.823223 1.82322ZM36 2V1.75L1 1.75V2V2.25L36 2.25V2Z" fill="black"/>
+                <svg width="36" height="4" viewbox="0 0 36 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0.823223 1.82322C0.725592 1.92085 0.725592 2.07915 0.823223 2.17678L2.41421 3.76777C2.51184 3.8654 2.67014 3.8654 2.76777 3.76777C2.8654 3.67014 2.8654 3.51184 2.76777 3.41421L1.35355 2L2.76777 0.585786C2.8654 0.488155 2.8654 0.329864 2.76777 0.232233C2.67014 0.134602 2.51184 0.134602 2.41421 0.232233L0.823223 1.82322ZM36 2V1.75L1 1.75V2V2.25L36 2.25V2Z" fill="black" />
                   </svg> 
                   <button class="btn-border ">
                   IN PRINT
@@ -404,8 +403,8 @@ cards:
               </div>
                <div class="right-arrow arrow">
                 <button class="btn-border">DIGITAL</button> 
-                <svg  width="36" height="4" viewBox="0 0 36 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M35.1768 1.82322C35.2744 1.92085 35.2744 2.07915 35.1768 2.17678L33.5858 3.76777C33.4882 3.8654 33.3299 3.8654 33.2322 3.76777C33.1346 3.67014 33.1346 3.51184 33.2322 3.41421L34.6464 2L33.2322 0.585786C33.1346 0.488155 33.1346 0.329864 33.2322 0.232233C33.3299 0.134602 33.4882 0.134602 33.5858 0.232233L35.1768 1.82322ZM0 2L0 1.75L35 1.75V2V2.25L0 2.25L0 2Z" fill="black"/>
+                <svg width="36" height="4" viewbox="0 0 36 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M35.1768 1.82322C35.2744 1.92085 35.2744 2.07915 35.1768 2.17678L33.5858 3.76777C33.4882 3.8654 33.3299 3.8654 33.2322 3.76777C33.1346 3.67014 33.1346 3.51184 33.2322 3.41421L34.6464 2L33.2322 0.585786C33.1346 0.488155 33.1346 0.329864 33.2322 0.232233C33.3299 0.134602 33.4882 0.134602 33.5858 0.232233L35.1768 1.82322ZM0 2L0 1.75L35 1.75V2V2.25L0 2.25L0 2Z" fill="black" />
                 </svg>
                </div>
                 
@@ -413,18 +412,14 @@ cards:
             </div>
         </div>
         <div class="image-container">
-            <img src="./images/tablet.png" alt="Tablet" class="media-image">
+            <img src="./images/tablet.png" alt="Tablet" class="media-image" />
         </div>
 </section>
 
 <section class="content_on_image position-relative w-full no-margin">
-  <img 
-    src="./images/Evolving.png"
-    alt="Evolving"
-    class="w-full h-full cover banner block min-heigh"
-  />
+  <img src="./images/Evolving.png" alt="Evolving" class="w-full h-full cover banner block min-heigh" />
   
-  <div class="w-full d-flex align-end justify-end h-full top-0 end-0 position-absolute no-margin z-index-1" > 
+  <div class="w-full d-flex align-end justify-end h-full top-0 end-0 position-absolute no-margin z-index-1"> 
     <div class="md:padded-4 h-full  blur text-on-image content-wrapper text-white z-index-2 mb:py-60 p-container mb:px-60 d-flex flex-column mb:justify-between justify-center">
         <div class="d-flex gap-10 uppercase mb-10 font-xs normal-letter-spacing mb-1 align-center overpass-font-family card-tags">
             <span>Travel</span> <span class="divider white-border"></span> <span>Number 11</span>
@@ -450,7 +445,7 @@ cards:
       <!-- Card 1 -->
       <div class="swiper-slide">
         <div class="featured-card">
-          <img src="./images/sailing-stockholm.png" class="w-full h-auto mb-20 d-block" >
+          <img src="./images/sailing-stockholm.png" class="w-full h-auto mb-20 d-block" />
           <!-- <%= image_tag "sailing_stockholm.jpg", alt: "Sailing Stockholm", class: "w-full h-auto mb-20 d-block" %> -->
           <div class="featured-detail pt-24 px-10">
             <a href="/articles/itinerary-cuba">
@@ -469,7 +464,7 @@ cards:
       <!-- Card 2 -->
       <div class="swiper-slide">
         <div class="featured-card">
-          <img src="./images/Three-a-Charm.png" class="w-full h-auto mb-20 d-block" >
+          <img src="./images/Three-a-Charm.png" class="w-full h-auto mb-20 d-block" />
           <!-- <%= image_tag "sailing_stockholm.jpg", alt: "Sailing Stockholm", class: "w-full h-auto mb-20 d-block" %> -->
           <div class="featured-detail pt-24 px-10">
             <a href="/articles/itinerary-cuba">
@@ -488,7 +483,7 @@ cards:
       <!-- Repeat for remaining cards -->
       <div class="swiper-slide">
         <div class="featured-card">
-          <img src="./images/sailing-stockholm.png" class="w-full h-auto mb-20 d-block" >
+          <img src="./images/sailing-stockholm.png" class="w-full h-auto mb-20 d-block" />
           <!-- <%= image_tag "sailing_stockholm.jpg", alt: "Sailing Stockholm", class: "w-full h-auto mb-20 d-block" %> -->
           <div class="featured-detail pt-24 px-10">
             <a href="/articles/itinerary-cuba">
@@ -521,13 +516,9 @@ cards:
 </section>
 
 <section class="content_on_image position-relative w-full">
-  <img 
-    src="./images/Conscious_banner.png"
-    alt="Supersloop"
-    class="w-full h-full cover banner block min-heigh"
-  />
+  <img src="./images/Conscious_banner.png" alt="Supersloop" class="w-full h-full cover banner block min-heigh" />
   
-  <div class="w-full d-flex justify-start h-full top-0 position-absolute" > 
+  <div class="w-full d-flex justify-start h-full top-0 position-absolute"> 
     <div class="md:padded-6 h-full mb:w-60 blur blur-darker text-on-image content-wrapper text-white mb:py-60 p-container px-40 d-flex flex-column mb:justify-between justify-center z-index-1">
         <div class="d-flex gap-10 uppercase mb-10 font-xs normal-letter-spacing mb-1 align-center overpass-font-family card-tags">
             <span>Travel</span> <span class="divider white-border"></span> <span>Number 11</span>
@@ -553,7 +544,7 @@ cards:
       <!-- Card 1 -->
       <div class="swiper-slide">
         <div class="featured-card">
-          <img src="./images/sailing-stockholm.png" class="w-full h-auto mb-20 d-block" >
+          <img src="./images/sailing-stockholm.png" class="w-full h-auto mb-20 d-block" />
           <!-- <%= image_tag "sailing_stockholm.jpg", alt: "Sailing Stockholm", class: "w-full h-auto mb-20 d-block" %> -->
           <div class="featured-detail pt-24 px-10">
             <a href="/articles/itinerary-cuba">
@@ -572,7 +563,7 @@ cards:
       <!-- Card 2 -->
       <div class="swiper-slide">
         <div class="featured-card">
-          <img src="./images/Three-a-Charm.png" class="w-full h-auto mb-20 d-block" >
+          <img src="./images/Three-a-Charm.png" class="w-full h-auto mb-20 d-block" />
           <!-- <%= image_tag "sailing_stockholm.jpg", alt: "Sailing Stockholm", class: "w-full h-auto mb-20 d-block" %> -->
           <div class="featured-detail pt-24 px-10">
             <a href="/articles/itinerary-cuba">
@@ -591,7 +582,7 @@ cards:
       <!-- Repeat for remaining cards -->
       <div class="swiper-slide">
         <div class="featured-card">
-          <img src="./images/sailing-stockholm.png" class="w-full h-auto mb-20 d-block" >
+          <img src="./images/sailing-stockholm.png" class="w-full h-auto mb-20 d-block" />
           <!-- <%= image_tag "sailing_stockholm.jpg", alt: "Sailing Stockholm", class: "w-full h-auto mb-20 d-block" %> -->
           <div class="featured-detail pt-24 px-10">
             <a href="/articles/itinerary-cuba">
