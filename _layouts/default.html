@@ -273,9 +273,15 @@
 
 
 <script>
-  // ------------ AUTO UPDATE FOOTER YEAR
-  document.getElementById("year").innerHTML = new Date().getFullYear();
-  document.getElementById("year-mob").innerHTML = new Date().getFullYear();
+  // ------------ AUTO UPDATE FOOTER YEAR ----------------
+ const yearElement = document.getElementById("year");
+  const yearMobElement = document.getElementById("year-mob");
+  if (yearElement) {
+    yearElement.innerHTML = new Date().getFullYear();
+  }
+  if (yearMobElement) {
+    yearMobElement.innerHTML = new Date().getFullYear();
+  }
 
 </script>
 
