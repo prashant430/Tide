@@ -16,7 +16,30 @@ travel_image: /uploads/qua3qbvq.jpg
 sound_image: /uploads/tide-magazine-sailing-perseverance-8-crop.jpg
 design_image: /uploads/issue-05/tide-magazine-sailing-lifestyle-travel-issue05-design.jpg
 issue_out_now_image: /uploads/issue-13/tide-magazine-13-spreads-mockup-2.jpg
+
+cards:
+  - image: /uploads/tide-magazine-sailing-crop.jpg
+    alt: "Sailing Stockholm"
+    link: "/articles/itinerary-cuba"
+    tags: ["Travel", "Number 11"]
+    title: "Sailing Stockholm"
+    description: "The North American island nation has so much more beyond Havana, from isolated sandy cays to lively, vibrant city centres. Here, Cuba-born Maria Romeu, founder of CubaPlus Travel agency, has planned your visit for you"
+
+  - image: /uploads/qua3qbvq.jpg
+    alt: "Three's a Charm"
+    link: "/articles/itinerary-cuba"
+    tags: ["Travel", "Number 11"]
+    title: "Three's a Charm"
+    description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
+
+  - image: /uploads/1-2.png
+    alt: "Nilaya Rises"
+    link: "/articles/itinerary-cuba"
+    tags: ["Travel", "Number 11"]
+    title: "Nilaya Rises"
+    description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
 ---
+
 
 
 <!-- Mobile version -->
@@ -120,68 +143,30 @@ issue_out_now_image: /uploads/issue-13/tide-magazine-13-spreads-mockup-2.jpg
     <h3 class="uppercase centered mb:mb-40 mb-1 overpass-family font-s overpass-font-family">Featured</h3>
 
   <div class="swiper visible">
-    <div class="swiper-wrapper">
-      
-      <!-- Card 1 -->
-      <div class="swiper-slide">
-        <div class="featured-card">
-          <img src="./images/sailing-stockholm.png" class="w-full h-auto mb-20 d-block" >
-          <!-- <%= image_tag "sailing_stockholm.jpg", alt: "Sailing Stockholm", class: "w-full h-auto mb-20 d-block" %> -->
-          <div class="featured-detail pt-24 px-10">
-            <a href="/articles/itinerary-cuba">
-                 <div class="d-flex gap-10 uppercase mb-10 font-xs normal-letter-spacing mb-1 align-center overpass-font-family card-tags">
-            <span>Travel</span> <span class="divider"></span> <span>Number 11</span>
-        </div>
-              <h2 class="mob-padding title-block h2"> Sailing Stockholm </h2>
-            
-              <p class="mob-padding long-text w-36"> The North American island nation has so much more beyond Havana, from isolated sandy cays to lively, vibrant city centres. Here, Cuba-born Maria Romeu, founder of CubaPlus Travel agency, has planned your visit for you </p>
-            </a>
-            
+<div class="swiper-wrapper">
+  {% for card in page.cards %}
+  <div class="swiper-slide ddddd">
+    <div class="featured-card{% if forloop.first %} aaaa{% endif %}">
+      <img src="{{ card.image }}" alt="{{ card.alt }}" class="w-full h-auto mb-20 d-block">
+
+      <div class="featured-detail pt-24 px-10">
+        <a href="{{ card.link }}">
+          <div class="d-flex gap-10 uppercase mb-10 font-xs normal-letter-spacing mb-1 align-center overpass-font-family card-tags">
+            {% for tag in card.tags %}
+              <span>{{ tag }}</span>
+              {% unless forloop.last %}<span class="divider"></span>{% endunless %}
+            {% endfor %}
           </div>
-        </div>
+
+          <h2 class="mob-padding title-block h2">{{ card.title }}</h2>
+          <p class="mob-padding long-text w-36">{{ card.description }}</p>
+        </a>
       </div>
-
-      <!-- Card 2 -->
-      <div class="swiper-slide">
-        <div class="featured-card">
-          <img src="./images/Three-a-Charm.png" class="w-full h-auto mb-20 d-block" >
-          <!-- <%= image_tag "sailing_stockholm.jpg", alt: "Sailing Stockholm", class: "w-full h-auto mb-20 d-block" %> -->
-          <div class="featured-detail pt-24 px-10">
-            <a href="/articles/itinerary-cuba">
-                 <div class="d-flex gap-10 uppercase mb-10 font-xs normal-letter-spacing mb-1 align-center overpass-font-family card-tags">
-            <span>Travel</span> <span class="divider"></span> <span>Number 11</span>
-        </div>
-              <h2 class="mob-padding title-block h2"> Three's a Charm </h2>
-            
-              <p class="mob-padding long-text w-36"> The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced... </p>
-            </a>
-            
-          </div>
-        </div>
-      </div>
-
-      <!-- Repeat for remaining cards -->
-      <div class="swiper-slide">
-        <div class="featured-card">
-          <img src="./images/sailing-stockholm.png" class="w-full h-auto mb-20 d-block" >
-          <!-- <%= image_tag "sailing_stockholm.jpg", alt: "Sailing Stockholm", class: "w-full h-auto mb-20 d-block" %> -->
-          <div class="featured-detail pt-24 px-10">
-            <a href="/articles/itinerary-cuba">
-                 <div class="d-flex gap-10 uppercase mb-10 font-xs normal-letter-spacing mb-1 align-center overpass-font-family card-tags">
-            <span>Travel</span> <span class="divider"></span> <span>Number 11</span>
-        </div>
-              <h2 class="mob-padding title-block h2"> Nilaya Rises </h2>
-            
-              <p class="mob-padding long-text w-36"> The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced...</p>
-            </a>
-            
-          </div>
-        </div>
-      </div>
-
-      <!-- Add more swiper-slide blocks as needed -->
-
     </div>
+  </div>
+  {% endfor %}
+</div>
+
 
     <!-- Pagination & Navigation -->
     <!-- <div class="swiper-pagination"></div>

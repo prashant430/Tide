@@ -23,15 +23,23 @@ window.addEventListener('scroll', function() {
        $(".nav-header-hidden").toggleClass("nav-header-hidden", false);
      $(".burger-button").toggleClass("active");
      $(".burger-menu").toggleClass("active");
+     $('body').toggleClass("active-header");
    });
 
 
 $(".burger-menu").click(function(){
     $(".nav-header-hidden").toggleClass("nav-header-hidden", false);
     $(".burger-button").toggleClass("active");
-     $(".burger-menu").toggleClass("active");
+    $(".burger-menu").toggleClass("active");
+    $('body').toggleClass("active-header");
    });
 
+   $(".overlay-work").click(function(){
+    $(".nav-header-hidden").removeClass("nav-header-hidden", false);
+    $(".burger-button").removeClass("active");
+    $(".burger-menu").removeClass("active");
+    $('body').removeClass("active-header");
+   });
 
 });
 

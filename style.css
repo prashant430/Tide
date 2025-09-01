@@ -2475,7 +2475,20 @@ html:has(.burger-menu.active) {
   font-size: 14px;
   line-height: 1.6;
 }
-
+.overlay-work {
+    position: fixed;
+    background: #00000061;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    display: none;
+}
+body.active-header .overlay-work{
+    display: flex;
+}
 .tab-content.active {
   display: block;
 }

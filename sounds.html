@@ -12,25 +12,14 @@ playlist:
       https://open.spotify.com/playlist/4ipEOMW4RwSCT8KV7VQjCj?si=220fd6ba9cdc4cf1 
 ---
 {% include navigation-bar.html %}
-
-
 {% for item in page.playlist %}
 <section class="padded grid-center mob-pad">
-
-
-  
     <div class="col-12 padded-1 mob-show"></div>
-    <a target="_blank" href="{{item.link}} " class="col-8_md-6_sm-12 relative flex-display bg-80 mb-2" style="background-image:url('{{item.image}}')">
-
-
-
-    </a>
-
+    <a target="_blank" href="{{item.link}} " class="col-8_md-6_sm-12 relative flex-display bg-80 mb-2" style="background-image:url('{{item.image}}')"></a>
     <div class="col-8_sm-12 mt-mob grid border-white mt-4">
       <!-- <h4 class="blue-text smallest mb-1 mt-1"> TIDE SOUNDS </h4> -->
       <div class="col-8_sm-12">
       <h2 class="blue-text mt-1">{{item.title}} </h2>
-
       <p class="mt-1 mb-1"> {{item.description_html}}</p>
     </div>
     <div class="col-4_sm-12 flex-right mob-hide">
@@ -39,11 +28,9 @@ playlist:
     <div class="col-4_sm-12 flex-show mb-1 hide-2">
       <a target="_blank" href="{{item.link}}" class="btn-white"> Listen </a>
     </div>
-   
   </div>
 
 
 </section>
 {% endfor %}
-
 <section class="padded"></section>
