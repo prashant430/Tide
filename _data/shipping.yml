@@ -1,0 +1,44 @@
+delivery_times: "Please allow up to 3 working days for us to process your order prior to shipping. Working days exclude weekends and public holidays."
+
+royal_mail: "All Royal Mail and standard international delivery times are estimates only, and in some cases your order may take longer to arrive than the quoted shipping times."
+
+dhl: "DHL orders are tracked and will require a signature. You may prefer to choose a delivery address where you know someone will be available to accept the delivery."
+
+shipping_fees: "You can calculate your shipping fee once you have added your items to your bag. Please enter the destination country to see prices and delivery options."
+
+duties_taxes: "International packages may incur taxes and/or duties. Please familiarise yourself with your country’s fees and policies before placing an order. TO THE SEA MEDIA LTD. is legally obligated to enter the full value of orders on customs forms."
+
+remote_areas: "If you live in a remote area, and you select DHL as your shipping method, your order may incur a delivery surcharge of £17.50. In this instance, we reserve the right to withhold your order until we receive payment for this surcharge from you. Please note that extra time should be allocated for your order to arrive."
+
+restricted_delivery_intro: "Unfortunately, due to certain restrictions, we have suspended shipping to the following countries indefinitely."
+
+restricted_countries:
+  - Argentina
+  - Belize
+  - Bolivia
+  - Brazil
+  - Chile
+  - Colombia
+  - Costa Rica
+  - Ecuador
+  - El Salvador
+  - French Guiana
+  - Guatemala
+  - Guyana
+  - Honduras
+  - India
+  - Israel
+  - Mexico
+  - Nicaragua
+  - Pakistan
+  - Panama
+  - Paraguay
+  - Peru
+  - Russia
+  - South Africa
+  - Suriname
+  - Turkey
+  - Uruguay
+  - Venezuela
+
+restricted_note: "We may be able to arrange tracked delivery to these countries on request. Please email <a href='mailto:editor@tide-magazine.com'>editor@tide-magazine.com</a> for a shipping quote."
