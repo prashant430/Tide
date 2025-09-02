@@ -1712,6 +1712,14 @@ form [class*=col-] { padding: 5px;  }
 .burger-menu.active{
     opacity: 1;
     pointer-events: auto;
+    z-index:99;
+}
+body.active-header header.header {
+    position: relative;
+    z-index: 99;
+}
+.burger-button{
+  cursor: pointer;
 }
 @media (max-width: 768px) {
     .burger-menu {

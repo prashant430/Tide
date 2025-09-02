@@ -1,0 +1,267 @@
+layout: default
+title: "Home TIDE Magazine Sailing Travel Lifestyle"
+meta-description: "TIDE is adventure, travel, design, modernity, environment, technology, culture and cuisine."
+subtitle: "This is my test subtitle from test"
+
+desktop_first_image: "/uploads/issue-13/issuenumber13-tm-cover-image-2.jpg"
+desktop_first_image_position: "img-left"
+mobile_first_image: "/uploads/issue-13/issuenumber13-tm-cover-image-2.jpg"
+mobile_first_image_position: "img-left-center"
+
+sailing_image: "/uploads/perserveance-sailing-yaght-tide-magazine-playlist-soudns.png"
+lifestyle_image: "/images/sailing-stockholm.png"
+environment_image: "/uploads/TIDE-Magazine-issue04-finding-fjorland4.jpg"
+travel_image: "/uploads/qua3qbvq.jpg"
+sound_image: "/uploads/tide-magazine-sailing-perseverance-8-crop.jpg"
+design_image: "/uploads/issue-05/tide-magazine-sailing-lifestyle-travel-issue05-design.jpg"
+issue_out_now_image: "/uploads/issue-13/tide-magazine-13-spreads-mockup-2.jpg"
+
+homepage_banner:
+  desktop:
+    url: "/articles/wind-power"
+    video: true
+    video_path: "/videos/sailing-wind.mp4"
+    poster: "/images/homepage-poster.jpg"
+    fallback_image: "/images/homepage-banner.png"
+    image_position: "center"
+    title: "Wind is power."
+    tags:
+      - "Sailing"
+      - "NUMBER 11"
+    description: >
+      The latest rig and sail innovations are allowing boatbuilders and designers to think big when it comes to sailing vessels – and that is good news for the environment.
+    button:
+      text: "MORE"
+      style: "white-btn"
+
+  mobile:
+    url: "/articles/wind-power"
+    video: false
+    fallback_image: "/images/homepage-banner.png"
+    image_position: "center"
+    title: "Wind is power."
+    tags:
+      - "Sailing"
+      - "NUMBER 11"
+    description: >
+      The latest rig and sail innovations are allowing boatbuilders and designers to think big when it comes to sailing vessels – and that is good news for the environment.
+    button:
+      text: "MORE"
+      style: "white-btn"
+
+cards:
+  - image: "/images/sailing-stockholm.png"
+    alt: "Sailing Stockholm"
+    link: "/articles/itinerary-cuba"
+    tags:
+      - "Travel"
+      - "Number 11"
+    title: "Sailing Stockholm"
+    description: "The North American island nation has so much more beyond Havana, from isolated sandy cays to lively, vibrant city centres. Here, Cuba-born Maria Romeu, founder of CubaPlus Travel agency, has planned your visit for you"
+
+  - image: "/images/Three-a-Charm.png"
+    alt: "Three's a Charm"
+    link: "/articles/itinerary-cuba"
+    tags:
+      - "Travel"
+      - "Number 11"
+    title: "Three's a Charm"
+    description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
+
+  - image: "/images/sailing-stockholm.png"
+    alt: "Nilaya Rises"
+    link: "/articles/itinerary-cuba"
+    tags:
+      - "Travel"
+      - "Number 11"
+    title: "Nilaya Rises"
+    description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
+
+cards2:
+  - image: "/images/sailing-stockholm.png"
+    alt: "Sailing Stockholm"
+    link: "/articles/itinerary-cuba"
+    tags:
+      - "Travel"
+      - "Number 11"
+    title: "Sailing Stockholm"
+    description: "The North American island nation has so much more beyond Havana, from isolated sandy cays to lively, vibrant city centres. Here, Cuba-born Maria Romeu, founder of CubaPlus Travel agency, has planned your visit for you"
+
+  - image: "/images/Three-a-Charm.png"
+    alt: "Three's a Charm"
+    link: "/articles/itinerary-cuba"
+    tags:
+      - "Travel"
+      - "Number 11"
+    title: "Three's a Charm"
+    description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
+
+  - image: "/images/sailing-stockholm.png"
+    alt: "Nilaya Rises"
+    link: "/articles/itinerary-cuba"
+    tags:
+      - "Travel"
+      - "Number 11"
+    title: "Nilaya Rises"
+    description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
+
+cards3:
+  - image: "/images/sailing-stockholm.png"
+    alt: "Sailing Stockholm"
+    link: "/articles/itinerary-cuba"
+    tags:
+      - "Travel"
+      - "Number 11"
+    title: "Sailing Stockholm"
+    description: "The North American island nation has so much more beyond Havana, from isolated sandy cays to lively, vibrant city centres. Here, Cuba-born Maria Romeu, founder of CubaPlus Travel agency, has planned your visit for you"
+
+  - image: "/images/Three-a-Charm.png"
+    alt: "Three's a Charm"
+    link: "/articles/itinerary-cuba"
+    tags:
+      - "Travel"
+      - "Number 11"
+    title: "Three's a Charm"
+    description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
+
+  - image: "/images/sailing-stockholm.png"
+    alt: "Nilaya Rises"
+    link: "/articles/itinerary-cuba"
+    tags:
+      - "Travel"
+      - "Number 11"
+    title: "Nilaya Rises"
+    description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
+
+cards4:
+  - image: "/images/sailing-stockholm.png"
+    alt: "Sailing Stockholm"
+    link: "/articles/itinerary-cuba"
+    tags:
+      - "Travel"
+      - "Number 11"
+    title: "Sailing Stockholm"
+    description: "The North American island nation has so much more beyond Havana, from isolated sandy cays to lively, vibrant city centres. Here, Cuba-born Maria Romeu, founder of CubaPlus Travel agency, has planned your visit for you"
+
+  - image: "/images/Three-a-Charm.png"
+    alt: "Three's a Charm"
+    link: "/articles/itinerary-cuba"
+    tags:
+      - "Travel"
+      - "Number 11"
+    title: "Three's a Charm"
+    description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
+
+  - image: "/images/sailing-stockholm.png"
+    alt: "Nilaya Rises"
+    link: "/articles/itinerary-cuba"
+    tags:
+      - "Travel"
+      - "Number 11"
+    title: "Nilaya Rises"
+    description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
+
+cards5:
+  - image: "/images/sailing-stockholm.png"
+    alt: "Sailing Stockholm"
+    link: "/articles/itinerary-cuba"
+    tags:
+      - "Travel"
+      - "Number 11"
+    title: "Sailing Stockholm"
+    description: "The North American island nation has so much more beyond Havana, from isolated sandy cays to lively, vibrant city centres. Here, Cuba-born Maria Romeu, founder of CubaPlus Travel agency, has planned your visit for you"
+
+  - image: "/images/Three-a-Charm.png"
+    alt: "Three's a Charm"
+    link: "/articles/itinerary-cuba"
+    tags:
+      - "Travel"
+      - "Number 11"
+    title: "Three's a Charm"
+    description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
+
+  - image: "/images/sailing-stockholm.png"
+    alt: "Nilaya Rises"
+    link: "/articles/itinerary-cuba"
+    tags:
+      - "Travel"
+      - "Number 11"
+    title: "Nilaya Rises"
+    description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
+
+content_on_image:
+  image:
+    src: "/images/gems.png"
+    alt: "Cyclades scenery"
+  tags:
+    - "Travel"
+    - "Number 11"
+  title: "Hidden Gems: The Cyclades"
+  direction: "end"
+  description: >
+    For decades, sailors have set a course for the Cyclades, but not only for its myriad cultural attractions, sandy beaches, hidden coves and gin-clear seas.
+  button:
+    text: "More"
+    link: "#"
+    style: "white-btn"
+
+content_on_image2:
+  image:
+    src: "/images/sarissa.png"
+    alt: "Cyclades scenery"
+  tags:
+    - "SAILING"
+    - "NUMBER 2"
+  title: "On Point: Supersloop Sarissa"
+  direction: "start"
+  description: >
+    You would be forgiven for missing the launch of Sarissa back in 2023. Builder Royal Huisman kept Project 404 on the down-low...
+  button:
+    text: "More"
+    link: "#"
+    style: "white-btn"
+
+content_on_image3:
+  image:
+    src: "/images/modernism.png"
+    alt: "modernism"
+  tags:
+    - "DEIGN"
+    - "NUMBER 11"
+  title: "Evolving Modernism"
+  direction: "end"
+  description: >
+    “Architecture is a little bit like music: it’s about rhythm, silences. We don’t want our architecture to be loud,” says Juan Ignacio Ramos, the figure behind Estudio Ramos...
+  button:
+    text: "More"
+    link: "#"
+    style: "white-btn"
+
+content_on_image4:
+  image:
+    src: "/images/travellers.png"
+    alt: "travellers"
+  tags:
+    - "ENVIRONMENT"
+    - "NUMBER 2"
+  title: "The Conscious Traveller"
+  direction: "start"
+  description: >
+    Responsible, light-touch travel has come a long way since the obligatory note on your pillow offering the opportunity to save water by reusing your towels....
+  button:
+    text: "More"
+    link: "#"
+    style: "white-btn"
+
+subscribe:
+  heading: "Subscribe"
+  images:
+    - src: "/images/magazine.png"
+      alt: "Magazine"
+    - src: "/images/tablet.png"
+      alt: "Tablet"
+  buttons:
+    - text: "IN PRINT"
+      position: "left"
+    - text: "DIGITAL"
+      position: "right"

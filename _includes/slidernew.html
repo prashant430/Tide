@@ -1,0 +1,34 @@
+<section class="slider-section under-snipptttt featured-section mx-auto">
+  <div class="container">
+    <h3 class="uppercase centered mb:mb-40 mb-1 overpass-family font-s overpass-font-family">Featured</h3>
+
+    <div class="swiper visible">
+      <div class="swiper-wrapper">
+        {% for card in include.cards %}
+        <div class="swiper-slide ddddd">
+          <div class="featured-card{% if forloop.first %} aaaa{% endif %}">
+            <img src="{{ card.image }}" alt="{{ card.alt }}" class="w-full h-auto mb-20 d-block" />
+
+            <div class="featured-detail pt-24 px-10">
+              <a href="{{ card.link }}">
+                <div class="d-flex gap-10 uppercase font-xs normal-letter-spacing mb-1 align-center overpass-font-family card-tags">
+                  {% for tag in card.tags %}
+                    <span>{{ tag }}</span>
+                    {% unless forloop.last %}<span class="divider"></span>{% endunless %}
+                  {% endfor %}
+                </div>
+
+                <h2 class="mob-padding title-block h2">{{ card.title }}</h2>
+                <p class="mob-padding long-text w-36">{{ card.description }}</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+      <div class="centered mt-4">
+    <a href="#" class="btn-border  ">VIEW ALL TRAVEL STORIES</a>
+  </div>
+  </div>
+</section>

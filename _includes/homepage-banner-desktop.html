@@ -1,0 +1,30 @@
+<section class="container-full mob-hide banner-img no-margin">
+  <div class="col-10_sm-12 relative"> 
+    <div class="col-12_sm-12 relative filterable">
+      <a href="{{ include.banner.url }}">
+        {% if include.banner.video %}
+          <video id="myVideo" class="bg-video bg_cover vw-100 vh-100" autoplay muted playsinline autobuffer="true" loop poster="{{ include.banner.poster }}">
+            <source src="{{ include.banner.video_path }}" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        {% endif %}
+        <img class="img_lrge min-heigh block {{ include.banner.image_position }}" src="{{ include.banner.fallback_image }}" />
+      </a>
+    </div>
+
+    <a href="{{ include.banner.url }}" class="content-on-hover vw-100 container-full pb-4 d-flex align-center h-full">
+      <h2 class="mob-padding mt-1 mb-1 text-white h1">{{ include.banner.title }}</h2>
+
+      <div class="col-12 main-wrapper">
+        <div class="d-flex subtitle mt-2 text-white gap-10 uppercase mb-10 font-xs normal-letter-spacing mb-1 pt-2 blog-details align-center justify-end card-tags">
+          {% for tag in include.banner.tags %}
+            <span>{{ tag }}</span>{% unless forloop.last %}<span class="divider white-border"></span>{% endunless %}
+          {% endfor %}
+        </div>
+
+        <p class="mob-padding long-text mt-1 mb-1 text-white">{{ include.banner.description }}</p>
+        <span class="btn {{ include.banner.button.style }}">{{ include.banner.button.text }}</span>
+      </div>
+    </a>
+  </div>
+</section>
