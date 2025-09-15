@@ -1,0 +1,338 @@
+---
+layout: default
+---
+<div class="container-full">
+    <div class="relative banner-img ">
+    <div class=" grid">
+
+    <div class="col-12_sm-12 relative">
+    <a href="{{post.url}}">
+    {% if post.video == true %}
+    <video id="myVideo" class="bg-video bg_cover vw-100 vh-100" autoplay muted playsinline autobuffer="true" loop poster="{{item.cover_image}}">
+    <source src="{{post.video_path}}" type="video/mp4" />
+    Your browser does not support the video tag.
+    </video>
+    {% endif %}
+    <img class="img_lrge min-heigh  block {{post.featured_image.position}}" src="../images/about-banner.png"></img>
+    </a>
+    </div>
+    <a href="{{post.url}}" class="content-on-hover  vw-100 container-full pt-4 d-flex align-end overlay flex-wrap h-full">
+    <div class="h-full w-full content-center centered">
+        <!-- <h4 class="subtitle mt-2 text-white">  I </h4> -->
+        <h2 class="mob-padding mt-1 mb-1 text-white font-s overpass-font-family letter-spacing"> WELCOME TO </h2>
+        <!-- <h2 class="mob-padding mt-1 mb-1 text-white"> {{post.title}} </h2> -->
+        <p style="place-self: center; " class="mob-padding long-text mt-1 no-margin text-white mb-0"><img src="../images/white-logo.png" width="200"> </p>
+    </div>
+    </a>
+    </div>
+    </div>
+</div>
+<div class="tab-section container">
+  {% include navigation-bar.html %}
+    <section class="about-section w-60 margin-auto centered">
+    <h2 class="overpass-font-family font-weight-600 font-xxs" style="font-weight: 600;">ABOUT TIDE MAGAZINE</h2>
+    <div class="underline"></div>
+    <h2 class="h2">We explore the shifts and changes at the core of the sailing world...</h2>
+    <p class="my-25">
+      TIDE is an independent sailing, lifestyle and travel magazine, published in print and digital.
+      We explore the shifts and changes at the core of the sailing world and the ocean adventure:
+      the vessels, the people, the experiences, the destinations — the many facets that entice
+      individuals around the world to pursue this alluring form of adventure.
+    </p>
+    <p class="my-25">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+      et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+      dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+      officia deserunt mollit anim id est laborum.
+    </p>
+  </section>
+</div>
+
+  <section class="bg-grey py-70 image-with-text">
+    <div class="d-flex gap-70 mb:gap-100 main-block">
+      <div class="mb:column-5">
+        <img src="../images/greek_islands.png">
+      </div>
+
+        <div class="content-block mb:column-5 gap-20 mb:gap-60 align-center d-flex ">
+          <div>
+            <h2 class="font-large crimson">12 issues</h2>
+            <p class="font-xxs large-line-height overpass-font-family">ANNUALLY</p>
+          </div>
+
+          <div>
+            <h2 class="font-large crimson">10,000</h2>
+            <p class="font-xxs large-line-height overpass-font-family">monthly orders</p>
+          </div>
+        </div>
+    </div>
+    <div class="d-flex gap-70 mb:gap-100 main-block">
+      
+        <div class="content-block mb:column-5 gap-20 mb:gap-60 align-center d-flex justify-end">
+          <div>
+            <h2 class="font-large crimson">4 million</h2>
+            <p class="font-xxs large-line-height overpass-font-family">PAGE VIEWS</p>
+          </div>
+
+          <div>
+            <h2 class="font-large crimson">55,000</h2>
+            <p class="font-xxs large-line-height overpass-font-family">DIGITAL SUBSCRIBERS</p>
+          </div>
+        </div>
+        <div class="mb:column-5 right">
+        <img src="../images/tablet.png">
+      </div>
+
+    </div>
+  </section>
+  <section class="container">
+    <div class="about-section w-60 margin-auto centered">
+       <h2 class="overpass-font-family font-weight-600 font-xxs" style="font-weight: 600;">PARTNER WITH TIDE</h2>
+        <div class="underline"></div>
+        <h2 class="h2">Reach a tailored and discerning audience in a tasteful way</h2>
+        <p class="my-25">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+        </p>
+       <a href="#" class="btn">GET STARTED</a>
+    </div>
+  </section>
+</div>
+
+<section class="content_on_image position-relative w-full  no-margin">
+  <img 
+    src="./images/contact-form.png"
+    alt="Supersloop"
+    class="w-full h-full cover banner block min-heigh"
+  />
+  
+  <div class="w-full d-flex align-end justify-start xs:h-full top-0 end-0 position-absolute no-margin z-index-1" > 
+    <div class="md:padded-6 h-full mb:w-65 blur blur-darker text-on-image content-wrapper text-white mb:py-60 p-container px-30 d-flex flex-column justify-center z-index-1">
+        
+        <div class="content-block w-full xs:margin-auto" style="max-width: 435px;">
+           <div class="contact-header">
+              <h2 class="h2 large-line-height grey-white" style="margin-bottom: 4px;">Contact us</h2>
+              <div class="contact-info d-flex justify-between centered align-center">
+                <a href="mailto:info@tide-magazine.com" class="email-link medium-line-height crimson-pro grey-white">info@tide-magazine.com</a>
+                <div class="social-icons d-flex gap-10">
+                  <a class="black block social-link bg-grey-white" href="https://www.instagram.com/thetidemagazine" target="_blank" class="editable">
+                      <svg width="10" height="10" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.50146 2.25391C3.25928 2.25391 2.25732 3.25586 2.25732 4.49805C2.25732 5.74023 3.25928 6.74219 4.50146 6.74219C5.74365 6.74219 6.74561 5.74023 6.74561 4.49805C6.74561 3.25586 5.74365 2.25391 4.50146 2.25391ZM4.50146 5.95703C3.69873 5.95703 3.04248 5.30273 3.04248 4.49805C3.04248 3.69336 3.69678 3.03906 4.50146 3.03906C5.30615 3.03906 5.96045 3.69336 5.96045 4.49805C5.96045 5.30273 5.3042 5.95703 4.50146 5.95703ZM7.36084 2.16211C7.36084 2.45312 7.12647 2.68555 6.8374 2.68555C6.54639 2.68555 6.31396 2.45117 6.31396 2.16211C6.31396 1.87305 6.54834 1.63867 6.8374 1.63867C7.12647 1.63867 7.36084 1.87305 7.36084 2.16211ZM8.84717 2.69336C8.81396 1.99219 8.65381 1.37109 8.14014 0.859375C7.62842 0.347656 7.00732 0.1875 6.30615 0.152344C5.5835 0.111328 3.41748 0.111328 2.69482 0.152344C1.99561 0.185547 1.37451 0.345703 0.86084 0.857422C0.347168 1.36914 0.188965 1.99023 0.153809 2.69141C0.112793 3.41406 0.112793 5.58008 0.153809 6.30273C0.187012 7.00391 0.347168 7.625 0.86084 8.13672C1.37451 8.64844 1.99365 8.80859 2.69482 8.84375C3.41748 8.88477 5.5835 8.88477 6.30615 8.84375C7.00732 8.81055 7.62842 8.65039 8.14014 8.13672C8.65186 7.625 8.81201 7.00391 8.84717 6.30273C8.88818 5.58008 8.88818 3.41602 8.84717 2.69336ZM7.91357 7.07812C7.76123 7.46094 7.46631 7.75586 7.08154 7.91016C6.50537 8.13867 5.13818 8.08594 4.50146 8.08594C3.86475 8.08594 2.49561 8.13672 1.92139 7.91016C1.53857 7.75781 1.24365 7.46289 1.08936 7.07812C0.86084 6.50195 0.913574 5.13477 0.913574 4.49805C0.913574 3.86133 0.862793 2.49219 1.08936 1.91797C1.2417 1.53516 1.53662 1.24023 1.92139 1.08594C2.49756 0.857422 3.86475 0.910156 4.50146 0.910156C5.13818 0.910156 6.50732 0.859375 7.08154 1.08594C7.46436 1.23828 7.75928 1.5332 7.91357 1.91797C8.14209 2.49414 8.08936 3.86133 8.08936 4.49805C8.08936 5.13477 8.14209 6.50391 7.91357 7.07812Z" fill="white"/>
+                      </svg>
+                   </a>
+                  <!-- <a href="https://www.linkedin.com/company/" target="_blank">  <i class="fab fa-linkedin "></i></a> -->
+                  <a class="black block social-link bg-grey-white" href="https://www.facebook.com/thetidemagazine/" target="_blank" class="editable"> 
+                      <svg width="10" height="10" viewBox="0 0 5 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.24585 4.96875L4.45415 3.61143H3.15176V2.73062C3.15176 2.35928 3.33369 1.99731 3.91699 1.99731H4.50908V0.841699C4.50908 0.841699 3.97178 0.75 3.45806 0.75C2.3855 0.75 1.68442 1.4001 1.68442 2.57695V3.61143H0.492188V4.96875H1.68442V8.25H3.15176V4.96875H4.24585Z" fill="white"/>
+                      </svg>
+                      </a>
+                  <!-- <p  class="footer-text mt-1 mob-hide mb-1 ">  © <span id="year"></span>, TIDE Magazine. Website by <a target="_blank" href="https://klioh.com/"> Klioh Studio. </a> -->
+                </div>
+              </div>
+            </div>
+
+            <form class="contact-form pt-2 mb:pt-50 gap-15">
+              <div class="form-row  xs:d-flex gap-15 ">
+                <input class="mb-1" type="text" placeholder="name" name="name">
+                <input class="mb-1" type="email" placeholder="email" name="email">
+              </div>
+              <div class="form-row xs:d-flex gap-15">
+                <input class="mb-1" type="text" placeholder="phone" name="phone">
+                <input class="mb-1" type="text" placeholder="subject of enquiry" name="subject">
+              </div>
+              <textarea name="message" placeholder="message"></textarea>
+              <div class="form-submit right">
+                <button class="width-fit btn white-btn mt-2px" type="submit">SEND</button>
+              </div>
+            </form>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="tab">
+        <h2 class="w-full overpass-font-family font-xxs font-weight-600">LEGAL</h2>
+  <div class="tab-nav">
+    <button class="tab-button" data-tab="tab1">
+      Terms and Conditions <span class="arrow">↓</span>
+    </button>
+    <div class="tab-content" id="tab1">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <p>
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+    </div>
+
+    <button class="tab-button" data-tab="tab2">
+      Privacy Policy <span class="arrow">↓</span>
+    </button>
+    <div class="tab-content" id="tab2">
+      <p>
+        This is the privacy policy content. You can update it with real text.
+      </p>
+    </div>
+
+    <button class="tab-button" data-tab="tab3">
+      Return Policy <span class="arrow">↓</span>
+    </button>
+    <div class="tab-content" id="tab3">
+      <p>
+        This is the return policy content. You can update it with real text.
+      </p>
+    </div>
+  </div>
+
+  <!-- Desktop only content area -->
+  <div class="tab-content-area">
+    <div class="tab-content active" id="tab1-desktop">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <p>
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+    </div>
+    <div class="tab-content" id="tab2-desktop">
+      <p>This is the privacy policy content.</p>
+    </div>
+    <div class="tab-content" id="tab3-desktop">
+      <p>This is the return policy content.</p>
+    </div>
+  </div>
+</section>
+
+ <script>
+    document.addEventListener("DOMContentLoaded", () => {
+  const buttons = document.querySelectorAll(".tab-button");
+
+  buttons.forEach(button => {
+    button.addEventListener("click", () => {
+      const tabId = button.dataset.tab;
+      const mobileContent = document.getElementById(tabId);
+      const desktopContent = document.getElementById(tabId + "-desktop");
+
+      if (window.innerWidth <= 768) {
+        // Accordion behaviour (mobile)
+        button.classList.toggle("active");
+        mobileContent.classList.toggle("active");
+      } else {
+        // Tabs behaviour (desktop)
+        document.querySelectorAll(".tab-button").forEach(btn => btn.classList.remove("active"));
+        document.querySelectorAll(".tab-content-area .tab-content").forEach(c => c.classList.remove("active"));
+
+        button.classList.add("active");
+        if (desktopContent) desktopContent.classList.add("active");
+      }
+    });
+  });
+});
+document.addEventListener("DOMContentLoaded", function() {
+  new Swiper(".swiper", {
+    spaceBetween: 50, // default
+    slidesPerView: 2.5,
+    navigation: {
+      nextEl: ".swiper-custom-next", // custom button
+    },
+    breakpoints: {
+      320: { 
+        slidesPerView: 1.2,
+        spaceBetween: 15   // applied for screen widths >=320px
+      },
+      768: { 
+        slidesPerView: 2.2,
+        spaceBetween: 15 
+      },
+      1024: { 
+        slidesPerView: 2.3,
+        spaceBetween: 50 
+      },
+    },
+  });
+});
+</script>
+
+<!-- <style>
+    .tab {
+  display: flex;
+  margin: 50px auto;
+  padding: 20px;
+  gap: 35px 155px;
+  max-width: 1045px;
+  flex-wrap: wrap;
+}
+
+.tab-nav {
+  width: 250px;
+}
+
+.tab-button {
+  background: none;
+  border: none;
+  padding: 25px 0;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--heading-font, sans-serif);
+  border-bottom: 1px solid #ccc;
+}
+
+.arrow {
+  font-size: 14px;
+  transition: transform 0.3s ease;
+}
+
+.tab-button.active .arrow {
+  transform: rotate(180deg);
+}
+
+.tab-content-area {
+  flex: 1;
+}
+
+.tab-content {
+  display: none;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* Mobile (accordion style) */
+@media (max-width: 768px) {
+  .tab {
+    display: block;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .tab-nav {
+    width: 100%;
+  }
+
+  .tab-content-area {
+    display: none; /* hide desktop content area */
+  }
+
+  .tab-content {
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .tab-button {
+    font-size: 18px;
+    padding: 15px;
+  }
+}
+
+</style> -->

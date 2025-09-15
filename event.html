@@ -1,0 +1,126 @@
+---
+layout: default
+---
+<section class="relative banner-img no-margin">
+  <div class="grid">
+    <div class="col-12_sm-12 relative">
+      <img class="img_lrge min-heigh block {{post.featured_image.position}}" src="../images/event-banner.png" />
+    </div>
+    <div class="content-on-hover dark-overlay vw-100 container-full pt-4 d-flex align-end  overlay flex-wrap h-full">
+      <div class="h-full w-full content-center centered banner--main">
+        <h2 class="mob-padding mt-1 mb-1 text-white font-s overpass-font-family mb-10 large-letter-spacing">EVENTS X TIDE</h2>
+        <div>
+          <p class="  mob-padding long-text mt-1 text-white mb-2" style="place-self: center;">
+            <img src="../images/pursuit.png" width="200" />
+          </p>
+          <h3 class="overpass-font-family font-small extra-large-line-height font-weight-600">FEBRUARY 26TH-28TH, 2026</h3>
+          <h3 class="font-ss overpass-font-family d-flex gap-10 justify-center flex-wrap">
+            <i class="crimson">at</i><span class="font-weight-600">Antigua + Barbuda</span><i class="crimson">with</i><span class="font-weight-600">HERMITAGE BAY + NOBU BARBUDA</span>
+          </h3>
+        </div>
+        <a href="#" class="width-fit btn white-btn mt-2px mb-3">MORE</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slider-section featured-section mx-auto ">
+  <div class=" container">
+    <div class="d-flex subtitle gap-10 uppercase mb-40  normal-letter-spacing mb-1 blog-details align-center card-tags card-tags align-center gap-10">
+          <span class="font-s" style="line-height: 20px;">UPCOMING</span> <span class="divider"></span> 
+          <span class="font-xxs large-line-height  font-weight-600 align-center gap-10 d-flex" ><span class="font-xxs border-bottom large-line-height block">BY MONTH </span> 
+              <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4.66939 5.95069L0.873628 2.15491C0.690562 1.97184 0.690562 1.67504 0.873628 1.492L1.31634 1.04928C1.4991 0.866529 1.79529 0.866177 1.97847 1.0485L5.00085 4.05672L8.02322 1.0485C8.2064 0.866177 8.50259 0.866529 8.68535 1.04928L9.12806 1.492C9.31113 1.67506 9.31113 1.97186 9.12806 2.15491L5.33232 5.95069C5.14925 6.13374 4.85246 6.13374 4.66939 5.95069Z" fill="black"/>
+              </svg>
+          </span>
+    </div>
+
+  <div class="swiper-desktop visible">
+    <div class="swiper-wrapper">
+      
+      <!-- Card 1 -->
+      <div class="swiper-slide">
+        <div class="featured-card">
+          <img src="./images/sailing-stockholm.png" class="w-full h-auto mb-20 d-block" >
+          <!-- <%= image_tag "sailing_stockholm.jpg", alt: "Sailing Stockholm", class: "w-full h-auto mb-20 d-block" %> -->
+          <div class="featured-detail pt-24 px-10">
+            <a href="/articles/itinerary-cuba">
+                <div class="d-flex gap-10 uppercase mb-1 font-xs normal-letter-spacing card-tags">
+                   <span>Travel</span> <span class="divider"></span> <span>Number 11</span>
+                 </div>
+                <h2 class="mob-padding title-block h2"> Sailing Stockholm </h2>
+
+                <a href="#" class="btn mt-1">More</a>
+               </a>
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="swiper-slide">
+        <div class="featured-card">
+          <img src="./images/Three-a-Charm.png" class="w-full h-auto mb-20 d-block" >
+          <!-- <%= image_tag "sailing_stockholm.jpg", alt: "Sailing Stockholm", class: "w-full h-auto mb-20 d-block" %> -->
+          <div class="featured-detail pt-24 px-10">
+            <a href="/articles/itinerary-cuba">
+                <div class="d-flex gap-10 uppercase mb-1 font-xs normal-letter-spacing card-tags">
+            <span>Travel</span> <span class="divider"></span> <span>Number 11</span>
+        </div>
+              <h2 class="mob-padding title-block h2"> Three's a Charm </h2>
+              <a href="#" class="btn mt-1">More</a>
+              </a>
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- Repeat for remaining cards -->
+      <div class="swiper-slide">
+        <div class="featured-card">
+          <img src="./images/sailing-stockholm.png" class="w-full h-auto mb-20 d-block" >
+          <!-- <%= image_tag "sailing_stockholm.jpg", alt: "Sailing Stockholm", class: "w-full h-auto mb-20 d-block" %> -->
+          <div class="featured-detail pt-24 px-10">
+            <a href="/articles/itinerary-cuba">
+                <div class="d-flex gap-10 uppercase mb-1 font-xs normal-letter-spacing card-tags">
+            <span>Travel</span> <span class="divider"></span> <span>Number 11</span>
+        </div>
+              <h2 class="mob-padding title-block h2"> Nilaya Rises </h2>
+              <a href="#" class="btn mt-1">More</a>
+                 </a>
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more swiper-slide blocks as needed -->
+
+    </div>
+
+  </div>
+  </div>
+</section>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  let swiperInstance; 
+  function initOrDestroySwiper() {
+    const screenWidth = window.innerWidth;
+    if (screenWidth > 767 && !swiperInstance) {
+      swiperInstance = new Swiper(".swiper-desktop", {
+        spaceBetween: 50,
+        slidesPerView: 2.5,
+        breakpoints: {
+          768: { slidesPerView: 2.2, spaceBetween: 15 },
+          1024: { slidesPerView: 2.3, spaceBetween: 50 },
+        },
+      });
+    } else if (screenWidth <= 767 && swiperInstance) {
+      swiperInstance.destroy(true, true);
+      swiperInstance = null;
+    }
+  }
+  initOrDestroySwiper();
+  window.addEventListener("resize", initOrDestroySwiper);
+});
+</script>

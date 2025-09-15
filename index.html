@@ -40,6 +40,9 @@ document.addEventListener("DOMContentLoaded", function() {
   new Swiper(".swiper", {
     spaceBetween: 50, // default
     slidesPerView: 2.5,
+    navigation: {
+      nextEl: ".swiper-custom-next", // custom button
+    },
     breakpoints: {
       320: { 
         slidesPerView: 1.2,
@@ -47,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
       },
       768: { 
         slidesPerView: 2.2,
-        spaceBetween: 50 
+        spaceBetween: 15 
       },
       1024: { 
         slidesPerView: 2.3,

@@ -9,6 +9,7 @@ layout: default
   <div class="col-12_sm-12">
 
 
+
     {% assign targetCat = page.categories[0] %}
     {% for post in site.categories[targetCat] limit:1 %}
 
@@ -26,9 +27,13 @@ layout: default
         <img class="img_lrge min-heigh  block {{post.featured_image.position}}" src="{{ post.featured_image.image }}"></img>
         </a>
       </div>
-      <a href="{{post.url}}" class="content-on-hover vw-100 container-full pt-4 d-flex align-end pb-100 overlay flex-wrap">
+      <div class="absolute top-0 center pt-50 mt-9 w-full centered white">
+        CATEGORY: <b>TRAVEL</b>
+      </div>
+      
+      <a href="{{post.url}}" class="content-on-hover vw-100 container-full pt-4 d-flex align-end pb-2 mb:pb-100 overlay flex-wrap">
         <div class="col-12 main-wrapper left">
-          <div class="d-flex gap-10 subtitle mt-2 text-white uppercase mb-10 font-xs normal-letter-spacing mb-1 overpass-font-family card-tags">
+          <div class="d-flex gap-10 subtitle mt-2 text-white uppercase font-xs normal-letter-spacing mb-1 overpass-font-family card-tags">
             <span>{{ post.type }}</span> <span class="divider white-border "></span> <span>{{ post.issue_no }}</span>
         </div>
           <!-- <h4 class="subtitle mt-2 text-white">  I </h4> -->
@@ -63,9 +68,9 @@ layout: default
 
 <section class="slider-section featured-section mx-auto">
   <div class=" container">
-    <h3 class="uppercase text-center mb-3 font-bold">Featured</h3>
 
   <div class="swiper visible">
+     <h3 class="uppercase text-center mb-3 font-bold">Featured</h3>
     <div class="swiper-wrapper">
       
       <!-- Card 1 -->
@@ -129,12 +134,13 @@ layout: default
 
     </div>
 
-    <!-- Pagination & Navigation -->
-    <!-- <div class="swiper-pagination"></div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div> -->
-  </div>
 
+    <button class="swiper-custom-next">
+      <svg width="36" height="4" viewBox="0 0 36 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M35.1768 1.82322C35.2744 1.92085 35.2744 2.07915 35.1768 2.17678L33.5858 3.76777C33.4882 3.8654 33.3299 3.8654 33.2322 3.76777C33.1346 3.67014 33.1346 3.51184 33.2322 3.41421L34.6464 2L33.2322 0.585786C33.1346 0.488155 33.1346 0.329864 33.2322 0.232233C33.3299 0.134602 33.4882 0.134602 33.5858 0.232233L35.1768 1.82322ZM0 2L0 1.75L35 1.75V2V2.25L0 2.25L0 2Z" fill="black"></path>
+      </svg>
+    </button>
+  </div>
   <!-- <div class="centered mt-4">
     <a href="#" class="btn-border  ">VIEW ALL TRAVEL STORIES</a>
   </div> -->
@@ -149,8 +155,8 @@ layout: default
     class="w-full h-full cover banner block min-heigh"
   />
   
-  <div class="w-full d-flex align-end justify-end h-full top-0 end-0 position-absolute no-margin z-index-1" > 
-    <div class="mb:padded-6 h-full  blur text-on-image content-wrapper text-white z-index-2 py-60 px-40 d-flex flex-column p-container justify-center">
+  <div class="w-full d-flex align-end justify-end xs:h-full top-0 end-0 position-absolute no-margin z-index-1" > 
+    <div class="mb:gap-10 md:padded-4 h-full blur text-on-image content-wrapper text-white z-index-2 mb:py-60 p-container mb:px-60 d-flex flex-column mb:justify-center justify-center">
         <div class="d-flex gap-10 uppercase mb-1 font-xs normal-letter-spacing card-tags">
             <span>Travel</span> <span class="divider white-border"></span> <span>Number 11</span>
         </div>
@@ -282,373 +288,17 @@ layout: default
         </div>
 </section>
 
-<!-- <section class="featured-section container mx-auto py-20 overflow-hidden">
-  <h3 class="uppercase text-center mb-10 font-bold">Featured</h3>
 
-  <div class="swiper featured-swiper">
-    <div class="swiper-wrapper">
-      
-      <div class="swiper-slide">
-        <a href="#" class="block">
-          <div class="image-wrap">
-            <img src="image1.jpg" alt="Sailing Stockholm" class="w-full h-auto object-cover">
-          </div>
-          <div class="mt-4">
-            <div class="meta flex space-x-2 uppercase text-sm">
-              <span>Sailing</span>
-              <span>|</span>
-              <span>Number 11</span>
-            </div>
-            <h2 class="text-lg font-bold mt-2">Sailing Stockholm</h2>
-            <p class="text-gray-600 mt-1">With a growing number of smart eco-focused stays across the Finnish archipelago...</p>
-          </div>
-        </a>
-      </div>
-
-      <div class="swiper-slide">
-        <a href="#" class="block">
-          <div class="image-wrap">
-            <img src="image2.jpg" alt="Three's a Charm" class="w-full h-auto object-cover">
-          </div>
-          <div class="mt-4">
-            <div class="meta flex space-x-2 uppercase text-sm">
-              <span>Sailing</span>
-              <span>|</span>
-              <span>Number 11</span>
-            </div>
-            <h2 class="text-lg font-bold mt-2">Three's a Charm</h2>
-            <p class="text-gray-600 mt-1">The day Marie-Louise Sciò first set foot on the island of Ischia in 2018...</p>
-          </div>
-        </a>
-      </div>
-
-      <div class="swiper-slide">
-        <a href="#" class="block">
-          <div class="image-wrap">
-            <img src="image3.jpg" alt="Nilaya Rises" class="w-full h-auto object-cover">
-          </div>
-          <div class="mt-4">
-            <div class="meta flex space-x-2 uppercase text-sm">
-              <span>Sailing</span>
-              <span>|</span>
-              <span>Number 11</span>
-            </div>
-            <h2 class="text-lg font-bold mt-2 text-gray-400">Nilaya Rises</h2>
-            <p class="text-gray-400 mt-1">The day Marie-Louise Sciò first set foot on the island of Ischia...</p>
-          </div>
-        </a>
-      </div>
-
-    </div>
-
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-  </div>
-</section> -->
+ <script>
 
 
-
-<!-- <section class="padded"></section> -->
-<div class="relative banner-img ">
-      <div class=" grid">
-     
-      <div class="col-12_sm-12 relative">
-        <a href="{{post.url}}">
-        {% if post.video == true %}
-        <video id="myVideo" class="bg-video bg_cover vw-100 vh-100" autoplay muted playsinline autobuffer="true" loop poster="{{item.cover_image}}">
-        <source src="{{post.video_path}}" type="video/mp4" />
-        Your browser does not support the video tag.
-        </video>
-        {% endif %}
-        <img class="img_lrge min-heigh  block {{post.featured_image.position}}" src="../images/about-banner.png"></img>
-        </a>
-      </div>
-      <a href="{{post.url}}" class="content-on-hover  vw-100 container-full pt-4 d-flex align-end overlay flex-wrap h-full">
-        <div class="h-full w-full content-center centered">
-          <!-- <h4 class="subtitle mt-2 text-white">  I </h4> -->
-          <h2 class="mob-padding mt-1 mb-1 text-white font-s overpass-font-family"> WELCOME TO </h2>
-          <!-- <h2 class="mob-padding mt-1 mb-1 text-white"> {{post.title}} </h2> -->
-          <p style="place-self: center; " class="mob-padding long-text mt-1 no-margin text-white mb-0"><img src="../images/white-logo.png" width="200"> </p>
-        </div>
-      </a>
-      </div>
-    </div>
-<div class="tab-section container">
-  {% include navigation-bar.html %}
-    <section class="about-section w-60 margin-auto centered pt-50">
-    <h4 style="font-weight: 600;">ABOUT TIDE MAGAZINE</h4>
-    <div class="underline"></div>
-    <h2 class="h2">We explore the shifts and changes at the core of the sailing world...</h2>
-    <p class="my-25">
-      TIDE is an independent sailing, lifestyle and travel magazine, published in print and digital.
-      We explore the shifts and changes at the core of the sailing world and the ocean adventure:
-      the vessels, the people, the experiences, the destinations — the many facets that entice
-      individuals around the world to pursue this alluring form of adventure.
-    </p>
-    <p class="my-25">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-      et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-      dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-      officia deserunt mollit anim id est laborum.
-    </p>
-  </section>
-
-  <section class="bg-grey py-70">
-    <div class="d-flex gap-100">
-      <div class="column-5">
-        <img src="../images/greek_islands.png">
-      </div>
-
-        <div class="content-block column-5 gap-60 align-center d-flex ">
-          <div>
-            <h2 class="font-large crimson">12 issues</h2>
-            <p class="font-s large-line-height">ANNUALLY</p>
-          </div>
-
-          <div>
-            <h2 class="font-large crimson">10,000</h2>
-            <p class="font-s large-line-height">monthly orders</p>
-          </div>
-        </div>
-    </div>
-    <div class="d-flex gap-100">
-      
-        <div class="content-block column-5 gap-60 align-center d-flex justify-end">
-          <div>
-            <h2 class="font-large crimson">4 million</h2>
-            <p class="font-s large-line-height">PAGE VIEWS</p>
-          </div>
-
-          <div>
-            <h2 class="font-large crimson">55,000</h2>
-            <p class="font-s large-line-height">DIGITAL SUBSCRIBERS</p>
-          </div>
-        </div>
-        <div class="column-5">
-        <img src="../images/greek_islands.png">
-      </div>
-
-    </div>
-  </section>
-  <section class="about-section w-60 margin-auto centered">
-    <h4 style="font-weight: 600;">PARTNER WITH TIDE</h4>
-    <div class="underline"></div>
-    <h2 class="h2">Reach a tailored and discerning audience in a tasteful way</h2>
-    <p class="my-25">
-     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-    </p>
-    <a href="#" class="btn">GET STARTED</a>
-  </section>
-</div>
-
-<section class="content_on_image position-relative w-full  no-margin">
-  <img 
-    src="./images/contact-form.png"
-    alt="Supersloop"
-    class="w-full h-full cover banner block min-heigh"
-  />
-  
-  <div class="w-full d-flex justify-start h-full top-0 position-absolute" > 
-    <div class="md:padded-6 h-full mb:w-65 blur blur-darker text-on-image content-wrapper text-white mb:py-60 p-container px-40 d-flex flex-column justify-center z-index-1">
-        
-        <div class="content-block w-full margin-auto" style="max-width: 435px;">
-           <div class="contact-header">
-              <h2 class="h2 large-line-height grey-white" style="margin-bottom: 4px;">Contact us</h2>
-              <div class="contact-info d-flex justify-between centered align-center">
-                <a href="mailto:info@tide-magazine.com" class="email-link medium-line-height crimson-pro grey-white">info@tide-magazine.com</a>
-                <div class="social-icons d-flex gap-10">
-                  <a class="black block social-link bg-grey-white" href="https://www.instagram.com/thetidemagazine" target="_blank" class="editable">
-                      <svg width="10" height="10" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M4.50146 2.25391C3.25928 2.25391 2.25732 3.25586 2.25732 4.49805C2.25732 5.74023 3.25928 6.74219 4.50146 6.74219C5.74365 6.74219 6.74561 5.74023 6.74561 4.49805C6.74561 3.25586 5.74365 2.25391 4.50146 2.25391ZM4.50146 5.95703C3.69873 5.95703 3.04248 5.30273 3.04248 4.49805C3.04248 3.69336 3.69678 3.03906 4.50146 3.03906C5.30615 3.03906 5.96045 3.69336 5.96045 4.49805C5.96045 5.30273 5.3042 5.95703 4.50146 5.95703ZM7.36084 2.16211C7.36084 2.45312 7.12647 2.68555 6.8374 2.68555C6.54639 2.68555 6.31396 2.45117 6.31396 2.16211C6.31396 1.87305 6.54834 1.63867 6.8374 1.63867C7.12647 1.63867 7.36084 1.87305 7.36084 2.16211ZM8.84717 2.69336C8.81396 1.99219 8.65381 1.37109 8.14014 0.859375C7.62842 0.347656 7.00732 0.1875 6.30615 0.152344C5.5835 0.111328 3.41748 0.111328 2.69482 0.152344C1.99561 0.185547 1.37451 0.345703 0.86084 0.857422C0.347168 1.36914 0.188965 1.99023 0.153809 2.69141C0.112793 3.41406 0.112793 5.58008 0.153809 6.30273C0.187012 7.00391 0.347168 7.625 0.86084 8.13672C1.37451 8.64844 1.99365 8.80859 2.69482 8.84375C3.41748 8.88477 5.5835 8.88477 6.30615 8.84375C7.00732 8.81055 7.62842 8.65039 8.14014 8.13672C8.65186 7.625 8.81201 7.00391 8.84717 6.30273C8.88818 5.58008 8.88818 3.41602 8.84717 2.69336ZM7.91357 7.07812C7.76123 7.46094 7.46631 7.75586 7.08154 7.91016C6.50537 8.13867 5.13818 8.08594 4.50146 8.08594C3.86475 8.08594 2.49561 8.13672 1.92139 7.91016C1.53857 7.75781 1.24365 7.46289 1.08936 7.07812C0.86084 6.50195 0.913574 5.13477 0.913574 4.49805C0.913574 3.86133 0.862793 2.49219 1.08936 1.91797C1.2417 1.53516 1.53662 1.24023 1.92139 1.08594C2.49756 0.857422 3.86475 0.910156 4.50146 0.910156C5.13818 0.910156 6.50732 0.859375 7.08154 1.08594C7.46436 1.23828 7.75928 1.5332 7.91357 1.91797C8.14209 2.49414 8.08936 3.86133 8.08936 4.49805C8.08936 5.13477 8.14209 6.50391 7.91357 7.07812Z" fill="white"/>
-                      </svg>
-                   </a>
-                  <!-- <a href="https://www.linkedin.com/company/" target="_blank">  <i class="fab fa-linkedin "></i></a> -->
-                  <a class="black block social-link bg-grey-white" href="https://www.facebook.com/thetidemagazine/" target="_blank" class="editable"> 
-                      <svg width="10" height="10" viewBox="0 0 5 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M4.24585 4.96875L4.45415 3.61143H3.15176V2.73062C3.15176 2.35928 3.33369 1.99731 3.91699 1.99731H4.50908V0.841699C4.50908 0.841699 3.97178 0.75 3.45806 0.75C2.3855 0.75 1.68442 1.4001 1.68442 2.57695V3.61143H0.492188V4.96875H1.68442V8.25H3.15176V4.96875H4.24585Z" fill="white"/>
-                      </svg>
-                      </a>
-                  <!-- <p  class="footer-text mt-1 mob-hide mb-1 ">  © <span id="year"></span>, TIDE Magazine. Website by <a target="_blank" href="https://klioh.com/"> Klioh Studio. </a> -->
-                </div>
-              </div>
-            </div>
-
-            <form class="contact-form pt-50 gap-15">
-              <div class="form-row d-flex gap-15">
-                <input type="text" placeholder="name" name="name">
-                <input type="email" placeholder="email" name="email">
-              </div>
-              <div class="form-row d-flex gap-15">
-                <input type="text" placeholder="phone" name="phone">
-                <input type="text" placeholder="subject of enquiry" name="subject">
-              </div>
-              <textarea name="message" placeholder="message"></textarea>
-              <div class="form-submit right">
-                <button class="width-fit btn white-btn mt-2px" type="submit">SEND</button>
-              </div>
-            </form>
-        </div>
-    </div>
-  </div>
-</section>
-<section>
-  <div class="tab container-full">
-    <h2 class="w-full overpass-font-family font-s">LEGAL</h2>
-    <div class="tab-nav">
-      <button class="tab-button active" data-tab="terms">Terms and Conditions <span class="arrow">→</span></button>
-      <hr>
-      <button class="tab-button" data-tab="privacy">Privacy Policy</button>
-      <hr>
-      <button class="tab-button" data-tab="return">Return Policy</button>
-    </div>
-
-    <div class="tab-content-area rte">
-      <div class="tab-content active" id="terms">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-
-      <div class="tab-content" id="privacy">
-        <p>Privacy policy content goes here. Lorem ipsum dolor sit amet...</p>
-      </div>
-
-      <div class="tab-content" id="return">
-        <p>Return policy content goes here. Lorem ipsum dolor sit amet...</p>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- Event page -->
-<section class="relative banner-img no-margin">
-  <div class="grid">
-    <div class="col-12_sm-12 relative">
-      <img class="img_lrge min-heigh block {{post.featured_image.position}}" src="../images/event-banner.png" />
-    </div>
-    <div class="content-on-hover vw-100 container-full pt-4 d-flex align-end  overlay flex-wrap h-full">
-      <div class="h-full w-full content-center centered">
-        <h2 class="mob-padding mt-1 mb-1 text-white font-s overpass-font-family mb-10 large-letter-spacing">EVENTS X TIDE</h2>
-        <div>
-          <p class="  mob-padding long-text mt-1 no-margin text-white mb-2" style="place-self: center;">
-            <img src="../images/pursuit.png" width="200" />
-          </p>
-          <h3 class="overpass-font-family font-small extra-large-line-height">FEBRUARY 26TH-28TH, 2026</h3>
-          <h3 class="font-ss overpass-font-family d-flex gap-10 justify-center flex-wrap">
-            <i class="crimson">at</i><span>Antigua + Barbuda</span><i class="crimson">with</i><span>HERMITAGE BAY + NOBU BARBUDA</span>
-          </h3>
-          <a href="#" class="width-fit btn white-btn mt-2px">MORE</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="slider-section featured-section mx-auto ">
-  <div class=" container">
-    <div class="d-flex subtitle gap-10 uppercase mb-10  normal-letter-spacing mb-1 blog-details align-center card-tags card-tags align-center gap-10">
-          <span class="font-s" style="line-height: 20px;">UPCOMING</span> <span class="divider"></span> 
-          <span class="font-xxs large-line-height  font-weight-600 align-center gap-10 d-flex" ><span class="font-xxs border-bottom large-line-height block">BY MONTH </span> 
-              <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4.66939 5.95069L0.873628 2.15491C0.690562 1.97184 0.690562 1.67504 0.873628 1.492L1.31634 1.04928C1.4991 0.866529 1.79529 0.866177 1.97847 1.0485L5.00085 4.05672L8.02322 1.0485C8.2064 0.866177 8.50259 0.866529 8.68535 1.04928L9.12806 1.492C9.31113 1.67506 9.31113 1.97186 9.12806 2.15491L5.33232 5.95069C5.14925 6.13374 4.85246 6.13374 4.66939 5.95069Z" fill="black"/>
-              </svg>
-          </span>
-    </div>
-
-  <div class="swiper visible">
-    <div class="swiper-wrapper">
-      
-      <!-- Card 1 -->
-      <div class="swiper-slide">
-        <div class="featured-card">
-          <img src="./images/sailing-stockholm.png" class="w-full h-auto mb-20 d-block" >
-          <!-- <%= image_tag "sailing_stockholm.jpg", alt: "Sailing Stockholm", class: "w-full h-auto mb-20 d-block" %> -->
-          <div class="featured-detail pt-24 px-10">
-            <a href="/articles/itinerary-cuba">
-                <div class="d-flex gap-10 uppercase mb-1 font-xs normal-letter-spacing card-tags">
-            <span>Travel</span> <span class="divider"></span> <span>Number 11</span>
-        </div>
-              <h2 class="mob-padding title-block h2"> Sailing Stockholm </h2>
-            
-              <p class="mob-padding long-text w-36"> The North American island nation has so much more beyond Havana, from isolated sandy cays to lively, vibrant city centres. Here, Cuba-born Maria Romeu, founder of CubaPlus Travel agency, has planned your visit for you </p>
-            </a>
-            
-          </div>
-        </div>
-      </div>
-
-      <!-- Card 2 -->
-      <div class="swiper-slide">
-        <div class="featured-card">
-          <img src="./images/Three-a-Charm.png" class="w-full h-auto mb-20 d-block" >
-          <!-- <%= image_tag "sailing_stockholm.jpg", alt: "Sailing Stockholm", class: "w-full h-auto mb-20 d-block" %> -->
-          <div class="featured-detail pt-24 px-10">
-            <a href="/articles/itinerary-cuba">
-                <div class="d-flex gap-10 uppercase mb-1 font-xs normal-letter-spacing card-tags">
-            <span>Travel</span> <span class="divider"></span> <span>Number 11</span>
-        </div>
-              <h2 class="mob-padding title-block h2"> Three's a Charm </h2>
-            
-              <p class="mob-padding long-text w-36"> The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced... </p>
-            </a>
-            
-          </div>
-        </div>
-      </div>
-
-      <!-- Repeat for remaining cards -->
-      <div class="swiper-slide">
-        <div class="featured-card">
-          <img src="./images/sailing-stockholm.png" class="w-full h-auto mb-20 d-block" >
-          <!-- <%= image_tag "sailing_stockholm.jpg", alt: "Sailing Stockholm", class: "w-full h-auto mb-20 d-block" %> -->
-          <div class="featured-detail pt-24 px-10">
-            <a href="/articles/itinerary-cuba">
-                <div class="d-flex gap-10 uppercase mb-1 font-xs normal-letter-spacing card-tags">
-            <span>Travel</span> <span class="divider"></span> <span>Number 11</span>
-        </div>
-              <h2 class="mob-padding title-block h2"> Nilaya Rises </h2>
-            
-              <p class="mob-padding long-text w-36"> The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced...</p>
-            </a>
-            
-          </div>
-        </div>
-      </div>
-
-      <!-- Add more swiper-slide blocks as needed -->
-
-    </div>
-
-  </div>
-  </div>
-</section>
-
-<section class="bg-grey py-70">
-    <div class="d-flex gap-100">
-      
-        <div class="content-block column-5 gap-60 align-center d-flex justify-end">
-          <div>
-            <h2 class="font-large crimson">4 million</h2>
-            <p class="font-s large-line-height">PAGE VIEWS</p>
-          </div>
-
-          <div>
-            <h2 class="font-large crimson">55,000</h2>
-            <p class="font-s large-line-height">DIGITAL SUBSCRIBERS</p>
-          </div>
-        </div>
-        <div class="column-5">
-        <img src="../images/greek_islands.png">
-      </div>
-
-    </div>
-  </section>
-
-<script>
 document.addEventListener("DOMContentLoaded", function() {
   new Swiper(".swiper", {
     spaceBetween: 50, // default
     slidesPerView: 2.5,
+    navigation: {
+      nextEl: ".swiper-custom-next", // custom button
+    },
     breakpoints: {
       320: { 
         slidesPerView: 1.2,
@@ -656,7 +306,7 @@ document.addEventListener("DOMContentLoaded", function() {
       },
       768: { 
         slidesPerView: 2.2,
-        spaceBetween: 50 
+        spaceBetween: 15 
       },
       1024: { 
         slidesPerView: 2.3,
@@ -666,3 +316,4 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 </script>
+

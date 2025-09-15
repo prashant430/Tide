@@ -58,9 +58,10 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 <!-- Swiper -->
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
@@ -89,9 +90,23 @@
 
         <div class="container-full burger-menu relative">
             <div class="menu--block sidebar-menu pt-2">
-               {% for section in site.data.footer.footer %}
-                <a class="link" href="{{ real_url }}">{{ section.title }}</a>
+               <div class="">
+                {% for section in site.data.footer.footer %}
+                <a class="link" href="{{ real_url }}"> <span> {{ section.title }} </span>
+                        <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.6875 8.26945V0.730659C0.6875 0.208648 1.31864 -0.0527683 1.68775 0.316343L5.45715 4.08574C5.68596 4.31455 5.68596 4.68556 5.45715 4.91437L1.68775 8.68377C1.31864 9.05291 0.6875 8.79146 0.6875 8.26945Z" fill="black"/>
+                        </svg>
+                    </a>
                 {% endfor %}
+               </div>
+
+                 <div class="subtitle">
+                    {% for section in site.data.footer.footer %}
+                    {% for link in section.subtitle %}
+                      <a class="black" href="{{ link.url }}">{{ link.name | upcase }}</a>
+                    {% endfor %}
+                    {% endfor %}
+                </div>
             </div>
 
 
@@ -112,13 +127,7 @@
               </div>
                   {% endfor %}
 
-                    <div class="subtitle">
-                         {% for section in site.data.footer.footer %}
-                          {% for link in section.subtitle %}
-                            <a class="black" href="{{ link.url }}">{{ link.name | upcase }}</a>
-                         {% endfor %}
-                         {% endfor %}
-                      </div>
+                   
 
 
 
@@ -162,7 +171,7 @@
           {% include navigation-bar.html %}
         </div>
         <div class="grid-spaceBetween justify-between container-full flex-display header-main pb-0 w-full main-block">
-        <nav class="z-index-2">
+        <nav class="z-index-2 burger-menu-block">
             <div class="burger-button">
                 <img src="../images/burger_menu.svg" height="100%">
             </div>
@@ -174,7 +183,7 @@
             </a>
         </div>
 
-        <div class="nav block mob-hide z-index-2">
+        <div class="nav block z-index-2">
             <a href="{{site.data.links.subscribe_link}}" class="btn-border ">SUBSCRIBE</a>
         </div>
       </div>
@@ -198,12 +207,12 @@
 
 <footer class="grid-center bg-grey padded0">
 
-<div class="footer-logo w-full justify-between d-flex centered align-center container-full">
+<div class="container footer-logo w-full justify-between d-flex centered align-center container-full">
   <img src="/images/tide-magazine-sailing-lifestyle-travel-logo-blue.png" style="height: 40px"/>
   <a class="btn"> SUBSCRIBE </a>
 </div>
 
-<div class="container-full w-full d-flex footer-main">
+<div class="container w-full d-flex footer-main">
     <div class="col-2_sm-12 left footer-column">
 
       <nav class="block">
