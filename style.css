@@ -2444,10 +2444,11 @@ footer {
   .logo_header {
     object-fit: contain;
     object-position: left;
-    width: 100%;
+    width: auto;
     z-index: 1000;
     position: relative;
     height: 32px;
+    margin:auto;
   }
 
   .img_80 {
