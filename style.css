@@ -1937,7 +1937,7 @@ form .btn-border {
   font-family: "Overpass", serif;
   display: flex;
   position: fixed;
-  top: -100vh;
+  top: 66px;
   height: max-content;
   width: 100vw;
   left: 0;
@@ -3181,6 +3181,7 @@ body.active-header .overlay-work {
   }
   .scrolled .burger-menu-block {
     border: 1px solid hsla(0, 0%, 100%, 0.5);
+    margin-right: 15px;
   }
   .featured-section .header-block {
     display: flex;
