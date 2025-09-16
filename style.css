@@ -3095,8 +3095,14 @@ body.active-header .overlay-work {
 .mobile-show{
   display: none;
 }
+.text-on-image.content-wrapper{
+  padding-inline: 80px;
+}
 /* Responsive */
 @media (max-width: 991px) {
+  .text-on-image.content-wrapper{
+  padding-inline: 15px;
+}
   .newsletter-wrapper {
     flex-direction: column;
   }
