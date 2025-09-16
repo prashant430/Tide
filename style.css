@@ -9,6 +9,9 @@
 section {
   margin-block: 70px 150px;
 }
+body {
+    line-height: 1.4;
+}
 section.no-margin {
   margin-block: 0;
 }
@@ -201,7 +204,7 @@ section.no-margin {
 }
 .overlay {
   /* background: linear-gradient(1deg, rgb(0 0 0 / 11%) 0%, rgba(0, 0, 0, 0) 100%); */
-  background: hsla(0, 0%, 0%, 0.2);
+      background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%);
 
 }
 .overpass-font-family {
@@ -252,10 +255,14 @@ a {
 }
 @media (max-width: 767px) {
   .container-full {
-    padding-inline: 15px !important;
+    padding-inline: 15px;
   }
 .scrolled .onscroll-show {
     padding-left: 10px;
+}
+.slider-section h3 {
+    padding-left: 15px;
+    margin-bottom: 28px;
 }
 }
 
@@ -267,7 +274,7 @@ a {
   place-self: flex-end;
 }
 .banner-img .content-on-hover {
-  padding-inline: 69px 49px;
+  padding-inline: 80px;
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0, 0) 0%,
@@ -1945,11 +1952,15 @@ form .btn-border {
   font-family: var(--heading-font);
   text-transform: capitalize;
 }
-.burger-menu .sidebar-menu {
+/* .burger-menu .sidebar-menu {
     padding-left: 0;
-}
+} */
 .burger-menu .link {
   margin-bottom: 12px;
+}
+.burger-menu a.view__anchor {
+    width: 55px;
+    max-width: 55px;
 }
 @media screen and (max-width: 991px) {
   .sidebar-menu {
@@ -2444,7 +2455,6 @@ footer {
   .logo_header {
     object-fit: contain;
     object-position: left;
-    width: auto;
     z-index: 1000;
     position: relative;
     height: 32px;
@@ -2595,6 +2605,7 @@ footer {
   padding-top: 49px;
   flex-wrap: wrap;
   gap: 25px 12px;
+  padding-bottom: 60px;
 }
 .footer-column a {
   font-size: 12px;
@@ -2619,6 +2630,7 @@ footer {
   display: flex;
   justify-content: end;
   gap: 15px;
+  padding-right: 0;
 }
 .social-link {
   border: 1px solid #001c3833;
@@ -2660,9 +2672,15 @@ footer {
   z-index: 1;
   justify-content: center;
   right: 0;
+  width: max-content;
+  place-self: center;
 }
 .blog-details {
   /* padding-top: 26px; */
+}
+.banner-hover:hover .btn.white-btn {
+    background: #ffffff;
+    color: #000;
 }
 .blog-content {
   max-width: 831px;
@@ -2780,7 +2798,7 @@ html:has(.burger-menu.active) {
 .scrolled:not(:has(.container-full.burger-menu.relative.active))
   .burger-button
   img {
-  filter: invert(1);
+   filter: brightness(0) invert(1);
 }
 
 .scrolled:not(:has(.container-full.burger-menu.relative.active)) .btn-border {
@@ -3070,7 +3088,13 @@ body.active-header .overlay-work {
 .content-container {
   max-width: 499px;
 }
-
+.footer-column .nav-heading {
+    letter-spacing: 0;
+    font-weight: 400;
+}
+.mobile-show{
+  display: none;
+}
 /* Responsive */
 @media (max-width: 991px) {
   .newsletter-wrapper {
@@ -3164,6 +3188,8 @@ body.active-header .overlay-work {
     display: flex;
     border-top: 0.5px solid hsla(0, 0%, 100%, 0.2);
     margin-top: 20px;
+    justify-content: space-between;
+    padding-inline: 15px;
   }
   .swiper-custom-next {
     display: block;
@@ -3248,11 +3274,43 @@ body.active-header .overlay-work {
     border-bottom: 1px solid hsla(0, 0%, 0%, 1);
     padding-bottom: 40px;
 }
+.subscribe-text .buttons {
+    flex-direction: unset;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+}
+.subscribe-text .buttons .left-arrow{
+  margin-bottom: 0;
+}
+.arrow svg {
+ display: none;
+}
+.subscribe-section .btn-border{
+  padding-block: 0px;
+}
+.footer-column-2.mobile-show {
+    flex: 10%;
+    max-width: 20%;
+    display: block;
+    flex-wrap: wrap;
+}
+.social-links{
+  flex-wrap: wrap;
+}
+.desktop-show{
+  display: none;
+}
+.social-link{
+  display: block;
+}
 }
 @media screen and (max-width: 500px) {
   .navigation-bar,
   .scrolled .header-main {
     gap: 10px;
+    justify-content: space-between;
+    padding-inline: 15px;
   }
   .navigation-bar .filter-grid-button {
     font-size: 10px;
@@ -3272,5 +3330,8 @@ body.active-header .overlay-work {
   }
   .sidebar-menu {
     max-width: 100%;
+  }
+  .banner-img .content-on-hover.container-full{
+    padding-inline: 30px;
   }
 }
