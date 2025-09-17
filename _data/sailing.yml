@@ -31,6 +31,14 @@ cards:
       - number 11
     title: ' Competitive Spirits '
     description: ' Two modern 100ft wooden yachts raced head-to-head in Sweden last year. Sam Fortescue hears how history was made '
+  - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue10-maximus-1.jpg
+    alt: ' Maximus The Ocean Gladiator  '
+    link: /articles/maximus
+    tags:
+      - ' Sailing '
+      - number 10
+    title: ' Maximus The Ocean Gladiator  '
+    description: ' Meet the Superyacht that manages to both dominate at regattas and boast the latest in onboard luxury '
 cards2:
   - image: /images/sailing-stockholm.png
     alt: Sailing Stockholm
