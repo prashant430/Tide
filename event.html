@@ -4,21 +4,33 @@ layout: default
 <section class="relative banner-img no-margin">
   <div class="grid">
     <div class="col-12_sm-12 relative">
-      <img class="img_lrge min-heigh block {{post.featured_image.position}}" src="../images/event-banner.png" />
+      <img class="img_lrge min-heigh block {{ site.data.event.banner.image_position }}" 
+           src="{{ site.data.event.banner.image }}" alt="Banner Image" />
     </div>
-    <div class="content-on-hover dark-overlay vw-100 container-full pt-4 d-flex align-end  overlay flex-wrap h-full">
+    <div class="content-on-hover dark-overlay vw-100 container-full pt-4 d-flex align-end overlay flex-wrap h-full">
       <div class="h-full w-full content-center centered banner--main">
-        <h2 class="mob-padding mt-1 mb-1 text-white font-s overpass-font-family mb-10 large-letter-spacing">EVENTS X TIDE</h2>
+        <h2 class="mob-padding mt-1 mb-1 text-white font-s overpass-font-family mb-10 large-letter-spacing">
+          {{ site.data.event.banner.heading }}
+        </h2>
         <div>
-          <p class="  mob-padding long-text mt-1 text-white mb-2" style="place-self: center;">
-            <img src="../images/pursuit.png" width="200" />
+          <p class="mob-padding long-text mt-1 text-white mb-2" style="place-self: center;">
+            <img src="{{ site.data.site.banner.overlay_logo.src }}" 
+                 width="{{ site.data.site.banner.overlay_logo.width }}" />
           </p>
-          <h3 class="overpass-font-family font-small extra-large-line-height font-weight-600">FEBRUARY 26TH-28TH, 2026</h3>
+          <h3 class="overpass-font-family font-small extra-large-line-height font-weight-600">
+            {{ site.data.event.banner.date }}
+          </h3>
           <h3 class="font-ss overpass-font-family d-flex gap-10 justify-center flex-wrap">
-            <i class="crimson">at</i><span class="font-weight-600">Antigua + Barbuda</span><i class="crimson">with</i><span class="font-weight-600">HERMITAGE BAY + NOBU BARBUDA</span>
+            <i class="crimson">{{ site.data.event.banner.location.prefix }}</i>
+            <span class="font-weight-600">{{ site.data.event.banner.location.place }}</span>
+            <i class="crimson">{{ site.data.event.banner.location.suffix }}</i>
+            <span class="font-weight-600">{{ site.data.event.banner.location.partners }}</span>
           </h3>
         </div>
-        <a href="#" class="width-fit btn white-btn mt-2px mb-3">MORE</a>
+        <a href="{{ site.data.site.banner.button.link }}" 
+           class="{{ site.data.site.banner.button.class }}">
+          {{ site.data.event.banner.button.text }}
+        </a>
       </div>
     </div>
   </div>

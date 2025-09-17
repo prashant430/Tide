@@ -1,0 +1,70 @@
+# Banner section
+banner:
+  video: false
+  video_path: /videos/about.mp4
+  cover_image: /images/about-banner.png
+  featured_image_position: center
+  welcome_text: "WELCOME TO"
+  logo: /images/white-logo.png
+
+# About Section
+about_section:
+  title: "ABOUT TIDE MAGAZINE"
+  subtitle: "We explore the shifts and changes at the core of the sailing world..."
+  content: |
+    TIDE is an independent sailing, lifestyle and travel magazine, published in print and digital.
+    We explore the shifts and changes at the core of the sailing world and the ocean adventure:
+    the vessels, the people, the experiences, the destinations — the many facets that entice
+    individuals around the world to pursue this alluring form of adventure.
+
+  content2: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+    officia deserunt mollit anim id est laborum.
+
+# Stats section
+stats_section:
+  - image: /images/greek_islands.png
+    stats:
+      - number: "12 issues"
+        label: "ANNUALLY"
+      - number: "10,000"
+        label: "monthly orders"
+  - image: /images/tablet.png
+    stats:
+      - number: "4 million"
+        label: "PAGE VIEWS"
+      - number: "55,000"
+        label: "DIGITAL SUBSCRIBERS"
+
+# Partner Section
+partner_section:
+  title: "PARTNER WITH TIDE"
+  subtitle: "Reach a tailored and discerning audience in a tasteful way"
+  content: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  button_text: "GET STARTED"
+  button_url: "#"
+
+# Contact Section
+contact_section:
+  image: /images/contact-form.png
+  title: "Contact us"
+  email: "info@tide-magazine.com"
+  instagram: "https://www.instagram.com/thetidemagazine"
+  facebook: "https://www.facebook.com/thetidemagazine/"
+
+# Legal tabs
+legal_tabs:
+  - title: "Terms and Conditions"
+    content: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  - title: "Privacy Policy"
+    content: |
+      This is the privacy policy content. You can update it with real text.
+  - title: "Return Policy"
+    content: |
+      This is the return policy content. You can update it with real text.

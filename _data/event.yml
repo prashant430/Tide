@@ -6,7 +6,7 @@ cards:
       - "Travel"
       - "Number 11"
     title: "Sailing Stockholm"
-    description: "The North American island nation has so much more beyond Havana, from isolated sandy cays to lively, vibrant city centres. Here, Cuba-born Maria Romeu, founder of CubaPlus Travel agency, has planned your visit for you"
+    description: "The North American island nation..."
 
   - image: "/images/Three-a-Charm.png"
     alt: "Three's a Charm"
@@ -15,13 +15,26 @@ cards:
       - "Travel"
       - "Number 11"
     title: "Three's a Charm"
-    description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
+    description: "The day Marie-Louise Sciò..."
 
-  - image: "/images/sailing-stockholm.png"
-    alt: "Nilaya Rises"
-    link: "/articles/itinerary-cuba"
-    tags:
-      - "Travel"
-      - "Number 11"
-    title: "Nilaya Rises"
-    description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
+banner:
+  image: "/images/event-banner.png"     # background image
+  image_position: "center"              # CSS class for position
+
+  overlay_logo:
+    src: "/images/pursuit.png"
+    width: 200
+
+  heading: "EVENTS X TIDE"
+  date: "FEBRUARY 26TH-28TH, 2026"
+
+  location:
+    prefix: "at"
+    place: "Antigua + Barbuda"
+    suffix: "with"
+    partners: "HERMITAGE BAY + NOBU BARBUDA"
+
+  button:
+    text: "MORE"
+    link: "/events"
+    class: "width-fit btn white-btn mt-2px mb-3"
