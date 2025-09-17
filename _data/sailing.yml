@@ -169,16 +169,15 @@ featured_section:
       title: ' A Tale of Two Owners '
       description: ' Every yacht has a yarn to tell, but with both these especially beautiful, traditional-yet-contemporary examples, it’s more joyful than usual – thanks, in no small part, to the love bestowed on them by their owners '
   cards3:
-    - image: /images/sailing-stockholm.png
-      alt: Sailing Stockholm
-      link: /articles/itinerary-cuba
+    - image: >-
+        /uploads/tide-magazine-sailing-lifestyle-travel-issue07-wendys-house1.jpg
+      alt: ' Wendy’s House: Elfje '
+      link: /articles/wendys-house
       tags:
-        - Travel
-        - Number 11
-      title: 'Checking In: Petunia Hotel, Ibiza'
-      description: >-
-        With a growing number of smart eco-focused stays across the Finnish
-        archipelago, this little-known part of the world is having...
+        - ' Sailing'
+        - number 07
+      title: ' Wendy’s House: Elfje '
+      description: ' Sometimes the joy is almost as much in the journey when creating a beautiful boat. Here, we find out the unique path that American philanthropist Wendy Schmidt’s primary Superyacht took into being '
     - image: /images/Three-a-Charm.png
       alt: Three's a Charm
       link: /articles/itinerary-cuba
