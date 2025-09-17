@@ -51,9 +51,9 @@ homepage_banner:
       text: MORE
       style: white-btn
 cards:
-  - image: /images/sailing-stockholm.png
+  - image: /images/event-banner.png
     alt: Sailing Stockholm
-    link: /articles/itinerary-cuba
+    link: /articles/high-low-south-america
     tags:
       - Travel
       - Number 11
