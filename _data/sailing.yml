@@ -160,16 +160,14 @@ featured_section:
         - number 08
       title: ' Asahi''s Secret '
       description: ' Captain Angus Biffin and his crew reveal the endless passion and meticulous processes that go on behind the scenes to ensure the yacht charter is equally magical and unique for every client that steps onboard  '
-    - image: /images/Three-a-Charm.png
-      alt: Three's a Charm
-      link: /articles/itinerary-cuba
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue08-two-owners-2.jpg
+      alt: ' A Tale of Two Owners '
+      link: /articles/two-owners
       tags:
-        - Travel
-        - Number 11
-      title: Three's a Charm
-      description: >-
-        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
-        and breathed in the jasmine and wild thyme-fragranced...
+        - ' Sailing'
+        - ' number 08'
+      title: ' A Tale of Two Owners '
+      description: ' Every yacht has a yarn to tell, but with both these especially beautiful, traditional-yet-contemporary examples, it’s more joyful than usual – thanks, in no small part, to the love bestowed on them by their owners '
   cards3:
     - image: /images/sailing-stockholm.png
       alt: Sailing Stockholm
