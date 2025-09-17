@@ -3184,11 +3184,18 @@ body.active-header .overlay-work {
     gap: 35px 75px;
   }
 }
-
+body .featured-card img {
+    height: 600px;
+    object-fit: fill;
+} 
 /* Show only on screens <= 767px */
 @media screen and (max-width: 767px) {
   .header-main {
     gap: 7px;
+  }
+  body .featured-card img {
+    height: 400px;
+    object-fit: fill;
   }
   .text-on-image {
     width: 100%;
