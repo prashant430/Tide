@@ -322,6 +322,14 @@ cards6:
       - number 02
     title: ' The Adventure Squad '
     description: ' When time is the ultimate luxury, what does a $2.5 million refurbishment of a sailing yacht look like? Patrick Gavin-Brynes, captain of the newly re-launched Sonny III, talks hydraulic systems, custom carbon-fibre rigging and hoisting 192 square metres of sail in under 60 seconds '
+  - image: /uploads/tide-magazine-sailing-perseverance-3-1.jpg
+    alt: ' Perseverance on Charter '
+    link: /articles/perseverance
+    tags:
+      - Sailing
+      - number 02
+    title: ' Perseverance on Charter '
+    description: ' The price put on superyacht charters is famously opaque, with unexpected add-ons making it hard to predict how much you’ll spend. Bypassing brokers and agents, the owners of Perseverance are taking a different approach, bringing bespoke yet all-inclusive packages to the ultra-luxury sphere. '
 subscribe_section:
   left_image: /images/magazine.png
   right_image: /images/tablet.png
