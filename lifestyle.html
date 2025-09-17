@@ -6,3 +6,10 @@ categories:
 ---
 
 {% include posts-loop.html %}
+
+
+<script>
+$(document).on('click','.category-btn',function(){
+$(this).addClass('active').siblings().removeClass('active') 
+});
+</script>
