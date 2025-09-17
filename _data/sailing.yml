@@ -102,16 +102,14 @@ content_on_image:
     class: width-fit btn white-btn
 featured_section:
   cards:
-    - image: /images/sailing-stockholm.png
-      alt: Sailing Stockholm
-      link: /articles/itinerary-cuba
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue10-gunboat-2-1.jpg
+      alt: ' Building a Brand: Gunboat '
+      link: /articles/gunboat
       tags:
-        - Travel
-        - Number 11
-      title: 'Checking In: Petunia Hotel, Ibiza'
-      description: >-
-        With a growing number of smart eco-focused stays across the Finnish
-        archipelago, this little-known part of the world is having...
+        - ' Sailing '
+        - number 10
+      title: ' Building a Brand: Gunboat '
+      description: ' Few boatbuilders out there can claim to have changed the face of yachting. Gunboat is one of them. Rodolphe Cadoret, Marketing Director for the brand’s owners Grand Large, explains why and how they did it, and hints at what they may revolutionise next    '
     - image: /images/Three-a-Charm.png
       alt: Three's a Charm
       link: /articles/itinerary-cuba
