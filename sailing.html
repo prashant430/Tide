@@ -366,6 +366,32 @@ categories:
   </div>
 </section>
 
+<section class="columns-section featured-section mx-auto">
+  <div class="container">
+    <div class="grid-wrapper">
+      {% for card in site.data.sailing.featured_section.cards6 %}
+      <div class="block-card">
+        <div class="featured-card">
+          <img src="{{ card.image }}" alt="{{ card.alt }}" class="w-full h-auto mb-20 d-block">
+          <div class="featured-detail pt-24 px-10">
+            <a href="{{ card.link }}">
+              <div class="d-flex gap-10 uppercase mb-1 font-xs normal-letter-spacing card-tags">
+                {% for tag in card.tags %}
+                  <span>{{ tag }}</span>
+                  {% unless forloop.last %}<span class="divider"></span>{% endunless %}
+                {% endfor %}
+              </div>
+              <h2 class="mob-padding title-block h2">{{ card.title }}</h2>
+              <p class="mob-padding long-text w-36">{{ card.description }}</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 
 <section class="slider-section featured-section mx-auto">
   <div class=" container">
