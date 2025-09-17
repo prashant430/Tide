@@ -3367,7 +3367,7 @@ body.active-header .overlay-work {
 body .featured-card img {
     height: 600px;
     object-fit: fill;
-}
+} 
 @media screen and (max-width: 500px) {
   .navigation-bar,
   .scrolled .header-main {
