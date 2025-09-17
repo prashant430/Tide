@@ -232,16 +232,14 @@ featured_section:
         - number 05
       title: 'The Eagle Has Landed '
       description: ' All the headlines around the 81m schooner Sea Eagle inevitably involve flying puns. She was ‘spreading her wings’ when she was shipped out of Royal Huisman’s Vollenhove yard in January 2020. And she was said to be ‘soaring’ when stunning new pictures of her cruising in French Polynesia were released recently. Fascinating, then, that the man for whom the yacht was actually built reportedly never once sailed her. '
-    - image: /images/Three-a-Charm.png
-      alt: Three's a Charm
-      link: /articles/itinerary-cuba
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue05-ghosted1.jpg
+      alt: ' Ghosted: In Good Company '
+      link: /articles/ghosted
       tags:
-        - Travel
-        - Number 11
-      title: Three's a Charm
-      description: >-
-        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
-        and breathed in the jasmine and wild thyme-fragranced...
+        - Sailing I
+        - number 05
+      title: ' Ghosted: In Good Company '
+      description: ' True to her name, 37m Vitters sloop Ghost keeps a low profile. Sam Fortescue catches up with Michael “Hutch” Hutchison, her captain for the last 16 years, to learn more. '
   cards5:
     - image: /images/sailing-stockholm.png
       alt: Sailing Stockholm
