@@ -1,12 +1,12 @@
 cards:
-  - image: /images/sailing-stockholm.png
-    alt: Sailing Stockholm
-    link: /articles/itinerary-cuba
+  - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue12-sarissa-1.jpg
+    alt: ' Sailing I number 12'
+    link: /articles/sarissa
     tags:
-      - Travel
-      - Number 11
-    title: Sailing Stockholm
-    description: The North American island nation...
+      - ' Sailing '
+      - number 12
+    title: ' On Point:  Supersloop Sarissa '
+    description: ' The 60m Sarissa, named after the ancient Greek word for a long, sharp spear, is cutting-edge in every way, from her record-holding square-top mainsail to her impressive speed and unique quietness. We meet her designer Malcolm McKeon and Captain Iain Cook to find out her secret '
   - image: /images/Three-a-Charm.png
     alt: Three's a Charm
     link: /articles/itinerary-cuba
