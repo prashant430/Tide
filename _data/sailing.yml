@@ -216,16 +216,14 @@ featured_section:
       description: |2-
          Baltic Yachts created quite a stir when it launched its 68 Café Racer, Pink Gin Verde. Now hull number two, Open Season, 
         is on the water and the devil is in the difference 
-    - image: /images/Three-a-Charm.png
-      alt: Three's a Charm
-      link: /articles/itinerary-cuba
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue05-why-not1.jpg
+      alt: ' Why Not! '
+      link: /articles/why-not
       tags:
-        - Travel
-        - Number 11
-      title: La Dolce Vita Itinerary
-      description: >-
-        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
-        and breathed in the jasmine and wild thyme-fragranced...
+        - Sailing
+        - number 05
+      title: ' Why Not! '
+      description: ' Y Yacht’s Y9 is the brainchild of German maverick Michael Schmidt, a pure sailor. His devotion shines through in his latest boat. '
     - image: /images/sailing-stockholm.png
       alt: Sailing Stockholm
       link: /articles/itinerary-cuba
