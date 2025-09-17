@@ -1,21 +1,49 @@
-footer:
-  - title: Categories
+footer_logo:
+  image: "/images/tide-magazine-sailing-lifestyle-travel-logo-blue.png"       # Logo image path
+  height: "60px"                         # Logo height
+  subscribe_link: "/subscribe"           # Subscribe button link
+  subscribe_text: "Subscribe Now"        # Subscribe button text
+
+footer_columns:
+  - heading: "Categories"
     links:
-      - name: Sailing
-        url: '{{site.data.links.buy_link}}'
-      - name: Lifestyle
-        url: /sounds
-      - name: Environment
-        url: /sounds
-      - name: Travel
-        url: /sounds
-      - name: Design
-        url: /sounds
-  - title: More from TIDE
-  - title: Company
-  - subtitle:
-    - name: Legal
-      url: 'www.google.com'
-  - subtitle: 
-    - name: Stay connected
-      url: 'www.google.com'
+      - name: "Sailing"
+        url: "/sailing"
+      - name: "Lifestyle"
+        url: "/lifestyle"
+      - name: "Environment"
+        url: "/environment"
+      - name: "Travel"
+        url: "/travel"
+      - name: "Design"
+        url: "/design"
+
+  - heading: "More from TIDE"
+    links:
+      - name: "Magazine"
+        url: "/magazine"
+      - name: "Events"
+        url: "/events"
+      - name: "Shop"
+        url: "/shop"
+
+  - heading: "Company"
+    links:
+      - name: "About Us"
+        url: "/about"
+      - name: "Contact"
+        url: "/contact"
+      - name: "Careers"
+        url: "/careers"
+
+social_links:
+  - icon_class: "fab fa-facebook-f"  # FontAwesome icon class
+    url: "https://facebook.com/"
+  - icon_class: "fab fa-twitter"
+    url: "https://twitter.com/"
+  - icon_class: "fab fa-instagram"
+    url: "https://instagram.com/"
+
+footer_bottom:
+  year_id: "footerYear"   # span ID in HTML
+  klioh_link: "https://kliohstudio.com"

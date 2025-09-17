@@ -4,33 +4,32 @@ layout: default
 
 <section class="newsletter-section">
   <div class="newsletter-wrapper">
-    
+
     <!-- Left Content -->
-     <div class=" content-block">
-        <div class="content-container">
-      <p class="tagline">DIGITAL TIDE</p>
-      <h2>Our latest, tailored for you</h2>
-      <p class="content">
-        Get a curated selection of our latest stories and articles based on your 
-        interest categories below. Select a few categories:
-      </p>
+    <div class="content-block">
+      <div class="content-container">
+        <p class="tagline">DIGITAL TIDE</p>
+        <h2>Our latest, tailored for you</h2>
+        <p class="content">
+          Get a curated selection of our latest stories and articles based on your 
+          interest categories below. Select a few categories:
+        </p>
 
-      <!-- Categories -->
-      <div class="categories">
-        <button class="category-btn"><img src="./images/sailing-stockholm.png" /> Sailing</button>
-        <button class="category-btn active"> <img src="./images/sailing-stockholm.png" /> Lifestyle</button>
-        <button class="category-btn"> <img src="./images/sailing-stockholm.png" />Design</button>
-        <button class="category-btn"> <img src="./images/sailing-stockholm.png" />Travel</button>
-        <button class="category-btn"> <img src="../images/sailing-stockholm.png" />Environment</button>
+        <!-- Categories -->
+        <div class="categories">
+          {% for category in site.data.signup.categories %}
+            <button class="category-btn{% if category.active %} active{% endif %}">
+              <img src="{{ category.image }}" alt="{{ category.name }}" /> {{ category.name }}
+            </button>
+          {% endfor %}
+        </div>
+
+        <!-- Subscribe -->
+        <form class="subscribe-form">
+          <input type="email" placeholder="your email" />
+          <button class="btn width-fit" type="submit">Subscribe</button>
+        </form>
       </div>
-
-      <!-- Subscribe -->
-      <form class="subscribe-form">
-        <input type="email" placeholder="your email" />
-        <button class="btn width-fit" type="submit">Subscribe</button>
-      </form>
-     </div>
-    
     </div>
 
     <!-- Right Image -->
@@ -40,3 +39,9 @@ layout: default
 
   </div>
 </section>
+
+<script>
+$(document).on('click','.category-btn',function(){
+$(this).addClass('active').siblings().removeClass('active') 
+});
+</script>

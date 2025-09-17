@@ -1,0 +1,15 @@
+---
+layout: blog
+title: "Hidden Gems of the Cyclades"
+categories: [travel]
+video: false
+video_path: /videos/hidden_gems.mp4
+cover_image: /images/hidden_gems_cover.jpg
+featured_image:
+  image: /images/hidden_gems_thumb.jpg
+  position: center
+short-description: "A glimpse into the secret islands of the Cyclades..."
+type: "Feature"
+issue_no: "23"
+---
+Your markdown content here...

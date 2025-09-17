@@ -2,10 +2,9 @@
   <div class="container">
     <div class="header-block">
       <h3 class="uppercase centered mb:mb-40 mb-1 overpass-family font-s overpass-font-family">Featured</h3>
-
     </div>
 
-    <div class="swiper visible">
+    <!-- <div class="swiper visible">
       <div class="swiper-wrapper">
         {% for card in include.cards %}
         <div class="swiper-slide ">
@@ -29,14 +28,51 @@
         </div>
         {% endfor %}
       </div>
-    </div>
+    </div> -->
+
+  <div class="swiper visible">
+  <div class="swiper-wrapper">
+    {% for item in site.data.featured.featured_articles %}
+      {% assign post = site.posts | where: "slug", item.slug | first %}
+      {% if post %}
+        <div class="swiper-slide">
+          <div class="featured-card">
+            <a href="{{ post.url }}">
+              {% if post.image %}
+                <img src="{{ post.image }}" alt="{{ post.title }}" class="w-full h-auto mb-20 d-block" />
+              {% endif %}
+
+              <div class="featured-detail pt-24 px-10">
+                <div class="d-flex gap-10 uppercase font-xs normal-letter-spacing mb-1 align-center overpass-font-family card-tags">
+                  {% for tag in post.tags %}
+                    <span>{{ tag }}</span>
+                    {% unless forloop.last %}<span class="divider"></span>{% endunless %}
+                  {% endfor %}
+                </div>
+
+                <h2 class="mob-padding title-block h2">{{ post.title }}</h2>
+                <p class="mob-padding long-text w-36">
+                  {{ post.excerpt | strip_html | truncate: 120 }}
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+
+
     <button class="swiper-custom-next">
       <svg width="36" height="4" viewBox="0 0 36 4" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M35.1768 1.82322C35.2744 1.92085 35.2744 2.07915 35.1768 2.17678L33.5858 3.76777C33.4882 3.8654 33.3299 3.8654 33.2322 3.76777C33.1346 3.67014 33.1346 3.51184 33.2322 3.41421L34.6464 2L33.2322 0.585786C33.1346 0.488155 33.1346 0.329864 33.2322 0.232233C33.3299 0.134602 33.4882 0.134602 33.5858 0.232233L35.1768 1.82322ZM0 2L0 1.75L35 1.75V2V2.25L0 2.25L0 2Z" fill="black"></path>
       </svg>
     </button>
-      <div class="centered mt-3 mb:mt-4">
-            <a href="#" class="btn-border  ">VIEW ALL TRAVEL STORIES</a>
+
+  <div class="centered mt-3 mb:mt-4">
+    <a href="#" class="btn-border">VIEW ALL TRAVEL STORIES</a>
   </div>
   </div>
 </section>

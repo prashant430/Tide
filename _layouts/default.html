@@ -92,18 +92,26 @@
             <div class="menu--block sidebar-menu pt-2">
                <div class="">
                 {% for section in site.data.footer.footer %}
+                {% if section.title and section.title != '' %}
                 <a class="link" href="{{ real_url }}"> <span> {{ section.title }} </span>
                         <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0.6875 8.26945V0.730659C0.6875 0.208648 1.31864 -0.0527683 1.68775 0.316343L5.45715 4.08574C5.68596 4.31455 5.68596 4.68556 5.45715 4.91437L1.68775 8.68377C1.31864 9.05291 0.6875 8.79146 0.6875 8.26945Z" fill="black"/>
                         </svg>
                     </a>
+                {% endif %}
                 {% endfor %}
                </div>
+
+              {% for post in site.posts %}
+              <a href="{{ post.url }}">{{ post.title }}</a>
+              {% endfor %}
 
                  <div class="subtitle">
                     {% for section in site.data.footer.footer %}
                     {% for link in section.subtitle %}
+                     {% if link.name != blank %}
                       <a class="black" href="{{ link.url }}">{{ link.name | upcase }}</a>
+                      {% endif %}
                     {% endfor %}
                     {% endfor %}
                 </div>
@@ -113,8 +121,8 @@
            
            <div class="sidebar-content d-flex ">
               {% for section in site.data.footer.footer %}
+               {% if section and section.links %}
               <div class="menu--block nav-bar pt-2">
-
                 {% for link in section.links %}
                 {% assign real_url = link.url %}
                 {% if link.url contains 'subscribe_link' %}
@@ -125,61 +133,61 @@
                 <a class="black" href="{{ real_url }}">{{ link.name | upcase }}</a>
                  {% endfor %}
               </div>
-                  {% endfor %}
-
-                   
-
-
+              {% endif %}
+              {% endfor %}
 
               <div class="menu--block image-with-text-block pt-2">
-                <img src="../images/mega-menu-image.png">
+                <img src="{{ site.data.header.image_with_text_block.image }}">
                 <div class="d-flex align-start justify-between">
                   <div class="content-block">
-                      <h4 class="font-xs">NEW</h4>
-                      <h2 class="large-line-height" style="font-size: 22px; margin-bottom: 6px;">Three's a Charm</h2>
-                      <p class="w-36">The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced...</p>
+                      <h4 class="font-xs">{{ site.data.header.image_with_text_block.label }}</h4>
+                      <h2 class="large-line-height" style="font-size: 22px; margin-bottom: 6px;">{{ site.data.header.image_with_text_block.title }}</h2>
+                      <p class="w-36">{{ site.data.header.image_with_text_block.description }}</p>
                   </div>
-                  <a class="large-line-height border-bottom font-xs view__anchor" href="#">view</a>
+                  <a class="large-line-height border-bottom font-xs view__anchor" href="{{ site.data.header.image_with_text_block.view_link }}">view</a>
                 </div>
               </div>
-             <div class="menu--block rightbar pt-2">
-              <div class="related-article">
-                <img src="../images/hidden_gems.png" alt="Hidden Gems 1">
-                <span>Hidden Gems: The Cyclades</span>
+
+          <div class="menu--block rightbar pt-2">
+            {% for article in site.data.header.rightbar.related_articles %}
+              <div class="related-article 12 {{ forloop.index }}">
+                <a href="{{ article.url }}">
+                <img src="{{ article.image }}" alt="{{ article.alt }}">
+                </a>
+                <a href="{{ article.url }}">
+                <span>{{ article.text }}</span>
+                </a>
               </div>
-              <div class="related-article">
-                <img src="../images/hidden_gems.png" alt="Hidden Gems 2">
-                <span>Hidden Gems: Project Ö, Skjulskäret</span>
-              </div>
-              <div class="related-article">
-                <img src="../images/hidden_gems.png" alt="Three's a Charm">
-                <span>Three's a Charm</span>
-              </div>
-              <a class="view-all btn" href="#">VIEW ALL</a>
-            </div>
+            {% endfor %}
+            <a class="view-all btn" href="{{ site.data.header.rightbar.view_all_link }}">VIEW ALL</a>
+          </div>
+
+
            </div>
           <div style="display: none;"> {% include footer-burger.html %} </div> 
         </div>
         <div>
-          <div class="centered mob-left  onscroll-show relative">
-            <a href="/index">
-                <img class="logo_header" src="/images/tide-magazine-sailing-lifestyle-travel-logo-blue-white.png" />
+          <div class="centered mob-left thisone header  onscroll-show relative">
+            <a href="{{ site.data.header.logo_header.url }}">
+             <img class="logo_header" src="{{ site.data.header.logo_header.default }}" />
             </a>
         </div>
        </div>
+
         <div class="scrolled-nav onscroll-show">
           {% include navigation-bar.html %}
         </div>
+
         <div class="grid-spaceBetween justify-between container-full flex-display header-main pb-0 w-full main-block">
         <nav class="z-index-2 burger-menu-block">
             <div class="burger-button">
-                <img src="../images/burger_menu.svg" height="100%">
+                <img src="{{ site.data.header.header_main.burger_menu.image }}" alt="{{ site.data.header.header_main.burger_menu.alt }}" height="100%">
             </div>
         </nav>
 
         <div class="centered mob-left logo-block">
-            <a href="/index">
-                <img class="logo_header" src="/images/tide-magazine-sailing-lifestyle-travel-logo-blue.png" />
+            <a href="{{ site.data.header.logo_header.url }}">
+                <img class="logo_header" src="{{ site.data.header.logo_header.scrolled }}" />
             </a>
         </div>
 
@@ -208,88 +216,53 @@
 <footer class="grid-center bg-grey padded0">
 
 <div class="container footer-logo w-full justify-between d-flex centered align-center container-full">
-  <img src="/images/tide-magazine-sailing-lifestyle-travel-logo-blue.png" style="height: 40px"/>
-  <a class="btn"> SUBSCRIBE </a>
+  <img src="{{ site.data.footer.footer_logo.image }}" style="height: {{ site.data.footer.footer_logo.height }}" />
+  <a class="btn" href="{{ site.data.footer.footer_logo.subscribe_link }}"> {{ site.data.footer.footer_logo.subscribe_text }} </a>
 </div>
 
 <div class="container w-full d-flex footer-main">
-    <div class="col-2_sm-12 left footer-column">
 
-      <nav class="block">
-        <h4 class=" text-sm mb-1 nav-heading"> Categories </h4> 
-        <!-- <a class="black" href="{{site.data.links.subscribe_link}}"> Subscriptions </a> -->
-        <a class="black" href="{{site.data.links.buy_link}}"> Sailing </a>
-        <a class="black" href="/sounds"> LIFESTYLE </a>
-        <a class="black" href="/sounds"> ENVIRONMENT </a>
-        <a class="black" href="/sounds"> TRAVEL </a>
-        <a class="black" href="/sounds"> DESIGN </a>
-      </nav>
-    </div>
 
-      <div class="col-2_sm-12 left footer-column">
+    {% for column in site.data.footer.footer_columns %}
+  <div class="col-2_sm-12 left footer-column">
+    <nav class="block">
+      <h4 class="text-sm mb-1 nav-heading">{{ column.heading }}</h4>
+      {% for link in column.links %}
+      <a class="black" href="{{ link.url }}">{{ link.name }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+  {% endfor %}
 
-      <nav class="block">
-        <h4 class=" text-sm mb-1 nav-heading"> More </h4> 
-        <a class="black" href="{{site.data.links.subscribe_link}}"> EVENTS </a>
-        <a class="black" href="{{site.data.links.buy_link}}"> PRINT MAGAZINE </a>
-      </nav>
-    </div>
 
-    <div class="col-4_sm-12 right footer-column-2 mobile-show">
-
-      <!-- <img class="logo_small mb-1 mob-center" src="/images/tide-logo-yellow.png"> -->
-          <div class="mob-center px-4 social-links">
-
-            <!-- <p class=" mb-1 mt-1 editable"> TIDE is an independent sailing, lifestyle and travel magazine, published in print and digital. <span class="mob-hide">We explore the shifts and changes at the core of the sailing world and the ocean adventure: the vessels, the people, the experiences, the destinations — the many facets that entice individuals around the world to pursue this alluring form of adventure.</span></p> -->
-        <a class="black block social-link" href="https://www.instagram.com/thetidemagazine" target="_blank" class="editable"><i class="fab fa-instagram "></i></a>
-        <!-- <a href="https://www.linkedin.com/company/" target="_blank">  <i class="fab fa-linkedin "></i></a> -->
-        <a class="black block social-link" href="https://www.facebook.com/thetidemagazine/" target="_blank" class="editable"> <i class="fab fa-facebook-square "></i> </a>
-        <!-- <p  class="footer-text mt-1 mob-hide mb-1 ">  © <span id="year"></span>, TIDE Magazine. Website by <a target="_blank" href="https://klioh.com/"> Klioh Studio. </a> -->
-        <!-- </p> -->
-        </div>
-
-      </div>
-
-    <div class="col-2_sm-12 left footer-column">
-
-      <nav class="block">
-        <h4 class=" text-sm mb-1 nav-heading"> Company </h4> 
-        <a class="black" href="{{site.data.links.subscribe_link}}"> ABOUT TIDE </a>
-        <a class="black" href="{{site.data.links.buy_link}}"> FOR PARTNERS </a>
-        <a class="black" href="/sounds"> FOR MEDIA </a> 
-        <a class="black" href="/sounds"> CONTACT </a> 
-      </nav>
-    </div>
-
-     <div class="col-2_sm-12 left footer-column">
-
-      <nav class="block">
-        <h4 class=" text-sm mb-1 nav-heading"> Legal </h4> 
-        <a class="black" href="{{site.data.links.subscribe_link}}"> TERMS & CONDITIONS </a>
-        <a class="black" href="/sounds"> PRIVACY POLICY </a>
-      </nav>
-    </div>
+            {% for column in site.data.footer.footer_columns %}
+            <div class="col-2_sm-12 left footer-column">
+            <nav class="block">
+            <h4 class="text-sm mb-1 nav-heading">{{ column.heading }}</h4>
+            {% for link in column.links %}
+            <a class="black" href="{{ link.url }}">{{ link.name }}</a>
+            {% endfor %}
+            </nav>
+            </div>
+            {% endfor %}
 
   
-    <div class="col-4_sm-12 right footer-column-2 desktop-show">
-
-      <!-- <img class="logo_small mb-1 mob-center" src="/images/tide-logo-yellow.png"> -->
-          <div class="mob-center px-4 social-links">
-
-            <!-- <p class=" mb-1 mt-1 editable"> TIDE is an independent sailing, lifestyle and travel magazine, published in print and digital. <span class="mob-hide">We explore the shifts and changes at the core of the sailing world and the ocean adventure: the vessels, the people, the experiences, the destinations — the many facets that entice individuals around the world to pursue this alluring form of adventure.</span></p> -->
-        <a class="black block social-link" href="https://www.instagram.com/thetidemagazine" target="_blank" class="editable"><i class="fab fa-instagram "></i></a>
-        <!-- <a href="https://www.linkedin.com/company/" target="_blank">  <i class="fab fa-linkedin "></i></a> -->
-        <a class="black block social-link" href="https://www.facebook.com/thetidemagazine/" target="_blank" class="editable"> <i class="fab fa-facebook-square "></i> </a>
-        <!-- <p  class="footer-text mt-1 mob-hide mb-1 ">  © <span id="year"></span>, TIDE Magazine. Website by <a target="_blank" href="https://klioh.com/"> Klioh Studio. </a> -->
-        <!-- </p> -->
-        </div>
-
+   <div class="col-4_sm-12 right footer-column-2 desktop-show">
+    <div class="mob-center px-4 social-links">
+      {% for social in site.data.footer.social_links %}
+      <a class="black block social-link" href="{{ social.url }}" target="_blank">
+        <i class="{{ social.icon_class }}"></i>
+      </a>
+      {% endfor %}
+    </div>
   </div>
+
 </div>
 </div>
 <div class="col-12 hide-2 centered">
-  <p  class="footer-text mt-1">  © <span id="year-mob"></span>, TIDE Magazine. Website by <a target="_blank" href="https://klioh.com/"> Klioh Studio </a>
- </p>
+  <p class="footer-text mt-1">© <span id="{{ site.data.footer.footer_bottom.year_id }}"></span>, TIDE Magazine.
+    Website by <a target="_blank" href="{{ site.data.footer.footer_bottom.klioh_link }}">Klioh Studio</a>
+  </p>
 </div>
 <div class="col-8 hide-3"> </div>
 

@@ -1,0 +1,59 @@
+sidebar:
+  - title: "Section 1"
+    url: "/section-1"
+    subtitle:
+      - name: "Sub Link 1"
+        url: "/sublink-1"
+      - name: "Sub Link 2"
+        url: "/sublink-2"
+    links:
+      - name: "Subscribe"
+        url: "subscribe_link"
+      - name: "Buy"
+        url: "buy_link"
+
+image_with_text_block:
+  image: "../images/hidden_gems.png"
+  label: "NEW"
+  title: "Three's a Charm"
+  description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
+  view_link: "#"
+
+rightbar:
+  related_articles:
+    - image: "../images/hidden_gems.png"
+      alt: "Hidden Gems 1"
+      text: "Hidden Gems: The Cyclades"
+      url: "#"
+    - image: "../images/hidden_gems.png"
+      alt: "Hidden Gems 2"
+      text: "Hidden Gems: Project Ö, Skjulskäret"
+      url: "#"
+    - image: "../images/hidden_gems.png"
+      alt: "Three's a Charm"
+      text: "Three's a Charm"
+      url: "#"
+  view_all_link: "#"
+
+logo_header:
+  default: "/images/tide-magazine-sailing-lifestyle-travel-logo-blue-white.png"
+  scrolled: "/images/tide-magazine-sailing-lifestyle-travel-logo-blue.png"
+  url: "/index"
+
+burger_menu:
+  image: "../images/burger_menu.svg"
+
+subscribe_link: "/subscribe"
+
+header_main:
+  burger_menu:
+    image: "../images/burger_menu.svg"
+    alt: "Burger Menu"
+  logo_header:
+    url: "/index"
+    scrolled: "/images/tide-magazine-sailing-lifestyle-travel-logo-blue.png"
+    alt: "Tide Magazine Logo"
+  subscribe_button:
+    text: "SUBSCRIBE"
+    url: "/subscribe"          # or use site.data.links.subscribe_link
+    class: "btn-border"

@@ -1,0 +1,16 @@
+categories:
+  - name: Sailing
+    image: "/images/sailing-stockholm.png"
+    active: false
+  - name: Lifestyle
+    image: "/images/sailing-stockholm.png"
+    active: true
+  - name: Design
+    image: "/images/sailing-stockholm.png"
+    active: false
+  - name: Travel
+    image: "/images/sailing-stockholm.png"
+    active: false
+  - name: Environment
+    image: "/images/sailing-stockholm.png"
+    active: false

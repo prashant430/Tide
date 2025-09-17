@@ -2,190 +2,65 @@
 layout: default
 hide-nav: hide-nav
 ---
+
 <section class="no-margin">
   <div class="relative banner-img">
-    <div class=" grid">
-    
-    <div class="col-12_sm-12 relative">
-      <a href="{{post.url}}">
-      {% if post.video == true %}
-      <video id="myVideo" class="bg-video bg_cover vw-100 vh-100" autoplay muted playsinline autobuffer="true" loop poster="{{item.cover_image}}">
-      <source src="{{post.video_path}}" type="video/mp4" />
-      Your browser does not support the video tag.
-      </video>
-      {% endif %}
-      <img class="img_lrge min-heigh block {{post.featured_image.position}} block" src="../images/blog-featured.png"></img>
-      </a>
-    </div>
-    <a href="{{post.url}}" class="content-on-hover w-full container-full pt-4 d-flex align-center pb-2 overlay flex-wrap justify-center">
-      <div class="col-12 centered">
-        <h4 class="subtitle mt-2 text-white"> TRAVEL I NUMBER 11</h4>
-        <h2 class="mob-padding mt-1 mb-1 text-white h2"> Checking In: Petunia Hotel, Ibiza </h2>
+    <div class="grid">
+
+      <div class="col-12_sm-12 relative">
+        <!-- Dynamic link to this post -->
+        <a href="{{ page.url }}">
+          {% if page.video == true %}
+          <video id="myVideo" class="bg-video bg_cover vw-100 vh-100" autoplay muted playsinline autobuffer="true" loop poster="{{ page.cover_image }}">
+            <source src="{{ page.video_path }}" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          {% endif %}
+
+          {% if page.featured_image.image %}
+          <img class="img_lrge min-heigh block {{ page.featured_image.position }}" src="{{ page.featured_image.image }}" alt="{{ page.title }}">
+          {% endif %}
+        </a>
       </div>
-    </a>
+
+      <a href="{{ page.url }}" class="content-on-hover w-full container-full pt-4 d-flex align-center pb-2 overlay flex-wrap justify-center">
+        <div class="col-12 centered">
+          <h4 class="subtitle mt-2 text-white">{{ page.categories | join: " | " }} I NUMBER {{ page.issue_no }}</h4>
+          <h2 class="mob-padding mt-1 mb-1 text-white h2">{{ page.title }}</h2>
+        </div>
+      </a>
+
     </div>
-
-
   </div>
+
+  <!-- Post meta -->
   <section class="container-full rte">
-      <div class="d-flex gap-10 uppercase mb-10 font-xs normal-letter-spacing mb-1 justify-center pt-2 blog-details align-center">
-       <span>WORDS: CHLOÉ BRAITHWAIT</span> <span class="divider"></span> <span>Number 11</span>
+    <div class="d-flex gap-10 uppercase mb-10 font-xs normal-letter-spacing mb-1 justify-center pt-2 blog-details align-center">
+      {% if page.author %}
+        <span>WORDS: {{ page.author }}</span>
+        <span class="divider"></span>
+      {% endif %}
+      {% if page.issue_no %}
+        <span>Number {{ page.issue_no }}</span>
+      {% endif %}
     </div>
 
+    <!-- Post content -->
     <div class="blog-content">
-      <p>Ibiza is one of those mystical, mythical places. It conjures up images of salty, sea-wet skin, warm, sultry breezes and pulsing, airy electronic beats.</p>
-      <h3 class="h2">But there are two sides to this hedonists’ paradise...</h3>
-
-    <p>
-      the glittery part where Pacha reigns supreme and primal bass beats on a soul-deep level, where revellers embrace every whim with all Ibiza has on offer. Then there’s the peaceful, indulgent side – at Petunia Hotel by Beaumier.
-    </p>
-
-    <p>
-      Newly reopened in Spring 2024 and a recent recipient of a Michelin Key – the restaurant guide’s latest foray into a new hospitality space – Petunia is a slice of Seventies-inspired heaven reimagined by Patagonian-born, New York-based architect Lula Galeano of Studio Galeón. The relaxed hotel is on the quieter west side, facing the Balearic Sea and with one of the best views of Es Vedrà you’ll find anywhere on the island.
-    </p>
-     <p>
-      Es Vedrà rock is rumoured to be magical, imbuing Ibiza with that sense of the otherworldly. It’s part of what drew Éric Dardé, CEO of hotel group Beaumier. “To visit Ibiza is to step out of the world and let yourself be bewitched,” he says. “The lush vegetation, the climate, the sea and the view — that’s what makes our particular spot on the island an unmissable place.”
-    </p>
-     <p>
-      It’s obvious that Galeano kept this in mind as she went about redesigning the hotel spaces. “Given Petunia’s position overlooking Es Vedrà, we wanted guests to be able to enjoy the spectacle at any hour of the day in any of the hotel’s 42 light-filled rooms and suites,” explains Galeano.
-    </p>
-    <h3 class="h2"> “We kept the interiors discrete in plaster and oak, with some very joyful furniture pieces and blown-glass lighting so the hotel gives full reign to nature.”</h3>
-
-    <img src="/images/blog-content-1.png">
-
-    <p>With the environment at the heart of Petunia, the white-washed casas and natural materials used throughout showcase the landscape surrounding the grounds, rather than compete with it. Embraced by Mediterranean pines and down a long, rugged road, the sense of privacy and seclusion is immediate. Gardens – both decorative and for Petunia’s three restaurants, helmed by Chef Baltasar Rigo – and the on-site spa create a sense of grounded wellbeing; here, one can focus on taking care of both the body and the mind away from the hubbub.</p>
-
-    <p>This is a side of Ibiza seen only once you step away from the frenetic energy that waves of tourism inevitably bring; the side that attracted Dardé. “When you get away from the crowds, Ibiza is a place of simplicity, authenticity and refinement,” he explains. “A place where creativity and craftsmanship are celebrated. We were drawn here as [it is] a place that resonates with our values.”</p>
-
-    <p>Galeano agrees, adding that it was also important to pay respect to the hotels’ Seventies heritage. “We looked to instil a sense of the island’s bohemian history into the hotel’s relaxed interiors, paying respect to the heritage of Petunia’s 1970’s inception while introducing a contemporary edge,” Galeano says. “We took inspiration from the Seventies design elements like the sunken living rooms, circular seating and low sofas, all of which naturally lend themselves to the elegant and laidback feeling we wanted to evoke.”</p>
-
-     <img src="/images/blog-content-1.png">
-
-     <p>Petunia is intended as a love letter to the island, and the redesign team did that by sourcing collectible vintage furniture pieces from legendary designers of that era, including light suspensions by Achille Castiglioni, Toscanella chairs by Alessandro Becchi and Palm tree mirrors by Vivai del Sud. Custom furniture and décor complement the interiors, made locally with artisans and contractors in woods and ceramic. For local art, they turned to Nathalie Rich, founder of the island’s Galleria Tambien in Santa Gertrudis, and sourced pieces from Ibizan vintage gallery, Chateau
-      Mon Espagne.</p>
-
-      <p>During the day, guests congregate around the central pool, fresh with bright, mural frescoes. Restaurant La Mesa d’Es Vedrà overlooks this outdoor space serving a breakfast buffet and à la carte supper. Balearic flavours are on the menu – a passion for Chef Baltasar, who designs all the menus on-site. “Coming from Mallorca, I am keen to showcase the heritage of the Balearics in everything I do,” he explains. “To me, the best dish is a successful marriage of tradition and innovation, always based on the fine products of our islands.”</p>
-
-      <p>Two additional restaurants complete Petunia’s food and drink offerings. “We are lucky to have three different restaurants and therefore the scope to create innovative takes on traditional Ibizan dishes using produce from the Balearics, like octopus paella with Balearic chilli and samphire emulsion, or a local sea bass cooked in an Ibizan salt crust.” Los Olivos, Petunia’s open-plan dining room, is all about unpretentious simplicity: think a tangy traditional vegan gazpacho, crunchy fried croquetas and spicy-sweet patatas bravas, served with shavings of Jamon Ibérico de Bellota.</p>
-
-      <p>As sunset sweeps over Ibiza, something magical falls across Petunia. Guests gather at rooftop bar and restaurant La Mirada, an open-air crudo bar dotted by flame-lit torches with sweeping views of Es Vedrà. The menu is an exercise in delicate dishes with layers of fragrant flavours. “Our evening rooftop menu features natural oysters, a tomato salad from our garden, wagyu tataki with plum vinegar, squid tiradito and tuna belly tartare with Iberian ham and caviar,” says Baltasar. “All these raw and flavourful dishes are accompanied by custom cocktails, lounge music from DJ sets and stunning sunsets over Es Vedrà.”</p>
+      {{ content }}
     </div>
   </section>
-
-
-<!-- <section class="padded-2 mob-hide"> </section> -->
-
-<!-- <section class="grid-center mob-hide">
-
-
-  <div class="col-5_sm-12-bottom padded-2 blog-content mob-hide" style="height: 100vh; overflow-y:scroll">
-    <h4 class="subtitle"> {{page.type}} I {{page.number}}</h4>
-    <h2 class="mt-2 bigger"> {{ page.title }} </h2>
-    <h4 class="mt-2 mb-2 subtitle"> {{page.byline }}</h4>
-
-    {{ content }}
-
-    <hr style="margin:2rem 0rem 0rem 0rem; width: 10vw;">
- 
-  </div>
-
- 
-
-  <div class="col-6_sm-11 grid" style="height: 100vh; overflow-y:scroll">
-    <div id="lightgallery" class="newspaper-2 gallery">
-      {% for item in page.images %}
-        <a href="{{item.image}}">
-           <img src="{{item.image}}">
-           {% if item.caption == true %}
-           <p class="mb-2"> {{ item.credit }} </p>
-           {% endif %}
-        </a>
-      {% endfor %}
-      </div>
-    </div>
-
-
-  </div>
-
-
 </section>
-
-
-<section class="mob-show grid-center">
-  {% for item in page.images limit:1 %}
-
-  <div class="col-12 mob-show bg-post" style="background-image:url('{{item.image}}')" >
-
-  </div>
-
- {% endfor %}
-
-
- <div class="col-5_sm-12-bottom padded-2 blog-content mob-show-2">
-  <h4 class="subtitle"> {{page.type}} I {{page.number}}</h4>
-  <h2 class="mt-2 bigger"> {{ page.title }} </h2>
-  <h4 class="mt-2 mb-2 subtitle"> {{page.byline }}</h4>
-
-  {{ content }}
-
-  <hr style="margin:2rem 0rem 0rem 0rem; width: 10vw;">
-
-</div>
-
-
-<div class="col-6_sm-11 grid">
-  <div id="lightgallery-mob" class="newspaper-2 gallery">
-    {% for item in page.images offset:1 %}
-      <a href="{{item.image}}">
-         <img src="{{item.image}}">
-         {% if item.caption == true %}
-         <p> {{ item.credit }} </p>
-         {% endif %}
-      </a>
-  
-    {% endfor %}
-    </div>
-  </div>
-</section>
-
-
-
-{% if page.video == true %}
-<section class="padded-2"></section>
 
 <section class="">
-<section class="relative mh-100">
-
-
-  <video id="myVideo" class="bg-video bg_cover vw-100 vh-100" autoplay muted playsinline autobuffer="true" loop poster="{{page.cover_image}}">
-    <source src="{{page.video_path}}" type="video/mp4" />
-
-    Your browser does not support the video tag.
-    </video>
-  
-
-</section>
-</section>
-{% endif %} -->
-
-
-
-<section class="">
-<div class="border-btm">
+  <div class="border-btm"></div>
 </section>
 
-
-<!-- assign variable pageCategory to the first category on the post (page) -->
 {% assign pageCategory = page.categories[0] %}
-<!-- assign relevant to the first category on the page and if the post url matches the page url do not assign relevant-->
 {% assign relevant = site.categories[pageCategory] | where_exp: "post", "post.url != page.url" %}
 
-<!-- output those with the variable relevant -->
-
 <section class="container blog-list-slider">
-  <h2 class="col-12 heading" >Further Reading</h2>
-
-  <!-- Swiper Container -->
+  <h2 class="col-12 heading">Further Reading</h2>
   <div class="swiper mySwiper visible">
     <div class="swiper-wrapper">
 
@@ -195,22 +70,25 @@ hide-nav: hide-nav
           <div class="grid">
 
             <div class="col-12_sm-12 relative">
-
               {% if post.video == true %}
-              <video id="myVideo" class="bg-video bg_cover vw-100 vh-100" autoplay muted playsinline autobuffer="true" loop poster="{{post.cover_image}}">
-                <source src="{{post.video_path}}" type="video/mp4" />
+              <video id="myVideo" class="bg-video bg_cover vw-100 vh-100" autoplay muted playsinline autobuffer="true" loop poster="{{ post.cover_image }}">
+                <source src="{{ post.video_path }}" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
               {% endif %}
 
-              <img class="img-product {{post.featured_image.position}}" src="{{ post.featured_image.image }}" alt="Post image">
+              {% if post.featured_image.image %}
+              <img class="img-product {{ post.featured_image.position }}" src="{{ post.featured_image.image }}" alt="{{ post.title }}">
+              {% endif %}
             </div>
 
             <div class="col-12 featured-detail">
-              <a href="{{post.url}}">
-                <h4 class="subtitle ">{{ post.type }} I {{ post.issue_no }}</h4>
-                <h2 class="mob-padding mt-1 mb-1">{{post.title}}</h2>
-                <p class="mob-padding long-text mb-2">{{post.short-description}}</p>
+              <a href="{{ post.url }}">
+                <h4 class="subtitle">{{ post.type }} I {{ post.issue_no }}</h4>
+                <h2 class="mob-padding mt-1 mb-1">{{ post.title }}</h2>
+                {% if post.short-description %}
+                <p class="mob-padding long-text mb-2">{{ post.short-description }}</p>
+                {% endif %}
               </a>
             </div>
 
@@ -220,9 +98,9 @@ hide-nav: hide-nav
       {% endfor %}
 
     </div>
-
   </div>
 </section>
+
  <script>
 document.addEventListener("DOMContentLoaded", function() {
   new Swiper(".swiper", {
