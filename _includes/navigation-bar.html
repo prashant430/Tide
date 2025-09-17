@@ -1,12 +1,10 @@
 <div class="navigation-bar flex-display w-full">
-
-    <a href="/sailing" class="p0-button active filter-grid-button {{page.hide-nav}}"> Sailing</a>
-    <a href="/lifestyle" class="p1-button filter-grid-button {{page.hide-nav}}">Lifestyle</a>
-    <a href="/environment" class="p2-button filter-grid-button {{page.hide-nav}}">Environment</a>
-    <a href="/travel" class="p3-button filter-grid-button {{page.hide-nav}}">Travel</a>
-    <a href="/design" class="p4-button filter-grid-button {{page.hide-nav}}">Design</a>
-
- 
-  </div>
-
-  
+  {% for nav in site.data.main_nav.navigation %}
+    {% assign current_path = page.url | replace: '.html','' %}
+    <a href="{{ nav.url }}"
+       pp="{{ page.url }}"
+       class="{{ nav.class }} filter-grid-button {{ page.hide-nav }}{% if current_path == nav.url %} active{% endif %}">
+       {{ nav.title }}
+    </a>
+  {% endfor %}
+</div>

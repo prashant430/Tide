@@ -1,0 +1,20 @@
+navigation:
+  - title: "Sailing"
+    url: "/sailing"
+    class: "p0-button"
+
+  - title: "Lifestyle"
+    url: "/lifestyle"
+    class: "p1-button"
+
+  - title: "Environment"
+    url: "/environment"
+    class: "p2-button"
+
+  - title: "Travel"
+    url: "/travel"
+    class: "p3-button"
+
+  - title: "Design"
+    url: "/design"
+    class: "p4-button"
