@@ -23,14 +23,14 @@ cards:
       - number 11
     title: ' Nilaya Rises '
     description: ' Introducing the seaborne giant with the featherlight touch – we meet Captain Romke Loopik and find out the many ways this ‘boat made for sailing’ moves both him and her hands-on owner '
-  - image: /images/Three-a-Charm.png
-    alt: Three's a Charm
+  - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue11-spirits-1.jpg
+    alt: ' Competitive Spirits '
     link: /articles/itinerary-cuba
     tags:
       - Travel
       - Number 11
-    title: Three's a Charm
-    description: The day Marie-Louise Sciò...
+    title: ' Competitive Spirits '
+    description: ' Two modern 100ft wooden yachts raced head-to-head in Sweden last year. Sam Fortescue hears how history was made '
 cards2:
   - image: /images/sailing-stockholm.png
     alt: Sailing Stockholm
