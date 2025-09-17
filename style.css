@@ -829,6 +829,8 @@ a {
 .header-main {
   padding-block: 12px;
   border-bottom: 1px solid #00000033;
+  z-index: 999999;
+  background-color: #fff;
 }
 .navigation-bar .filter-grid-button.active {
   border-bottom: 1px solid #000;
@@ -1937,7 +1939,7 @@ form .btn-border {
   font-family: "Overpass", serif;
   display: flex;
   position: fixed;
-  top: 66px;
+  top: -100%;
   height: max-content;
   width: 100vw;
   left: 0;
@@ -2140,17 +2142,25 @@ form .btn-border {
 .bg-black {
   background-color: black !important;
 }
+.matched-item.nav-bar {
+    width: 30%;
+}
 @media (max-width: 768px) {
   .burger-menu-links {
     margin-top: 10px;
   }
 }
 
-
+.related-article a {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 35px;
+}
 .burger-menu.active {
   opacity: 1;
   pointer-events: auto;
-  z-index: 9999;
+  z-index: 1;
 }
 body.active-header header.header {
   /* position: relative; */
@@ -2778,6 +2788,7 @@ footer {
   border: unset;
   gap: 24px;
   padding-inline: 0px;
+  background-color: transparent;
 }
 .onscroll-show {
   display: none;
@@ -3131,6 +3142,14 @@ body.active-header .overlay-work {
 .text-on-image.content-wrapper{
   padding-inline: 80px;
 }
+.sidebar-content .matched-item{
+  display: none;
+}
+
+.sidebar-content .matched-item.active{
+  display: block;
+}
+
 /* Responsive */
 @media (max-width: 991px) {
   .text-on-image.content-wrapper{
@@ -3278,7 +3297,7 @@ body.active-header .overlay-work {
     width: 100%;
   }
   .image-with-text-block , .rightbar {
-    display: none;
+    display: none !important;
   }
   .sidebar-menu {
     max-width: 50%;

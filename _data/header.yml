@@ -1,39 +1,43 @@
-sidebar:
-  - title: "Section 1"
-    url: "/section-1"
-    subtitle:
-      - name: "Sub Link 1"
-        url: "/sublink-1"
-      - name: "Sub Link 2"
-        url: "/sublink-2"
+header_columns:
+  - heading: "Categories"
     links:
-      - name: "Subscribe"
-        url: "subscribe_link"
-      - name: "Buy"
-        url: "buy_link"
+      - name: "Sailing"
+        url: "/sailing"
+      - name: "Lifestyle"
+        url: "/lifestyle"
+      - name: "Environment"
+        url: "/environment"
+      - name: "Travel"
+        url: "/travel"
+      - name: "Design"
+        url: "/design"
+    image_with_text_block:
+      image: "../images/hidden_gems.png"
+      label: "NEW"
+      title: "Three's a Charm"
+      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
+      view_link: "#"
+    related_articles:
+      - image: "../images/hidden_gems.png"
+        alt: "Three's a Charm"
+        text: "Three's a Charm"
+        url: "#"
+      - image: "../images/hidden_gems.png"
+        alt: "Hidden Gems 1"
+        text: "Hidden Gems: The Cyclades"
+        url: "#"
 
-image_with_text_block:
-  image: "../images/hidden_gems.png"
-  label: "NEW"
-  title: "Three's a Charm"
-  description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-  view_link: "#"
+  - heading: "More from TIDE"
+  
+  - heading: "Company"
+    related_articles: []
 
-rightbar:
-  related_articles:
-    - image: "../images/hidden_gems.png"
-      alt: "Hidden Gems 1"
-      text: "Hidden Gems: The Cyclades"
+legal:
+  links:
+    - name: "Legal"
+      url: "/legal"
+    - name: "Stay connected"
       url: "#"
-    - image: "../images/hidden_gems.png"
-      alt: "Hidden Gems 2"
-      text: "Hidden Gems: Project Ö, Skjulskäret"
-      url: "#"
-    - image: "../images/hidden_gems.png"
-      alt: "Three's a Charm"
-      text: "Three's a Charm"
-      url: "#"
-  view_all_link: "#"
 
 logo_header:
   default: "/images/tide-magazine-sailing-lifestyle-travel-logo-blue-white.png"
@@ -55,5 +59,5 @@ header_main:
     alt: "Tide Magazine Logo"
   subscribe_button:
     text: "SUBSCRIBE"
-    url: "/subscribe"          # or use site.data.links.subscribe_link
+    url: "/subscribe"
     class: "btn-border"
