@@ -3028,6 +3028,7 @@ body.active-header .overlay-work {
 }
 .featured-card img {
   min-height: 375px;
+  height:600px;
 }
 .image-with-text .content-block {
   padding-inline: 20px;
