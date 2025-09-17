@@ -1,14 +1,24 @@
 cards:
-  - article: "checking-in-petunia-hotel"   # slug or filename of your post (without .md)
-    image: "/images/blog-content-1.png"
-    alt: "Petunia Hotel"
-    tags: ["TRAVEL", "NUMBER 11"]
-    title: "Checking In: Petunia Hotel, Ibiza"
-    description: "Ibiza is one of those mystical places…"
-
-  - article: "hidden-gems-cyclades"
-    image: "/images/hidden_gems.png"
-    alt: "Hidden Gems"
-    tags: ["TRAVEL", "CYCLADES"]
-    title: "Hidden Gems: The Cyclades"
-    description: "Exploring magical islands…"
+  - article: checking-in-petunia-hotel
+    image: /images/Conscious_banner.png
+    alt: Petunia Hotel
+    tags:
+      - TRAVEL
+      - NUMBER 11
+    title: 'Checking In: Petunia Hotel, Ibiza'
+    description: Ibiza is one of those mystical places…
+  - article: hidden-gems-cyclades
+    image: /images/hidden_gems.png
+    alt: Hidden Gems
+    tags:
+      - TRAVEL
+      - CYCLADES
+    title: 'Hidden Gems: The Cyclades'
+    description: Exploring magical islands…
+  - article: expanding-horizons
+    image: /uploads/1.png
+    alt: roster
+    tags:
+      - rester
+    title: Expanding Horizons
+    description: expanding-horizonsexpanding-horizonsexpanding-horizons
