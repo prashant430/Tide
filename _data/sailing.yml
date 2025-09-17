@@ -40,6 +40,14 @@ cards:
     title: ' Maximus The Ocean Gladiator  '
     description: ' Meet the Superyacht that manages to both dominate at regattas and boast the latest in onboard luxury '
 cards2:
+  - image: /uploads/tide-magazine-sailing-supersloop-1-1.jpg
+    alt: ' The Rise of the Supersloop '
+    link: /articles/supersloop
+    tags:
+      - ' Sailing '
+      - number 01
+    title: ' The Rise of the Supersloop '
+    description: ' The super sloop, the apex of sailing superyachts? '
   - image: /uploads/tide-magazine-sailing-the-cat-is-back-1-1.jpg
     alt: ' The Cat is Back '
     link: /articles/the-cat-is-back
@@ -61,14 +69,14 @@ cards2:
       - number 01
     title: ' Sailing in the City - New York '
     description: ' New York City reserves some of its most spectacular panoramas for those lucky enough to visit by boat. '
-  - image: /uploads/tide-magazine-sailing-supersloop-1-1.jpg
-    alt: ' The Rise of the Supersloop '
-    link: /articles/supersloop
+  - image: /uploads/tide-magazine-sailing-modern-ketch-1-1.jpg
+    alt: ' The Modern Ocean Ketch '
+    link: /articles/modern-ketch
     tags:
       - ' Sailing '
       - number 01
-    title: ' The Rise of the Supersloop '
-    description: ' The super sloop, the apex of sailing superyachts? '
+    title: ' The Modern Ocean Ketch '
+    description: ' The heritage of the modern ocean ketch comprises many of the world’s most iconic yachts and, whilst the latest creations are larger, faster and more technologically advanced, they continue to prove why the twin rig concept ticks all the boxes. '
 content_on_image:
   image: /images/tide-banner2.png
   alt: TIDE's Top Ten Sailing Destinations
