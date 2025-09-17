@@ -3364,7 +3364,7 @@ body.active-header .overlay-work {
   display: block;
 }
 }
-.featured-card img {
+body .featured-card img {
     height: 600px;
     object-fit: fill;
 }
