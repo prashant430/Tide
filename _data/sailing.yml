@@ -1,294 +1,329 @@
 cards:
-  - image: "/images/sailing-stockholm.png"
-    alt: "Sailing Stockholm"
-    link: "/articles/itinerary-cuba"
+  - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue12-sarissa-1.jpg
+    alt: ' Sailing I number 12'
+    link: /articles/sarissa
     tags:
-      - "Travel"
-      - "Number 11"
-    title: "Sailing Stockholm"
-    description: "The North American island nation..."
-
-  - image: "/images/Three-a-Charm.png"
-    alt: "Three's a Charm"
-    link: "/articles/itinerary-cuba"
+      - ' Sailing '
+      - number 12
+    title: ' On Point:  Supersloop Sarissa '
+    description: ' The 60m Sarissa, named after the ancient Greek word for a long, sharp spear, is cutting-edge in every way, from her record-holding square-top mainsail to her impressive speed and unique quietness. We meet her designer Malcolm McKeon and Captain Iain Cook to find out her secret '
+  - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue11-wind-4.jpg
+    alt: Three's a Charm
+    link: /articles/wind-is-power
     tags:
-      - "Travel"
-      - "Number 11"
-    title: "Three's a Charm"
-    description: "The day Marie-Louise Sciò..."
-
+      - Sailing
+      - I number 11
+    title: ' Wind is Power '
+    description: ' The latest rig and sail innovations are allowing boatbuilders and designers to think big when it comes to sailing vessels – and that is good news for the environment '
+  - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue11-nilaya-1.jpg
+    alt: ' Nilaya Rises '
+    link: /articles/nailaya
+    tags:
+      - ' Sailing '
+      - number 11
+    title: ' Nilaya Rises '
+    description: ' Introducing the seaborne giant with the featherlight touch – we meet Captain Romke Loopik and find out the many ways this ‘boat made for sailing’ moves both him and her hands-on owner '
+  - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue11-spirits-1.jpg
+    alt: ' Competitive Spirits '
+    link: /articles/competitive-spirits
+    tags:
+      - ' Sailing'
+      - number 11
+    title: ' Competitive Spirits '
+    description: ' Two modern 100ft wooden yachts raced head-to-head in Sweden last year. Sam Fortescue hears how history was made '
+  - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue10-maximus-1.jpg
+    alt: ' Maximus The Ocean Gladiator  '
+    link: /articles/maximus
+    tags:
+      - ' Sailing '
+      - number 10
+    title: ' Maximus The Ocean Gladiator  '
+    description: ' Meet the Superyacht that manages to both dominate at regattas and boast the latest in onboard luxury '
 cards2:
-  - image: "/images/sailing-stockholm.png"
-    alt: "Sailing Stockholm"
-    link: "/articles/itinerary-cuba"
+  - image: /uploads/tide-magazine-sailing-supersloop-1-1.jpg
+    alt: ' The Rise of the Supersloop '
+    link: /articles/supersloop
     tags:
-      - "Travel"
-      - "Number 11"
-    title: "Sailing Stockholm"
-    description: "The North American island nation..."
-
-  - image: "/images/Three-a-Charm.png"
-    alt: "Three's a Charm"
-    link: "/articles/itinerary-cuba"
+      - ' Sailing '
+      - number 01
+    title: ' The Rise of the Supersloop '
+    description: ' The super sloop, the apex of sailing superyachts? '
+  - image: /uploads/tide-magazine-sailing-the-cat-is-back-1-1.jpg
+    alt: ' The Cat is Back '
+    link: /articles/the-cat-is-back
     tags:
-      - "Travel"
-      - "Number 11"
-    title: "Three's a Charm"
-    description: "The day Marie-Louise Sciò..."
-
+      - ' Sailing'
+      - number 01
+    title: ' The Cat is Back '
+    description: >2-
+       The insatiable desire for more than one hull continues unabated and whilst the industry seeks to meet demand, one yard at the sharp end of the market is already raising the bar.
+      (utilising race boat technology to deliver high performance in a high- end
+      package. Gunboat are targeting their 68’, 72’ and 80’ models to fill a gap
+      in the market by combining the generous square meterage of the cruising
+      catamaran with the thrilling performance of offshore racing multihulls.) 
+  - image: /uploads/tide-magazine-travel-new-york-1-1.jpg
+    alt: ' Sailing in the City - New York '
+    link: /articles/new-york
+    tags:
+      - ' Travel '
+      - number 01
+    title: ' Sailing in the City - New York '
+    description: ' New York City reserves some of its most spectacular panoramas for those lucky enough to visit by boat. '
+  - image: /uploads/tide-magazine-sailing-modern-ketch-1-1.jpg
+    alt: ' The Modern Ocean Ketch '
+    link: /articles/modern-ketch
+    tags:
+      - ' Sailing '
+      - number 01
+    title: ' The Modern Ocean Ketch '
+    description: ' The heritage of the modern ocean ketch comprises many of the world’s most iconic yachts and, whilst the latest creations are larger, faster and more technologically advanced, they continue to prove why the twin rig concept ticks all the boxes. '
+  - image: /uploads/futureisnow.jpg
+    alt: ' The Future is Now '
+    link: /articles/future-is-now
+    tags:
+      - ' Sailing'
+      - number 01
+    title: ' The Future is Now '
+    description: ' At the dawn of the early Twenties, we find ourselves on the threshold of a new era in sailing; the America’s Cup enacted at speeds in excess of 40 knots and the drive towards environmental responsibility set against a backdrop of ever larger motor yacht builds. So, what does the future hold for the humble sailing yacht? '
 content_on_image:
-  image: "/images/tide-banner2.png"
-  alt: "TIDE's Top Ten Sailing Destinations"
+  image: /images/Evolving.png
+  alt: TIDE's Top Ten Sailing Destinations
   tags:
-    - "Travel"
-    - "Number 11"
-  title: "TIDE's Top Ten Sailing Destinations"
-  description: "For decades, sailors have set a course for the Cyclades, but not only for its myriad cultural attractions, sandy beaches, hidden coves and gin-clear seas."
+    - Travel
+    - Number 11
+  title: TIDE's Top Ten Sailing Destinations
+  description: >-
+    For decades, sailors have set a course for the Cyclades, but not only for
+    its myriad cultural attractions, sandy beaches, hidden coves and gin-clear
+    seas.
   button:
-    text: "More"
-    link: "/destinations"
-    class: "width-fit btn white-btn"
-
+    text: More
+    link: /destinations
+    class: width-fit btn white-btn
 featured_section:
   cards:
-    - image: "/images/sailing-stockholm.png"
-      alt: "Sailing Stockholm"
-      link: "/articles/itinerary-cuba"
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue10-gunboat-2-1.jpg
+      alt: ' Building a Brand: Gunboat '
+      link: /articles/gunboat
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Checking In: Petunia Hotel, Ibiza"
-      description: "With a growing number of smart eco-focused stays across the Finnish archipelago, this little-known part of the world is having..."
-
-    - image: "/images/Three-a-Charm.png"
-      alt: "Three's a Charm"
-      link: "/articles/itinerary-cuba"
+        - ' Sailing '
+        - number 10
+      title: ' Building a Brand: Gunboat '
+      description: ' Few boatbuilders out there can claim to have changed the face of yachting. Gunboat is one of them. Rodolphe Cadoret, Marketing Director for the brand’s owners Grand Large, explains why and how they did it, and hints at what they may revolutionise next    '
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue10-kokomo-4.jpg
+      alt: ' A Sailing Legacy Kokomo '
+      link: /articles/kokomo
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "La Dolce Vita Itinerary"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-    - image: "/images/sailing-stockholm.png"
-      alt: "Sailing Stockholm"
-      link: "/articles/itinerary-cuba"
+        - ' Sailing '
+        - number 10
+      title: ' A Sailing Legacy Kokomo '
+      description: ' Super-sized, fast and sleek – this is the story of a Superyacht born from two legendary minds and one historic yard; a story which isn’t ending any time yet. We get the inside track from her current owner and Captain   '
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue09-velsheda-1.jpg
+      alt: ' Sailing Vel-She-Da '
+      link: /articles/velsheda
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Nilaya Rises"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-    - image: "/images/Three-a-Charm.png"
-      alt: "Three's a Charm"
-      link: "/articles/itinerary-cuba"
+        - ' Sailing '
+        - number 09
+      title: ' Sailing Vel-She-Da '
+      description: ' Velsheda is one of only three survivors of the prestigious 1930s boat group – here her skipper of 10 years Barney Henshaw-Depledge shares what she’s like to handle today '
+    - image: >-
+        /uploads/tide-magazine-sailing-lifestyle-travel-issue09-oceans-twelve-1.jpg
+      alt: ' Ocean’s Twelve '
+      link: /articles/oceans-twelve
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Three's a Charm"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
+        - ' Sailing '
+        - number 09
+      title: ' Ocean’s Twelve '
+      description: ' Famed for their beauty as well as their brawn, Twelve Metre Class yachts were a result of leading designers being put into the tightest of spots – and flourishing. Here we highlight some of the very finest  '
   cards2:
-    - image: "/images/sailing-stockholm.png"
-      alt: "Sailing Stockholm"
-      link: "/articles/itinerary-cuba"
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue09-raven-1.jpg
+      alt: ' As The Raven Flies '
+      link: /articles/raven
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Checking In: Petunia Hotel, Ibiza"
-      description: "With a growing number of smart eco-focused stays across the Finnish archipelago, this little-known part of the world is having..."
-
-    - image: "/images/Three-a-Charm.png"
-      alt: "Three's a Charm"
-      link: "/articles/itinerary-cuba"
+        - ' Sailing'
+        - number 09
+      title: ' As The Raven Flies '
+      description: ' Introducing the pioneering racing Superyacht that’s redefining today’s boating limitations – and the many minds that brought it into being '
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue08-ribelle-6.jpg
+      alt: 'Ribelle with a cause '
+      link: /articles/ribelle
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "La Dolce Vita Itinerary"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-    - image: "/images/sailing-stockholm.png"
-      alt: "Sailing Stockholm"
-      link: "/articles/itinerary-cuba"
+        - ' Sailing'
+        - number 08
+      title: 'Ribelle with a cause '
+      description: ' Even at seven years old, this 33m lightweight Superyacht remains a masterclass in boat-craft. Here, her Skipper and creator share what makes – and keeps – her a cut above '
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue08-asahi-3.jpg
+      alt: ' Asahi''s Secret '
+      link: /articles/asahi
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Nilaya Rises"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-    - image: "/images/Three-a-Charm.png"
-      alt: "Three's a Charm"
-      link: "/articles/itinerary-cuba"
+        - ' Sailing '
+        - number 08
+      title: ' Asahi''s Secret '
+      description: ' Captain Angus Biffin and his crew reveal the endless passion and meticulous processes that go on behind the scenes to ensure the yacht charter is equally magical and unique for every client that steps onboard  '
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue08-two-owners-2.jpg
+      alt: ' A Tale of Two Owners '
+      link: /articles/two-owners
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Three's a Charm"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
+        - ' Sailing'
+        - ' number 08'
+      title: ' A Tale of Two Owners '
+      description: ' Every yacht has a yarn to tell, but with both these especially beautiful, traditional-yet-contemporary examples, it’s more joyful than usual – thanks, in no small part, to the love bestowed on them by their owners '
   cards3:
-    - image: "/images/sailing-stockholm.png"
-      alt: "Sailing Stockholm"
-      link: "/articles/itinerary-cuba"
+    - image: >-
+        /uploads/tide-magazine-sailing-lifestyle-travel-issue07-wendys-house1.jpg
+      alt: ' Wendy’s House: Elfje '
+      link: /articles/wendys-house
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Checking In: Petunia Hotel, Ibiza"
-      description: "With a growing number of smart eco-focused stays across the Finnish archipelago, this little-known part of the world is having..."
-
-    - image: "/images/Three-a-Charm.png"
-      alt: "Three's a Charm"
-      link: "/articles/itinerary-cuba"
+        - ' Sailing'
+        - number 07
+      title: ' Wendy’s House: Elfje '
+      description: ' Sometimes the joy is almost as much in the journey when creating a beautiful boat. Here, we find out the unique path that American philanthropist Wendy Schmidt’s primary Superyacht took into being '
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue07-canova2.jpg
+      alt: ' Creating Canova '
+      link: /articles/canova
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "La Dolce Vita Itinerary"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-    - image: "/images/sailing-stockholm.png"
-      alt: "Sailing Stockholm"
-      link: "/articles/itinerary-cuba"
+        - Sailing
+        - number 07
+      title: ' Creating Canova '
+      description: ' What happens when a Superyacht owner refuses to compromise during the design and creation process? Baltic Yachts, designer Guiseppe Martines and Bruce Farr’s team took on the challenge with outstanding results. But was the man behind the initial vision satisfied? We investigate  '
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue07-gelliceaux1.jpg
+      alt: ' A Green Revolution: Gelliceaux '
+      link: /articles/gelliceaux
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Nilaya Rises"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-    - image: "/images/Three-a-Charm.png"
-      alt: "Three's a Charm"
-      link: "/articles/itinerary-cuba"
+        - 'Sailing I '
+        - number 07
+      title: ' A Green Revolution: Gelliceaux '
+      description: ' With Gelliceaux, Southern Wind has successfully created a boat that is almost as sustainable as it is stylish. Here we explore how   '
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue06-athos2.jpg
+      alt: 'The Seas Less Sailed '
+      link: /articles/athos
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Three's a Charm"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
+        - ' Sailing '
+        - number 06
+      title: 'The Seas Less Sailed '
+      description: |2-
+         Sailors dream of going off-grid – but few have achieved it so comprehensively 
+        as SY Athos on her recent summer cruise through British Columbia. 
+        Skipper Tony Brookes and photographer Oli Riley recount the highlights 
   cards4:
-    - image: "/images/sailing-stockholm.png"
-      alt: "Sailing Stockholm"
-      link: "/articles/itinerary-cuba"
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue06-batic-682.jpg
+      alt: ' Take Two '
+      link: /articles/baltic-68
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Checking In: Petunia Hotel, Ibiza"
-      description: "With a growing number of smart eco-focused stays across the Finnish archipelago, this little-known part of the world is having..."
-
-    - image: "/images/Three-a-Charm.png"
-      alt: "Three's a Charm"
-      link: "/articles/itinerary-cuba"
+        - ' Sailing'
+        - number 06
+      title: ' Take Two '
+      description: |2-
+         Baltic Yachts created quite a stir when it launched its 68 Café Racer, Pink Gin Verde. Now hull number two, Open Season, 
+        is on the water and the devil is in the difference 
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue05-why-not1.jpg
+      alt: ' Why Not! '
+      link: /articles/why-not
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "La Dolce Vita Itinerary"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-    - image: "/images/sailing-stockholm.png"
-      alt: "Sailing Stockholm"
-      link: "/articles/itinerary-cuba"
+        - Sailing
+        - number 05
+      title: ' Why Not! '
+      description: ' Y Yacht’s Y9 is the brainchild of German maverick Michael Schmidt, a pure sailor. His devotion shines through in his latest boat. '
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue05-sea-eagle1.jpg
+      alt: 'The Eagle Has Landed '
+      link: /articles/the-eagle
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Nilaya Rises"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-    - image: "/images/Three-a-Charm.png"
-      alt: "Three's a Charm"
-      link: "/articles/itinerary-cuba"
+        - Sailing I
+        - number 05
+      title: 'The Eagle Has Landed '
+      description: ' All the headlines around the 81m schooner Sea Eagle inevitably involve flying puns. She was ‘spreading her wings’ when she was shipped out of Royal Huisman’s Vollenhove yard in January 2020. And she was said to be ‘soaring’ when stunning new pictures of her cruising in French Polynesia were released recently. Fascinating, then, that the man for whom the yacht was actually built reportedly never once sailed her. '
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue05-ghosted1.jpg
+      alt: ' Ghosted: In Good Company '
+      link: /articles/ghosted
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Three's a Charm"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
+        - Sailing I
+        - number 05
+      title: ' Ghosted: In Good Company '
+      description: ' True to her name, 37m Vitters sloop Ghost keeps a low profile. Sam Fortescue catches up with Michael “Hutch” Hutchison, her captain for the last 16 years, to learn more. '
   cards5:
-    - image: "/images/sailing-stockholm.png"
-      alt: "Sailing Stockholm"
-      link: "/articles/itinerary-cuba"
+    - image: /uploads/tide-magazine-issue04-two-ketches-2-1.jpg
+      alt: ' A Tale of  Two Ketches '
+      link: /articles/two-ketches
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Checking In: Petunia Hotel, Ibiza"
-      description: "With a growing number of smart eco-focused stays across the Finnish archipelago, this little-known part of the world is having..."
+        - Sailing
+        - number 04
+      title: ' A Tale of  Two Ketches '
+      description: ' As Vitters launch another ketch of extraordinary proportions this summer, TIDE looks back on Adele, who broke the mould 20 years ago and still turns heads today. '
+    - image: /uploads/tide-magazine-issue04-pot-of-gold-4-1.jpg
+      alt: ' A Pot of Gold: J Class Rainbow '
+      link: /articles/a-pot-of-gold
+      tags:
+        - 'Sailing '
+        - number 04
+      title: ' A Pot of Gold: J Class Rainbow '
+      description: ' The original ‘super’ yacht, the J-Class may be a throwback to the golden age of sailing, but these titans of the sea continue to turn heads as they carve through the waves with grace and power. As the J-Class racing scene gathers momentum in the lead up to the 2024 World Championship, TIDE takes a look behind the lens of one of the most beautiful modern-day J-Class yachts, the 131ft (39.95m) Rainbow '
+    - image: /uploads/fs-h8yzu-2.jpg
+      alt: 'A Touch of Nordic Cool - Sørvind '
+      link: /articles/a-touch-of-nordic-cool-sorvind
+      tags:
+        - 'Sailing '
+        - number 03
+      title: 'A Touch of Nordic Cool - Sørvind '
+      description: ' With the latest yachts on show in Monaco, TIDE checks in with South African yacht builder Southern Wind to take a close look at their new launch, Sørvind. '
+    - image: /uploads/deiz3z3k.jpg
+      alt: 'Nautor Swan: Innovating through tradition '
+      link: /articles/nautor-swan
+      tags:
+        - ' Sailing '
+        - number 03
+      title: 'Nautor Swan: Innovating through tradition '
+      description: ' Redefining high-performance cruising, the new generation of Swan 98 offers speed and luxury. Just as comfortable crossing oceans as hopping between shallow tropical islands, racing around headlands or navigating the fjords, the Finnish-built yachts are widely touted as the best of all worlds. TIDE speaks with Nautor Swan’s team to find out what the 98 is all about. '
 
-    - image: "/images/Three-a-Charm.png"
-      alt: "Three's a Charm"
-      link: "/articles/itinerary-cuba"
+cards6:
+    - image: /uploads/tide-magazine-issue04-two-ketches-2-1.jpg
+      alt: ' A Tale of  Two Ketches '
+      link: /articles/two-ketches
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "La Dolce Vita Itinerary"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-    - image: "/images/sailing-stockholm.png"
-      alt: "Sailing Stockholm"
-      link: "/articles/itinerary-cuba"
+        - Sailing
+        - number 04
+      title: ' A Tale of  Two Ketches '
+      description: ' As Vitters launch another ketch of extraordinary proportions this summer, TIDE looks back on Adele, who broke the mould 20 years ago and still turns heads today. '
+    - image: /uploads/tide-magazine-issue04-pot-of-gold-4-1.jpg
+      alt: ' A Pot of Gold: J Class Rainbow '
+      link: /articles/a-pot-of-gold
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Nilaya Rises"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-    - image: "/images/Three-a-Charm.png"
-      alt: "Three's a Charm"
-      link: "/articles/itinerary-cuba"
+        - 'Sailing '
+        - number 04
+      title: ' A Pot of Gold: J Class Rainbow '
+      description: ' The original ‘super’ yacht, the J-Class may be a throwback to the golden age of sailing, but these titans of the sea continue to turn heads as they carve through the waves with grace and power. As the J-Class racing scene gathers momentum in the lead up to the 2024 World Championship, TIDE takes a look behind the lens of one of the most beautiful modern-day J-Class yachts, the 131ft (39.95m) Rainbow '
+    - image: /uploads/fs-h8yzu-2.jpg
+      alt: 'A Touch of Nordic Cool - Sørvind '
+      link: /articles/a-touch-of-nordic-cool-sorvind
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Three's a Charm"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-  cards6:
-    - image: "/images/sailing-stockholm.png"
-      alt: "Sailing Stockholm"
-      link: "/articles/itinerary-cuba"
+        - 'Sailing '
+        - number 03
+      title: 'A Touch of Nordic Cool - Sørvind '
+      description: ' With the latest yachts on show in Monaco, TIDE checks in with South African yacht builder Southern Wind to take a close look at their new launch, Sørvind. '
+    - image: /uploads/deiz3z3k.jpg
+      alt: 'Nautor Swan: Innovating through tradition '
+      link: /articles/nautor-swan
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Checking In: Petunia Hotel, Ibiza"
-      description: "With a growing number of smart eco-focused stays across the Finnish archipelago, this little-known part of the world is having..."
-
-    - image: "/images/Three-a-Charm.png"
-      alt: "Three's a Charm"
-      link: "/articles/itinerary-cuba"
+        - ' Sailing '
+        - number 03
+      title: 'Nautor Swan: Innovating through tradition '
+      description: ' Redefining high-performance cruising, the new generation of Swan 98 offers speed and luxury. Just as comfortable crossing oceans as hopping between shallow tropical islands, racing around headlands or navigating the fjords, the Finnish-built yachts are widely touted as the best of all worlds. TIDE speaks with Nautor Swan’s team to find out what the 98 is all about. '
+    - image: /uploads/deiz3z3k.jpg
+      alt: 'Nautor Swan: Innovating through tradition '
+      link: /articles/nautor-swan
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "La Dolce Vita Itinerary"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-    - image: "/images/sailing-stockholm.png"
-      alt: "Sailing Stockholm"
-      link: "/articles/itinerary-cuba"
-      tags:
-        - "Travel"
-        - "Number 11"
-      title: "Nilaya Rises"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-    - image: "/images/Three-a-Charm.png"
-      alt: "Three's a Charm"
-      link: "/articles/itinerary-cuba"
-      tags:
-        - "Travel"
-        - "Number 11"
-      title: "Three's a Charm"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-    - image: "/images/Three-a-Charm.png"
-      alt: "Three's a Charm"
-      link: "/articles/itinerary-cuba"
-      tags:
-        - "Travel"
-        - "Number 11"
-      title: "Three's a Charm"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
+        - ' Sailing '
+        - number 03
+      title: 'Nautor Swan: Innovating through tradition '
+      description: ' Redefining high-performance cruising, the new generation of Swan 98 offers speed and luxury. Just as comfortable crossing oceans as hopping between shallow tropical islands, racing around headlands or navigating the fjords, the Finnish-built yachts are widely touted as the best of all worlds. TIDE speaks with Nautor Swan’s team to find out what the 98 is all about. '
 
 subscribe_section:
-  left_image: "/images/magazine.png"
-  right_image: "/images/tablet.png"
-  title: "Subscribe"
+  left_image: /images/magazine.png
+  right_image: /images/tablet.png
+  title: Subscribe
   buttons:
-    - text: "IN PRINT"
-      class: "btn-border"
-      arrow: "left"
-    - text: "DIGITAL"
-      class: "btn-border"
-      arrow: "right"
+    - text: IN PRINT
+      class: btn-border
+      arrow: left
+    - text: DIGITAL
+      class: btn-border
+      arrow: right
