@@ -206,16 +206,16 @@ featured_section:
         as SY Athos on her recent summer cruise through British Columbia. 
         Skipper Tony Brookes and photographer Oli Riley recount the highlights 
   cards4:
-    - image: /images/sailing-stockholm.png
-      alt: Sailing Stockholm
-      link: /articles/itinerary-cuba
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue06-batic-682.jpg
+      alt: ' Take Two '
+      link: /articles/baltic-68
       tags:
-        - Travel
-        - Number 11
-      title: 'Checking In: Petunia Hotel, Ibiza'
-      description: >-
-        With a growing number of smart eco-focused stays across the Finnish
-        archipelago, this little-known part of the world is having...
+        - ' Sailing'
+        - number 06
+      title: ' Take Two '
+      description: |2-
+         Baltic Yachts created quite a stir when it launched its 68 Café Racer, Pink Gin Verde. Now hull number two, Open Season, 
+        is on the water and the devil is in the difference 
     - image: /images/Three-a-Charm.png
       alt: Three's a Charm
       link: /articles/itinerary-cuba
