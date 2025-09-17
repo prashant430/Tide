@@ -144,16 +144,14 @@ featured_section:
         - number 09
       title: ' As The Raven Flies '
       description: ' Introducing the pioneering racing Superyacht that’s redefining today’s boating limitations – and the many minds that brought it into being '
-    - image: /images/Three-a-Charm.png
-      alt: Three's a Charm
-      link: /articles/itinerary-cuba
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue08-ribelle-6.jpg
+      alt: 'Ribelle with a cause '
+      link: /articles/ribelle
       tags:
-        - Travel
-        - Number 11
-      title: La Dolce Vita Itinerary
-      description: >-
-        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
-        and breathed in the jasmine and wild thyme-fragranced...
+        - ' Sailing'
+        - number 08
+      title: 'Ribelle with a cause '
+      description: ' Even at seven years old, this 33m lightweight Superyacht remains a masterclass in boat-craft. Here, her Skipper and creator share what makes – and keeps – her a cut above '
     - image: /images/sailing-stockholm.png
       alt: Sailing Stockholm
       link: /articles/itinerary-cuba
