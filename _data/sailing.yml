@@ -241,16 +241,14 @@ featured_section:
       title: ' Ghosted: In Good Company '
       description: ' True to her name, 37m Vitters sloop Ghost keeps a low profile. Sam Fortescue catches up with Michael “Hutch” Hutchison, her captain for the last 16 years, to learn more. '
   cards5:
-    - image: /images/sailing-stockholm.png
-      alt: Sailing Stockholm
-      link: /articles/itinerary-cuba
+    - image: /uploads/tide-magazine-issue04-two-ketches-2-1.jpg
+      alt: ' A Tale of  Two Ketches '
+      link: /articles/two-ketches
       tags:
-        - Travel
-        - Number 11
-      title: 'Checking In: Petunia Hotel, Ibiza'
-      description: >-
-        With a growing number of smart eco-focused stays across the Finnish
-        archipelago, this little-known part of the world is having...
+        - Sailing
+        - number 04
+      title: ' A Tale of  Two Ketches '
+      description: ' As Vitters launch another ketch of extraordinary proportions this summer, TIDE looks back on Adele, who broke the mould 20 years ago and still turns heads today. '
     - image: /images/Three-a-Charm.png
       alt: Three's a Charm
       link: /articles/itinerary-cuba
