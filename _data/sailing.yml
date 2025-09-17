@@ -178,16 +178,14 @@ featured_section:
         - number 07
       title: ' Wendy’s House: Elfje '
       description: ' Sometimes the joy is almost as much in the journey when creating a beautiful boat. Here, we find out the unique path that American philanthropist Wendy Schmidt’s primary Superyacht took into being '
-    - image: /images/Three-a-Charm.png
-      alt: Three's a Charm
-      link: /articles/itinerary-cuba
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue07-canova2.jpg
+      alt: ' Creating Canova '
+      link: /articles/canova
       tags:
-        - Travel
-        - Number 11
-      title: La Dolce Vita Itinerary
-      description: >-
-        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
-        and breathed in the jasmine and wild thyme-fragranced...
+        - Sailing
+        - number 07
+      title: ' Creating Canova '
+      description: ' What happens when a Superyacht owner refuses to compromise during the design and creation process? Baltic Yachts, designer Guiseppe Martines and Bruce Farr’s team took on the challenge with outstanding results. But was the man behind the initial vision satisfied? We investigate  '
     - image: /images/sailing-stockholm.png
       alt: Sailing Stockholm
       link: /articles/itinerary-cuba
