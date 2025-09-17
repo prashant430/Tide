@@ -77,6 +77,14 @@ cards2:
       - number 01
     title: ' The Modern Ocean Ketch '
     description: ' The heritage of the modern ocean ketch comprises many of the world’s most iconic yachts and, whilst the latest creations are larger, faster and more technologically advanced, they continue to prove why the twin rig concept ticks all the boxes. '
+  - image: /uploads/futureisnow.jpg
+    alt: ' The Future is Now '
+    link: /articles/future-is-now
+    tags:
+      - ' Sailing'
+      - number 01
+    title: ' The Future is Now '
+    description: ' At the dawn of the early Twenties, we find ourselves on the threshold of a new era in sailing; the America’s Cup enacted at speeds in excess of 40 knots and the drive towards environmental responsibility set against a backdrop of ever larger motor yacht builds. So, what does the future hold for the humble sailing yacht? '
 content_on_image:
   image: /images/tide-banner2.png
   alt: TIDE's Top Ten Sailing Destinations
