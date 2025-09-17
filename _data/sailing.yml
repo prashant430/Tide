@@ -265,16 +265,14 @@ featured_section:
         - number 03
       title: 'A Touch of Nordic Cool - Sørvind '
       description: ' With the latest yachts on show in Monaco, TIDE checks in with South African yacht builder Southern Wind to take a close look at their new launch, Sørvind. '
-    - image: /images/Three-a-Charm.png
-      alt: Three's a Charm
-      link: /articles/itinerary-cuba
+    - image: /uploads/deiz3z3k.jpg
+      alt: 'Nautor Swan: Innovating through tradition '
+      link: /articles/nautor-swan
       tags:
-        - Travel
-        - Number 11
-      title: Three's a Charm
-      description: >-
-        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
-        and breathed in the jasmine and wild thyme-fragranced...
+        - ' Sailing '
+        - number 03
+      title: 'Nautor Swan: Innovating through tradition '
+      description: ' Redefining high-performance cruising, the new generation of Swan 98 offers speed and luxury. Just as comfortable crossing oceans as hopping between shallow tropical islands, racing around headlands or navigating the fjords, the Finnish-built yachts are widely touted as the best of all worlds. TIDE speaks with Nautor Swan’s team to find out what the 98 is all about. '
 subscribe_section:
   left_image: /images/magazine.png
   right_image: /images/tablet.png
