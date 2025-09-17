@@ -40,14 +40,19 @@ cards:
     title: ' Maximus The Ocean Gladiator  '
     description: ' Meet the Superyacht that manages to both dominate at regattas and boast the latest in onboard luxury '
 cards2:
-  - image: /images/sailing-stockholm.png
-    alt: Sailing Stockholm
-    link: /articles/itinerary-cuba
+  - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue10-gunboat-2.jpg
+    alt: ' The Cat is Back '
+    link: /articles/the-cat-is-back
     tags:
-      - Travel
-      - Number 11
-    title: Sailing Stockholm
-    description: The North American island nation...
+      - ' Sailing'
+      - number 01
+    title: ' The Cat is Back '
+    description: >2-
+       The insatiable desire for more than one hull continues unabated and whilst the industry seeks to meet demand, one yard at the sharp end of the market is already raising the bar.
+      (utilising race boat technology to deliver high performance in a high- end
+      package. Gunboat are targeting their 68’, 72’ and 80’ models to fill a gap
+      in the market by combining the generous square meterage of the cruising
+      catamaran with the thrilling performance of offshore racing multihulls.) 
   - image: /images/Three-a-Charm.png
     alt: Three's a Charm
     link: /articles/itinerary-cuba
