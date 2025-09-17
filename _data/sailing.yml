@@ -137,15 +137,13 @@ featured_section:
       description: ' Famed for their beauty as well as their brawn, Twelve Metre Class yachts were a result of leading designers being put into the tightest of spots – and flourishing. Here we highlight some of the very finest  '
   cards2:
     - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue09-raven-1.jpg
-      alt: Sailing Stockholm
-      link: /articles/itinerary-cuba
+      alt: ' As The Raven Flies '
+      link: /articles/raven
       tags:
         - ' Sailing'
         - number 09
-      title: 'Checking In: Petunia Hotel, Ibiza'
-      description: >-
-        With a growing number of smart eco-focused stays across the Finnish
-        archipelago, this little-known part of the world is having...
+      title: ' As The Raven Flies '
+      description: ' Introducing the pioneering racing Superyacht that’s redefining today’s boating limitations – and the many minds that brought it into being '
     - image: /images/Three-a-Charm.png
       alt: Three's a Charm
       link: /articles/itinerary-cuba
