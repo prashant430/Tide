@@ -118,16 +118,14 @@ featured_section:
         - number 10
       title: ' A Sailing Legacy Kokomo '
       description: ' Super-sized, fast and sleek – this is the story of a Superyacht born from two legendary minds and one historic yard; a story which isn’t ending any time yet. We get the inside track from her current owner and Captain   '
-    - image: /images/sailing-stockholm.png
-      alt: Sailing Stockholm
-      link: /articles/itinerary-cuba
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue09-velsheda-1.jpg
+      alt: ' Sailing Vel-She-Da '
+      link: /articles/velsheda
       tags:
-        - Travel
-        - Number 11
-      title: Nilaya Rises
-      description: >-
-        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
-        and breathed in the jasmine and wild thyme-fragranced...
+        - ' Sailing '
+        - number 09
+      title: ' Sailing Vel-She-Da '
+      description: ' Velsheda is one of only three survivors of the prestigious 1930s boat group – here her skipper of 10 years Barney Henshaw-Depledge shares what she’s like to handle today '
     - image: /images/Three-a-Charm.png
       alt: Three's a Charm
       link: /articles/itinerary-cuba
