@@ -212,6 +212,49 @@
 
 </section>
 
+<!-- Popup Overlay -->
+<div class="newsletter-popup" id="newsletterPopup">
+  <div class="newsletter-popup-content">
+    <button class="popup-close" id="closePopup">&times;</button>
+   
+    <section class="newsletter-section">
+      <div class="newsletter-wrapper">
+       
+        <!-- Left Content -->
+        <div class="content-block">
+          <div class="content-container">
+            <p class="tagline">DIGITAL TIDE</p>
+            <h2>Our latest, tailored for you</h2>
+            <p class="content">
+              Get a curated selection of our latest stories and articles based on your
+              interest categories below. Select a few categories:
+            </p>
+ 
+            <!-- Categories -->
+            <div class="categories">
+              <button class="category-btn"><img src="./images/sailing-stockholm.png" /> Sailing</button>
+              <button class="category-btn active"><img src="./images/sailing-stockholm.png" /> Lifestyle</button>
+              <button class="category-btn"><img src="./images/sailing-stockholm.png" /> Design</button>
+              <button class="category-btn"><img src="./images/sailing-stockholm.png" /> Travel</button>
+              <button class="category-btn"><img src="./images/sailing-stockholm.png" /> Environment</button>
+            </div>
+ 
+            <!-- Subscribe -->
+            <form class="subscribe-form">
+              <input type="email" placeholder="your email" />
+              <button class="btn width-fit" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+ 
+        <!-- Right Image -->
+        <div class="image-block">
+          <img src="../images/tablet.png" alt="Tablet preview" />
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
 
 <footer class="grid-center bg-grey padded0">
 
@@ -280,8 +323,30 @@
   if (yearMobElement) {
     yearMobElement.innerHTML = new Date().getFullYear();
   }
-
+ 
+ 
+// Open popup when .subscribe-btn is clicked
+document.querySelectorAll(".subscribe-btn").forEach(btn => {
+  btn.addEventListener("click", function(e) {
+    e.preventDefault(); // prevent page jump if it's a link
+    document.getElementById("newsletterPopup").style.display = "flex";
+  });
+});
+ 
+// Close popup
+document.getElementById("closePopup").addEventListener("click", function() {
+  document.getElementById("newsletterPopup").style.display = "none";
+});
+ 
+// Optional: close when clicking on background overlay
+document.getElementById("newsletterPopup").addEventListener("click", function(e) {
+  if (e.target === this) {
+    this.style.display = "none";
+  }
+});
+ 
 </script>
+
 
   
 
