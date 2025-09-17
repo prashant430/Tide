@@ -249,16 +249,14 @@ featured_section:
         - number 04
       title: ' A Tale of  Two Ketches '
       description: ' As Vitters launch another ketch of extraordinary proportions this summer, TIDE looks back on Adele, who broke the mould 20 years ago and still turns heads today. '
-    - image: /images/Three-a-Charm.png
-      alt: Three's a Charm
-      link: /articles/itinerary-cuba
+    - image: /uploads/tide-magazine-issue04-pot-of-gold-4-1.jpg
+      alt: ' A Pot of Gold: J Class Rainbow '
+      link: /articles/a-pot-of-gold
       tags:
-        - Travel
-        - Number 11
-      title: La Dolce Vita Itinerary
-      description: >-
-        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
-        and breathed in the jasmine and wild thyme-fragranced...
+        - 'Sailing '
+        - number 04
+      title: ' A Pot of Gold: J Class Rainbow '
+      description: ' The original ‘super’ yacht, the J-Class may be a throwback to the golden age of sailing, but these titans of the sea continue to turn heads as they carve through the waves with grace and power. As the J-Class racing scene gathers momentum in the lead up to the 2024 World Championship, TIDE takes a look behind the lens of one of the most beautiful modern-day J-Class yachts, the 131ft (39.95m) Rainbow '
     - image: /images/sailing-stockholm.png
       alt: Sailing Stockholm
       link: /articles/itinerary-cuba
