@@ -1,8 +1,230 @@
 ---
-layout: category-fix
-title: Sailing TIDE magazine
+layout: default
+title: sailing TIDE magazine
 categories:
   - sailing
 ---
 
-{% include posts-loop.html %}
+
+
+<section class="grid-center category-text-on-image">
+  <div class="col-12_sm-12">
+
+
+
+    {% assign targetCat = page.categories[0] %}
+    {% for post in site.categories[targetCat] limit:1 %}
+
+    <div class="relative banner-img ">
+      <div class=" grid">
+     
+      <div class="col-12_sm-12 relative">
+        <a href="{{post.url}}">
+        {% if post.video == true %}
+        <video id="myVideo" class="bg-video bg_cover vw-100 vh-100" autoplay muted playsinline autobuffer="true" loop poster="{{item.cover_image}}">
+        <source src="{{post.video_path}}" type="video/mp4" />
+        Your browser does not support the video tag.
+        </video>
+        {% endif %}
+        <img class="img_lrge min-heigh  block {{post.featured_image.position}}" src="{{ post.featured_image.image }}"></img>
+        </a>
+      </div>
+      <div class="absolute top-0 center pt-50 mt-9 w-full centered white">
+        CATEGORY: <b>sailing</b>
+      </div>
+      
+      <a href="{{post.url}}" class="content-on-hover vw-100 container-full pt-4 d-flex align-end pb-2 mb:pb-100 overlay flex-wrap">
+        <div class="col-12 main-wrapper left">
+          <div class="d-flex gap-10 subtitle mt-2 text-white uppercase font-xs normal-letter-spacing mb-1 overpass-font-family card-tags">
+            <span>{{ post.type }}</span> <span class="divider white-border "></span> <span>{{ post.issue_no }}</span>
+        </div>
+          <!-- <h4 class="subtitle mt-2 text-white">  I </h4> -->
+          <h2 class="mob-padding mt-1 mb-1 text-white h2"> {{post.title}} </h2>
+          <!-- <h2 class="mob-padding mt-1 mb-1 text-white"> {{post.title}} </h2> -->
+          <p class="mob-padding long-text mt-1 no-margin text-white mb-0"> {{post.short-description}} </p>
+        </div>
+        <span class="btn white-btn mt-1">MORE</span>
+      </a>
+      </div>
+    </div>
+
+  {% endfor %}
+
+
+
+  </div>
+</section>
+
+
+
+<section class="slider-section featured-section mx-auto">
+  <div class=" container">
+
+  <div class="swiper visible">
+     <h3 class="uppercase text-center mb-3 font-bold">Featured</h3>
+
+
+     <div class="swiper-wrapper">
+      
+     {% for card in site.data.sailing.cards %}
+        <div class="swiper-slide ">
+          <div class="featured-card{% if forloop.first %} {% endif %}">
+            <img src="{{ card.image }}" alt="{{ card.alt }}" class="w-full h-auto mb-20 d-block" />
+
+            <div class="featured-detail pt-24 px-10">
+              <a href="{{ card.link }}">
+                <div class="d-flex gap-10 uppercase font-xs normal-letter-spacing mb-1 align-center overpass-font-family card-tags">
+                  {% for tag in card.tags %}
+                    <span>{{ tag }}</span>
+                    {% unless forloop.last %}<span class="divider"></span>{% endunless %}
+                  {% endfor %}
+                </div>
+
+                <h2 class="mob-padding title-block h2">{{ card.title }}</h2>
+                <p class="mob-padding long-text w-36">{{ card.description }}</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      <!-- Add more swiper-slide blocks as needed -->
+
+    </div>
+
+
+    <button class="swiper-custom-next">
+      <svg width="36" height="4" viewBox="0 0 36 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M35.1768 1.82322C35.2744 1.92085 35.2744 2.07915 35.1768 2.17678L33.5858 3.76777C33.4882 3.8654 33.3299 3.8654 33.2322 3.76777C33.1346 3.67014 33.1346 3.51184 33.2322 3.41421L34.6464 2L33.2322 0.585786C33.1346 0.488155 33.1346 0.329864 33.2322 0.232233C33.3299 0.134602 33.4882 0.134602 33.5858 0.232233L35.1768 1.82322ZM0 2L0 1.75L35 1.75V2V2.25L0 2.25L0 2Z" fill="black"></path>
+      </svg>
+    </button>
+  </div>
+  <!-- <div class="centered mt-4">
+    <a href="#" class="btn-border  ">VIEW ALL sailing STORIES</a>
+  </div> -->
+  </div>
+</section>
+
+
+<section class="content_on_image position-relative w-full">
+  <img src="{{ site.data.lifestyle.content_on_image.image }}"
+       alt="{{ site.data.lifestyle.content_on_image.alt }}"
+       class="w-full h-full cover banner block min-heigh" />
+
+  <div class="w-full d-flex align-end justify-end xs:h-full top-0 end-0 position-absolute no-margin z-index-1"> 
+    <div class="mb:gap-10 md:padded-4 h-full blur text-on-image content-wrapper text-white z-index-2 mb:py-60 p-container mb:px-60 d-flex flex-column mb:justify-center justify-center">
+      
+      <div class="d-flex gap-10 uppercase mb-1 font-xs normal-letter-spacing card-tags">
+        {% for tag in site.data.sailing.content_on_image.tags %}
+          <span>{{ tag }}</span>
+          {% unless forloop.last %}
+            <span class="divider white-border"></span>
+          {% endunless %}
+        {% endfor %}
+      </div>
+
+      <div class="content-block">
+        <h2 class="h2 crimson-family mb:mb-2 mb-1">
+          {{ site.data.sailing.content_on_image.title }}
+        </h2>
+        <p class="mb-2 w-36 text-white">
+          {{ site.data.sailing.content_on_image.description }}
+        </p>
+      </div>
+
+      <a href="{{ site.data.sailing.content_on_image.button.link }}"
+         class="{{ site.data.sailing.content_on_image.button.class }}">
+         {{ site.data.sailing.content_on_image.button.text }}
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="columns-section featured-section mx-auto">
+  <div class="container">
+    <div class="grid-wrapper">
+      {% for card in site.data.sailing.featured_section.cards %}
+      <div class="block-card">
+        <div class="featured-card">
+          <img src="{{ card.image }}" alt="{{ card.alt }}" class="w-full h-auto mb-20 d-block">
+          <div class="featured-detail pt-24 px-10">
+            <a href="{{ card.link }}">
+              <div class="d-flex gap-10 uppercase mb-1 font-xs normal-letter-spacing card-tags">
+                {% for tag in card.tags %}
+                  <span>{{ tag }}</span>
+                  {% unless forloop.last %}<span class="divider"></span>{% endunless %}
+                {% endfor %}
+              </div>
+              <h2 class="mob-padding title-block h2">{{ card.title }}</h2>
+              <p class="mob-padding long-text w-36">{{ card.description }}</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="subscribe-section">
+  <div class="image-container">
+    <img src="{{ site.data.sailing.subscribe_section.left_image }}" alt="Magazine" class="media-image">
+  </div>
+
+  <div class="subscribe-text">
+    <h2 class="h1 mb-1">{{ site.data.sailing.subscribe_section.title }}</h2>
+    <div class="buttons">
+      {% for button in site.data.sailing.subscribe_section.buttons %}
+        {% if button.arrow == 'left' %}
+        <div class="left-arrow arrow mb-1">
+          <svg width="36" height="4" viewBox="0 0 36 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.823223 1.82322C0.725592 1.92085 0.725592 2.07915 0.823223 2.17678L2.41421 3.76777C2.51184 3.8654 2.67014 3.8654 2.76777 3.76777C2.8654 3.67014 2.8654 3.51184 2.76777 3.41421L1.35355 2L2.76777 0.585786C2.8654 0.488155 2.8654 0.329864 2.76777 0.232233C2.67014 0.134602 2.51184 0.134602 2.41421 0.232233L0.823223 1.82322ZM36 2V1.75L1 1.75V2V2.25L36 2.25V2Z" fill="black"/>
+          </svg> 
+          <button class="{{ button.class }}">{{ button.text }}</button>
+        </div>
+        {% elsif button.arrow == 'right' %}
+        <div class="right-arrow arrow">
+          <button class="{{ button.class }}">{{ button.text }}</button>
+          <svg width="36" height="4" viewBox="0 0 36 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M35.1768 1.82322C35.2744 1.92085 35.2744 2.07915 35.1768 2.17678L33.5858 3.76777C33.4882 3.8654 33.3299 3.8654 33.2322 3.76777C33.1346 3.67014 33.1346 3.51184 33.2322 3.41421L34.6464 2L33.2322 0.585786C33.1346 0.488155 33.1346 0.329864 33.2322 0.232233C33.3299 0.134602 33.4882 0.134602 33.5858 0.232233L35.1768 1.82322ZM0 2L0 1.75L35 1.75V2V2.25L0 2.25L0 2Z" fill="black"/>
+          </svg>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="image-container">
+    <img src="{{ site.data.sailing.subscribe_section.right_image }}" alt="Tablet" class="media-image">
+  </div>
+</section>
+
+
+
+ <script>
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  new Swiper(".swiper", {
+    spaceBetween: 50, // default
+    slidesPerView: 2.5,
+    navigation: {
+      nextEl: ".swiper-custom-next", // custom button
+    },
+    breakpoints: {
+      320: { 
+        slidesPerView: 1.2,
+        spaceBetween: 9   // applied for screen widths >=320px
+      },
+      768: { 
+        slidesPerView: 2.2,
+        spaceBetween: 9
+      },
+      1024: { 
+        slidesPerView: 2.3,
+        spaceBetween: 50 
+      },
+    },
+  });
+});
+</script>
+
