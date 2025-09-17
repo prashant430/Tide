@@ -273,49 +273,47 @@ featured_section:
         - number 03
       title: 'Nautor Swan: Innovating through tradition '
       description: ' Redefining high-performance cruising, the new generation of Swan 98 offers speed and luxury. Just as comfortable crossing oceans as hopping between shallow tropical islands, racing around headlands or navigating the fjords, the Finnish-built yachts are widely touted as the best of all worlds. TIDE speaks with Nautor Swan’s team to find out what the 98 is all about. '
-
 cards6:
-    - image: /uploads/tide-magazine-issue04-two-ketches-2-1.jpg
-      alt: ' A Tale of  Two Ketches '
-      link: /articles/two-ketches
-      tags:
-        - Sailing
-        - number 04
-      title: ' A Tale of  Two Ketches '
-      description: ' As Vitters launch another ketch of extraordinary proportions this summer, TIDE looks back on Adele, who broke the mould 20 years ago and still turns heads today. '
-    - image: /uploads/tide-magazine-issue04-pot-of-gold-4-1.jpg
-      alt: ' A Pot of Gold: J Class Rainbow '
-      link: /articles/a-pot-of-gold
-      tags:
-        - 'Sailing '
-        - number 04
-      title: ' A Pot of Gold: J Class Rainbow '
-      description: ' The original ‘super’ yacht, the J-Class may be a throwback to the golden age of sailing, but these titans of the sea continue to turn heads as they carve through the waves with grace and power. As the J-Class racing scene gathers momentum in the lead up to the 2024 World Championship, TIDE takes a look behind the lens of one of the most beautiful modern-day J-Class yachts, the 131ft (39.95m) Rainbow '
-    - image: /uploads/fs-h8yzu-2.jpg
-      alt: 'A Touch of Nordic Cool - Sørvind '
-      link: /articles/a-touch-of-nordic-cool-sorvind
-      tags:
-        - 'Sailing '
-        - number 03
-      title: 'A Touch of Nordic Cool - Sørvind '
-      description: ' With the latest yachts on show in Monaco, TIDE checks in with South African yacht builder Southern Wind to take a close look at their new launch, Sørvind. '
-    - image: /uploads/deiz3z3k.jpg
-      alt: 'Nautor Swan: Innovating through tradition '
-      link: /articles/nautor-swan
-      tags:
-        - ' Sailing '
-        - number 03
-      title: 'Nautor Swan: Innovating through tradition '
-      description: ' Redefining high-performance cruising, the new generation of Swan 98 offers speed and luxury. Just as comfortable crossing oceans as hopping between shallow tropical islands, racing around headlands or navigating the fjords, the Finnish-built yachts are widely touted as the best of all worlds. TIDE speaks with Nautor Swan’s team to find out what the 98 is all about. '
-    - image: /uploads/deiz3z3k.jpg
-      alt: 'Nautor Swan: Innovating through tradition '
-      link: /articles/nautor-swan
-      tags:
-        - ' Sailing '
-        - number 03
-      title: 'Nautor Swan: Innovating through tradition '
-      description: ' Redefining high-performance cruising, the new generation of Swan 98 offers speed and luxury. Just as comfortable crossing oceans as hopping between shallow tropical islands, racing around headlands or navigating the fjords, the Finnish-built yachts are widely touted as the best of all worlds. TIDE speaks with Nautor Swan’s team to find out what the 98 is all about. '
-
+  - image: /uploads/glclzrga-1.jpg
+    alt: ' A Global Range: The Schooner '
+    link: /articles/a-global-range-the-schooner
+    tags:
+      - ' Sailing'
+      - number 03
+    title: ' A Global Range: The Schooner '
+    description: ' With the forthcoming re-launch of ATHOS, we take a look at some of the most famous Schooners afloat today, and show how the multi-mast sailing yachts are hard to beat for a truly authentic sailing experience. '
+  - image: /uploads/tide-magazine-issue04-pot-of-gold-4-1.jpg
+    alt: ' A Pot of Gold: J Class Rainbow '
+    link: /articles/a-pot-of-gold
+    tags:
+      - 'Sailing '
+      - number 04
+    title: ' A Pot of Gold: J Class Rainbow '
+    description: ' The original ‘super’ yacht, the J-Class may be a throwback to the golden age of sailing, but these titans of the sea continue to turn heads as they carve through the waves with grace and power. As the J-Class racing scene gathers momentum in the lead up to the 2024 World Championship, TIDE takes a look behind the lens of one of the most beautiful modern-day J-Class yachts, the 131ft (39.95m) Rainbow '
+  - image: /uploads/fs-h8yzu-2.jpg
+    alt: 'A Touch of Nordic Cool - Sørvind '
+    link: /articles/a-touch-of-nordic-cool-sorvind
+    tags:
+      - 'Sailing '
+      - number 03
+    title: 'A Touch of Nordic Cool - Sørvind '
+    description: ' With the latest yachts on show in Monaco, TIDE checks in with South African yacht builder Southern Wind to take a close look at their new launch, Sørvind. '
+  - image: /uploads/deiz3z3k.jpg
+    alt: 'Nautor Swan: Innovating through tradition '
+    link: /articles/nautor-swan
+    tags:
+      - ' Sailing '
+      - number 03
+    title: 'Nautor Swan: Innovating through tradition '
+    description: ' Redefining high-performance cruising, the new generation of Swan 98 offers speed and luxury. Just as comfortable crossing oceans as hopping between shallow tropical islands, racing around headlands or navigating the fjords, the Finnish-built yachts are widely touted as the best of all worlds. TIDE speaks with Nautor Swan’s team to find out what the 98 is all about. '
+  - image: /uploads/deiz3z3k.jpg
+    alt: 'Nautor Swan: Innovating through tradition '
+    link: /articles/nautor-swan
+    tags:
+      - ' Sailing '
+      - number 03
+    title: 'Nautor Swan: Innovating through tradition '
+    description: ' Redefining high-performance cruising, the new generation of Swan 98 offers speed and luxury. Just as comfortable crossing oceans as hopping between shallow tropical islands, racing around headlands or navigating the fjords, the Finnish-built yachts are widely touted as the best of all worlds. TIDE speaks with Nautor Swan’s team to find out what the 98 is all about. '
 subscribe_section:
   left_image: /images/magazine.png
   right_image: /images/tablet.png
