@@ -194,16 +194,17 @@ featured_section:
         - number 07
       title: ' A Green Revolution: Gelliceaux '
       description: ' With Gelliceaux, Southern Wind has successfully created a boat that is almost as sustainable as it is stylish. Here we explore how   '
-    - image: /images/Three-a-Charm.png
-      alt: Three's a Charm
-      link: /articles/itinerary-cuba
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue06-athos2.jpg
+      alt: 'The Seas Less Sailed '
+      link: /articles/athos
       tags:
-        - Travel
-        - Number 11
-      title: Three's a Charm
-      description: >-
-        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
-        and breathed in the jasmine and wild thyme-fragranced...
+        - ' Sailing '
+        - number 06
+      title: 'The Seas Less Sailed '
+      description: |2-
+         Sailors dream of going off-grid – but few have achieved it so comprehensively 
+        as SY Athos on her recent summer cruise through British Columbia. 
+        Skipper Tony Brookes and photographer Oli Riley recount the highlights 
   cards4:
     - image: /images/sailing-stockholm.png
       alt: Sailing Stockholm
