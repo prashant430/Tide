@@ -1,248 +1,282 @@
 cards:
-  - image: "/images/sailing-stockholm.png"
-    alt: "Sailing Stockholm"
-    link: "/articles/itinerary-cuba"
+  - image: /images/sailing-stockholm.png
+    alt: Sailing Stockholm
+    link: /articles/itinerary-cuba
     tags:
-      - "Travel"
-      - "Number 11"
-    title: "Sailing Stockholm"
-    description: "The North American island nation..."
-
-  - image: "/images/Three-a-Charm.png"
-    alt: "Three's a Charm"
-    link: "/articles/itinerary-cuba"
+      - Travel
+      - Number 11
+    title: Sailing Stockholm
+    description: The North American island nation...
+  - image: /images/Three-a-Charm.png
+    alt: Three's a Charm
+    link: /articles/itinerary-cuba
     tags:
-      - "Travel"
-      - "Number 11"
-    title: "Three's a Charm"
-    description: "The day Marie-Louise Sciò..."
-
+      - Travel
+      - Number 11
+    title: Three's a Charm
+    description: The day Marie-Louise Sciò...
+  - image: /images/Three-a-Charm.png
+    alt: Three's a Charm
+    link: /articles/itinerary-cuba
+    tags:
+      - Travel
+      - Number 11
+    title: Three's a Charm
+    description: The day Marie-Louise Sciò...
+  - image: /images/Three-a-Charm.png
+    alt: Three's a Charm
+    link: /articles/itinerary-cuba
+    tags:
+      - Travel
+      - Number 11
+    title: Three's a Charm
+    description: The day Marie-Louise Sciò...
 cards2:
-  - image: "/images/sailing-stockholm.png"
-    alt: "Sailing Stockholm"
-    link: "/articles/itinerary-cuba"
+  - image: /images/sailing-stockholm.png
+    alt: Sailing Stockholm
+    link: /articles/itinerary-cuba
     tags:
-      - "Travel"
-      - "Number 11"
-    title: "Sailing Stockholm"
-    description: "The North American island nation..."
-
-  - image: "/images/Three-a-Charm.png"
-    alt: "Three's a Charm"
-    link: "/articles/itinerary-cuba"
+      - Travel
+      - Number 11
+    title: Sailing Stockholm
+    description: The North American island nation...
+  - image: /images/Three-a-Charm.png
+    alt: Three's a Charm
+    link: /articles/itinerary-cuba
     tags:
-      - "Travel"
-      - "Number 11"
-    title: "Three's a Charm"
-    description: "The day Marie-Louise Sciò..."
-
+      - Travel
+      - Number 11
+    title: Three's a Charm
+    description: The day Marie-Louise Sciò...
 content_on_image:
-  image: "/images/tide-banner2.png"
-  alt: "TIDE's Top Ten Sailing Destinations"
+  image: /images/tide-banner2.png
+  alt: TIDE's Top Ten Sailing Destinations
   tags:
-    - "Travel"
-    - "Number 11"
-  title: "TIDE's Top Ten Sailing Destinations"
-  description: "For decades, sailors have set a course for the Cyclades, but not only for its myriad cultural attractions, sandy beaches, hidden coves and gin-clear seas."
+    - Travel
+    - Number 11
+  title: TIDE's Top Ten Sailing Destinations
+  description: >-
+    For decades, sailors have set a course for the Cyclades, but not only for
+    its myriad cultural attractions, sandy beaches, hidden coves and gin-clear
+    seas.
   button:
-    text: "More"
-    link: "/destinations"
-    class: "width-fit btn white-btn"
-
+    text: More
+    link: /destinations
+    class: width-fit btn white-btn
 featured_section:
   cards:
-    - image: "/images/sailing-stockholm.png"
-      alt: "Sailing Stockholm"
-      link: "/articles/itinerary-cuba"
+    - image: /images/sailing-stockholm.png
+      alt: Sailing Stockholm
+      link: /articles/itinerary-cuba
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Checking In: Petunia Hotel, Ibiza"
-      description: "With a growing number of smart eco-focused stays across the Finnish archipelago, this little-known part of the world is having..."
-
-    - image: "/images/Three-a-Charm.png"
-      alt: "Three's a Charm"
-      link: "/articles/itinerary-cuba"
+        - Travel
+        - Number 11
+      title: 'Checking In: Petunia Hotel, Ibiza'
+      description: >-
+        With a growing number of smart eco-focused stays across the Finnish
+        archipelago, this little-known part of the world is having...
+    - image: /images/Three-a-Charm.png
+      alt: Three's a Charm
+      link: /articles/itinerary-cuba
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "La Dolce Vita Itinerary"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-    - image: "/images/sailing-stockholm.png"
-      alt: "Sailing Stockholm"
-      link: "/articles/itinerary-cuba"
+        - Travel
+        - Number 11
+      title: La Dolce Vita Itinerary
+      description: >-
+        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
+        and breathed in the jasmine and wild thyme-fragranced...
+    - image: /images/sailing-stockholm.png
+      alt: Sailing Stockholm
+      link: /articles/itinerary-cuba
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Nilaya Rises"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-    - image: "/images/Three-a-Charm.png"
-      alt: "Three's a Charm"
-      link: "/articles/itinerary-cuba"
+        - Travel
+        - Number 11
+      title: Nilaya Rises
+      description: >-
+        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
+        and breathed in the jasmine and wild thyme-fragranced...
+    - image: /images/Three-a-Charm.png
+      alt: Three's a Charm
+      link: /articles/itinerary-cuba
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Three's a Charm"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
+        - Travel
+        - Number 11
+      title: Three's a Charm
+      description: >-
+        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
+        and breathed in the jasmine and wild thyme-fragranced...
   cards2:
-    - image: "/images/sailing-stockholm.png"
-      alt: "Sailing Stockholm"
-      link: "/articles/itinerary-cuba"
+    - image: /images/sailing-stockholm.png
+      alt: Sailing Stockholm
+      link: /articles/itinerary-cuba
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Checking In: Petunia Hotel, Ibiza"
-      description: "With a growing number of smart eco-focused stays across the Finnish archipelago, this little-known part of the world is having..."
-
-    - image: "/images/Three-a-Charm.png"
-      alt: "Three's a Charm"
-      link: "/articles/itinerary-cuba"
+        - Travel
+        - Number 11
+      title: 'Checking In: Petunia Hotel, Ibiza'
+      description: >-
+        With a growing number of smart eco-focused stays across the Finnish
+        archipelago, this little-known part of the world is having...
+    - image: /images/Three-a-Charm.png
+      alt: Three's a Charm
+      link: /articles/itinerary-cuba
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "La Dolce Vita Itinerary"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-    - image: "/images/sailing-stockholm.png"
-      alt: "Sailing Stockholm"
-      link: "/articles/itinerary-cuba"
+        - Travel
+        - Number 11
+      title: La Dolce Vita Itinerary
+      description: >-
+        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
+        and breathed in the jasmine and wild thyme-fragranced...
+    - image: /images/sailing-stockholm.png
+      alt: Sailing Stockholm
+      link: /articles/itinerary-cuba
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Nilaya Rises"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-    - image: "/images/Three-a-Charm.png"
-      alt: "Three's a Charm"
-      link: "/articles/itinerary-cuba"
+        - Travel
+        - Number 11
+      title: Nilaya Rises
+      description: >-
+        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
+        and breathed in the jasmine and wild thyme-fragranced...
+    - image: /images/Three-a-Charm.png
+      alt: Three's a Charm
+      link: /articles/itinerary-cuba
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Three's a Charm"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
+        - Travel
+        - Number 11
+      title: Three's a Charm
+      description: >-
+        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
+        and breathed in the jasmine and wild thyme-fragranced...
   cards3:
-    - image: "/images/sailing-stockholm.png"
-      alt: "Sailing Stockholm"
-      link: "/articles/itinerary-cuba"
+    - image: /images/sailing-stockholm.png
+      alt: Sailing Stockholm
+      link: /articles/itinerary-cuba
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Checking In: Petunia Hotel, Ibiza"
-      description: "With a growing number of smart eco-focused stays across the Finnish archipelago, this little-known part of the world is having..."
-
-    - image: "/images/Three-a-Charm.png"
-      alt: "Three's a Charm"
-      link: "/articles/itinerary-cuba"
+        - Travel
+        - Number 11
+      title: 'Checking In: Petunia Hotel, Ibiza'
+      description: >-
+        With a growing number of smart eco-focused stays across the Finnish
+        archipelago, this little-known part of the world is having...
+    - image: /images/Three-a-Charm.png
+      alt: Three's a Charm
+      link: /articles/itinerary-cuba
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "La Dolce Vita Itinerary"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-    - image: "/images/sailing-stockholm.png"
-      alt: "Sailing Stockholm"
-      link: "/articles/itinerary-cuba"
+        - Travel
+        - Number 11
+      title: La Dolce Vita Itinerary
+      description: >-
+        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
+        and breathed in the jasmine and wild thyme-fragranced...
+    - image: /images/sailing-stockholm.png
+      alt: Sailing Stockholm
+      link: /articles/itinerary-cuba
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Nilaya Rises"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-    - image: "/images/Three-a-Charm.png"
-      alt: "Three's a Charm"
-      link: "/articles/itinerary-cuba"
+        - Travel
+        - Number 11
+      title: Nilaya Rises
+      description: >-
+        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
+        and breathed in the jasmine and wild thyme-fragranced...
+    - image: /images/Three-a-Charm.png
+      alt: Three's a Charm
+      link: /articles/itinerary-cuba
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Three's a Charm"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
+        - Travel
+        - Number 11
+      title: Three's a Charm
+      description: >-
+        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
+        and breathed in the jasmine and wild thyme-fragranced...
   cards4:
-    - image: "/images/sailing-stockholm.png"
-      alt: "Sailing Stockholm"
-      link: "/articles/itinerary-cuba"
+    - image: /images/sailing-stockholm.png
+      alt: Sailing Stockholm
+      link: /articles/itinerary-cuba
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Checking In: Petunia Hotel, Ibiza"
-      description: "With a growing number of smart eco-focused stays across the Finnish archipelago, this little-known part of the world is having..."
-
-    - image: "/images/Three-a-Charm.png"
-      alt: "Three's a Charm"
-      link: "/articles/itinerary-cuba"
+        - Travel
+        - Number 11
+      title: 'Checking In: Petunia Hotel, Ibiza'
+      description: >-
+        With a growing number of smart eco-focused stays across the Finnish
+        archipelago, this little-known part of the world is having...
+    - image: /images/Three-a-Charm.png
+      alt: Three's a Charm
+      link: /articles/itinerary-cuba
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "La Dolce Vita Itinerary"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-    - image: "/images/sailing-stockholm.png"
-      alt: "Sailing Stockholm"
-      link: "/articles/itinerary-cuba"
+        - Travel
+        - Number 11
+      title: La Dolce Vita Itinerary
+      description: >-
+        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
+        and breathed in the jasmine and wild thyme-fragranced...
+    - image: /images/sailing-stockholm.png
+      alt: Sailing Stockholm
+      link: /articles/itinerary-cuba
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Nilaya Rises"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-    - image: "/images/Three-a-Charm.png"
-      alt: "Three's a Charm"
-      link: "/articles/itinerary-cuba"
+        - Travel
+        - Number 11
+      title: Nilaya Rises
+      description: >-
+        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
+        and breathed in the jasmine and wild thyme-fragranced...
+    - image: /images/Three-a-Charm.png
+      alt: Three's a Charm
+      link: /articles/itinerary-cuba
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Three's a Charm"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
+        - Travel
+        - Number 11
+      title: Three's a Charm
+      description: >-
+        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
+        and breathed in the jasmine and wild thyme-fragranced...
   cards5:
-    - image: "/images/sailing-stockholm.png"
-      alt: "Sailing Stockholm"
-      link: "/articles/itinerary-cuba"
+    - image: /images/sailing-stockholm.png
+      alt: Sailing Stockholm
+      link: /articles/itinerary-cuba
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Checking In: Petunia Hotel, Ibiza"
-      description: "With a growing number of smart eco-focused stays across the Finnish archipelago, this little-known part of the world is having..."
-
-    - image: "/images/Three-a-Charm.png"
-      alt: "Three's a Charm"
-      link: "/articles/itinerary-cuba"
+        - Travel
+        - Number 11
+      title: 'Checking In: Petunia Hotel, Ibiza'
+      description: >-
+        With a growing number of smart eco-focused stays across the Finnish
+        archipelago, this little-known part of the world is having...
+    - image: /images/Three-a-Charm.png
+      alt: Three's a Charm
+      link: /articles/itinerary-cuba
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "La Dolce Vita Itinerary"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-    - image: "/images/sailing-stockholm.png"
-      alt: "Sailing Stockholm"
-      link: "/articles/itinerary-cuba"
+        - Travel
+        - Number 11
+      title: La Dolce Vita Itinerary
+      description: >-
+        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
+        and breathed in the jasmine and wild thyme-fragranced...
+    - image: /images/sailing-stockholm.png
+      alt: Sailing Stockholm
+      link: /articles/itinerary-cuba
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Nilaya Rises"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-    - image: "/images/Three-a-Charm.png"
-      alt: "Three's a Charm"
-      link: "/articles/itinerary-cuba"
+        - Travel
+        - Number 11
+      title: Nilaya Rises
+      description: >-
+        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
+        and breathed in the jasmine and wild thyme-fragranced...
+    - image: /images/Three-a-Charm.png
+      alt: Three's a Charm
+      link: /articles/itinerary-cuba
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Three's a Charm"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
+        - Travel
+        - Number 11
+      title: Three's a Charm
+      description: >-
+        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
+        and breathed in the jasmine and wild thyme-fragranced...
 subscribe_section:
-  left_image: "/images/magazine.png"
-  right_image: "/images/tablet.png"
-  title: "Subscribe"
+  left_image: /images/magazine.png
+  right_image: /images/tablet.png
+  title: Subscribe
   buttons:
-    - text: "IN PRINT"
-      class: "btn-border"
-      arrow: "left"
-    - text: "DIGITAL"
-      class: "btn-border"
-      arrow: "right"
+    - text: IN PRINT
+      class: btn-border
+      arrow: left
+    - text: DIGITAL
+      class: btn-border
+      arrow: right
