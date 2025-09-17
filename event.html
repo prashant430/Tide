@@ -38,61 +38,27 @@ layout: default
   <div class="swiper-desktop visible">
     <div class="swiper-wrapper">
       
-      <!-- Card 1 -->
-      <div class="swiper-slide">
-        <div class="featured-card">
-          <img src="./images/sailing-stockholm.png" class="w-full h-auto mb-20 d-block" >
-          <!-- <%= image_tag "sailing_stockholm.jpg", alt: "Sailing Stockholm", class: "w-full h-auto mb-20 d-block" %> -->
-          <div class="featured-detail pt-24 px-10">
-            <a href="/articles/itinerary-cuba">
-                <div class="d-flex gap-10 uppercase mb-1 font-xs normal-letter-spacing card-tags">
-                   <span>Travel</span> <span class="divider"></span> <span>Number 11</span>
-                 </div>
-                <h2 class="mob-padding title-block h2"> Sailing Stockholm </h2>
+     {% for card in site.data.event.cards %}
+        <div class="swiper-slide ">
+          <div class="featured-card{% if forloop.first %} {% endif %}">
+            <img src="{{ card.image }}" alt="{{ card.alt }}" class="w-full h-auto mb-20 d-block" />
 
-                <a href="#" class="btn mt-1">More</a>
-               </a>
-            
-          </div>
-        </div>
-      </div>
+            <div class="featured-detail pt-24 px-10">
+              <a href="{{ card.link }}">
+                <div class="d-flex gap-10 uppercase font-xs normal-letter-spacing mb-1 align-center overpass-font-family card-tags">
+                  {% for tag in card.tags %}
+                    <span>{{ tag }}</span>
+                    {% unless forloop.last %}<span class="divider"></span>{% endunless %}
+                  {% endfor %}
+                </div>
 
-      <!-- Card 2 -->
-      <div class="swiper-slide">
-        <div class="featured-card">
-          <img src="./images/Three-a-Charm.png" class="w-full h-auto mb-20 d-block" >
-          <!-- <%= image_tag "sailing_stockholm.jpg", alt: "Sailing Stockholm", class: "w-full h-auto mb-20 d-block" %> -->
-          <div class="featured-detail pt-24 px-10">
-            <a href="/articles/itinerary-cuba">
-                <div class="d-flex gap-10 uppercase mb-1 font-xs normal-letter-spacing card-tags">
-            <span>Travel</span> <span class="divider"></span> <span>Number 11</span>
-        </div>
-              <h2 class="mob-padding title-block h2"> Three's a Charm </h2>
-              <a href="#" class="btn mt-1">More</a>
+                <h2 class="mob-padding title-block h2">{{ card.title }}</h2>
+                <p class="mob-padding long-text w-36">{{ card.description }}</p>
               </a>
-            
+            </div>
           </div>
         </div>
-      </div>
-
-      <!-- Repeat for remaining cards -->
-      <div class="swiper-slide">
-        <div class="featured-card">
-          <img src="./images/sailing-stockholm.png" class="w-full h-auto mb-20 d-block" >
-          <!-- <%= image_tag "sailing_stockholm.jpg", alt: "Sailing Stockholm", class: "w-full h-auto mb-20 d-block" %> -->
-          <div class="featured-detail pt-24 px-10">
-            <a href="/articles/itinerary-cuba">
-                <div class="d-flex gap-10 uppercase mb-1 font-xs normal-letter-spacing card-tags">
-            <span>Travel</span> <span class="divider"></span> <span>Number 11</span>
-        </div>
-              <h2 class="mob-padding title-block h2"> Nilaya Rises </h2>
-              <a href="#" class="btn mt-1">More</a>
-                 </a>
-            
-          </div>
-        </div>
-      </div>
-
+        {% endfor %}
       <!-- Add more swiper-slide blocks as needed -->
 
     </div>
