@@ -87,16 +87,15 @@ content_on_image:
     class: width-fit btn white-btn
 featured_section:
   cards:
-    - image: /images/sailing-stockholm.png
-      alt: Sailing Stockholm
-      link: /articles/itinerary-cuba
+    - image: >-
+        /uploads/tide-magazine-sailing-lifestyle-travel-issue06-superyacht-gathering2.jpg
+      alt: ' Pacific Time '
+      link: /articles/superyacht-gathering
       tags:
-        - Travel
-        - Number 11
-      title: 'Checking In: Petunia Hotel, Ibiza'
-      description: >-
-        With a growing number of smart eco-focused stays across the Finnish
-        archipelago, this little-known part of the world is having...
+        - 'Lifestyle '
+        - number 06
+      title: ' Pacific Time '
+      description: ' Luring sailors away from the Mediterranean and Caribbean to the wild of the South Pacific is no easy feat but Linda Berry, founder of The Superyacht Gathering, has sparked a ripple… '
     - image: /images/Three-a-Charm.png
       alt: Three's a Charm
       link: /articles/itinerary-cuba
