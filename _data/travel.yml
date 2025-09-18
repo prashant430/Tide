@@ -279,16 +279,14 @@ featured_section3:
         - number 03
       title: ' The Nature Island: Secret Bay, Dominica '
       description: ' Discover eco-luxury at its finest on the verdant Caribbean island of Dominica, where night snorkelling, waterfall hiking and stargazing and are a way of life. '
-    - image: /images/Three-a-Charm.png
-      alt: Three's a Charm
-      link: /articles/itinerary-cuba
+    - image: /uploads/download-42.jpg
+      alt: ' Hidden Gems: St Vincent and The Grenadines '
+      link: /articles/hidden-gems-st-vincent-the-grenadines
       tags:
-        - Travel
-        - Number 11
-      title: La Dolce Vita Itinerary
-      description: >-
-        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
-        and breathed in the jasmine and wild thyme-fragranced...
+        - ' Travel I '
+        - number 03
+      title: ' Hidden Gems: St Vincent and The Grenadines '
+      description: ' Caribbean Hidden Gems: Exclusive and mostly untouched, the tropical waters of St Vincent and The Grenadines are a delightful playground for Superyachts over the winter season. '
     - image: /images/sailing-stockholm.png
       alt: Sailing Stockholm
       link: /articles/itinerary-cuba
