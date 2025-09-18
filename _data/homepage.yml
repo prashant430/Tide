@@ -161,7 +161,7 @@ cards4:
 cards5:
   - image: /images/sailing-stockholm.png
     alt: ' Sailing Stockholm '
-    link: articles/sailing-stockholm
+    link: /articles/sailing-stockholm
     tags:
       - Travel
       - Number 11
