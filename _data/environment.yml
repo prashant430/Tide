@@ -25,6 +25,14 @@ cards:
       - number 09
     title: ' Life in the Meadows '
     description: ' Seagrass meadows, among the oldest life on earth, are our secret weapon in fighting climate change. But these hidden forests are under threat. Luckily, a Mallorcan project is diving in to help save them '
+  - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue08-environment-1.jpg
+    alt: ' Atoll Protected '
+    link: ''
+    tags:
+      - 'Environment '
+      - number 08
+    title: ' Atoll Protected '
+    description: ' As it undertakes its mission to conserve the islet’s special environment and culture, the hard-working Teti’aroa Society has also sketched out a pathway for the restoration of oceanic islands in general '
 content_on_image:
   image: /images/tide-banner2.png
   alt: TIDE's Top Ten Sailing Destinations
