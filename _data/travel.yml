@@ -78,16 +78,14 @@ featured_section:
         - ' number 11'
       title: ' Checking In: Bawah Reserve, Indonesia '
       description: ' This unique eco-resort offers guests a life-giving sojourn in the arms of Mother Nature '
-    - image: /images/Three-a-Charm.png
-      alt: Three's a Charm
-      link: /articles/itinerary-cuba
+    - image: /uploads/download-16.jpg
+      alt: ' Three''s a Charm '
+      link: /articles/hotel-mezzatore
       tags:
-        - Travel
-        - Number 11
-      title: La Dolce Vita Itinerary
-      description: >-
-        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
-        and breathed in the jasmine and wild thyme-fragranced...
+        - ' Travel I '
+        - number 10
+      title: ' Three''s a Charm '
+      description: ' On the island of Ischia, one family has brought Italy’s ‘good life’ to a historic watchtower – by transforming it into their third smart hotel '
     - image: /images/sailing-stockholm.png
       alt: Sailing Stockholm
       link: /articles/itinerary-cuba
