@@ -79,17 +79,15 @@ cards:
     title: ' Sailing Cuba '
     description: ' The North American island nation has so much more beyond Havana, from isolated sandy cays to lively, vibrant city centres. Here, Cuba-born Maria Romeu, founder of CubaPlus Travel agency, has planned your visit for you '
 cards2:
-  - image: /images/sailing-stockholm.png
-    alt: Sailing Stockholm
+  - image: >-
+      /uploads/issue-12/tide-magazine-sailing-lifestyle-travel-issue12-black-pearl-5.jpg
+    alt: ' Revolutionary Rigging  '
     link: /articles/estudio-ramos
     tags:
-      - Travel
-      - Number 11
-    title: Sailing Stockholm
-    description: >-
-      The North American island nation has so much more beyond Havana, from
-      isolated sandy cays to lively, vibrant city centres. Here, Cuba-born Maria
-      Romeu, founder of CubaPlus Travel agency, has planned your visit for you
+      - Sailing
+      - number 12
+    title: ' Revolutionary Rigging  '
+    description: ' As one of the most pioneering advancements in sailing design this century, DynaRig has been turning heads and Superyacht sails for nearly two decades. TIDE gets the inside track on the system and its potential future use  '
   - image: /images/Three-a-Charm.png
     alt: Three's a Charm
     link: /articles/itinerary-cuba
