@@ -153,18 +153,16 @@ cards2:
       - number 01
     title: ' Diving for dinner '
     description: ' Chef Nathan Clements has his boning knife on the pulse '
-  - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue10-chef-1-1.jpg
-    alt: ' A Taste Of Tuscany '
-    link: /articles/a-taste-of-tuscany
+  - image: /uploads/rlzed8ta.jpg
+    alt: ' An endless summer '
+    link: /articles/an-endless-summer
     tags:
       - Lifestyle
-      - number 10
-    title: ' A Taste Of Tuscany '
-    description: >2-
-       In this much-revered Italian region, life’s simple pleasures are celebrated as its most important, starting with its food. Spanish yacht chef Núria Cascante explains the particular culinary magic and cultural appeal of the central area she’s fallen for, both professionally and personally 
-      and innovative techniques to create a food legacy all of its own.  Here,
-      Maria Sollivellas, Chef and co-owner of Restaurant Ca na Toneta, 
-      celebrates her home’s past and present with a much-loved intrinsic dish 
+      - number 01
+    title: ' An endless summer '
+    description: |2-
+       Chef Pippa Crowley on spicing up galley life
+       
   - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue07-flying-lunch2.jpg
     alt: ' A Flying Lunch '
     link: /articles/flying-lunch
