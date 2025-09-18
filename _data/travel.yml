@@ -23,12 +23,12 @@ cards:
       - number 12
     title: ' Hidden Gems: Islas Secas '
     description: ' Explore this relatively undiscovered archipelago off Panama’s Gulf of Chiriquí for both natural, untamed wonders and the last word in eco-luxe '
-  - image: ''
-    alt: ''
-    link: ''
+  - image: /uploads/download-11.jpg
+    alt: ' Checking in: Refugia Chiloé '
+    link: /articles/refugia-chiloe
     tags: []
-    title: ''
-    description: ''
+    title: ' Checking in: Refugia Chiloé '
+    description: ' This just-rebranded island retreat is as welcoming and soul-reviving as its name suggests. Nicola Chilton shares what to expect following her stay, from ravishing sunsets to unique local dishes and bathtubs with a view '
   - image: ''
     alt: ''
     link: ''
