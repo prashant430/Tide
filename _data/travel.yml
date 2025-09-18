@@ -295,16 +295,14 @@ featured_section3:
         - number 02
       title: ' HOTEL: Pan Deï Palais, Saint Tropez '
       description: ' A gloriously private oasis with just 12 bedrooms in the heart of Saint Tropez, this Indian-inspired palace-turned-hotel is as rich in magic and romance today as it was when it was built in 1835.  '
-    - image: /images/Three-a-Charm.png
-      alt: Three's a Charm
-      link: /articles/itinerary-cuba
+    - image: /uploads/download-44.jpg
+      alt: ' Hidden Gems: St Tropez & the Côte d’Azur '
+      link: /articles/Hidden-Gems-St-Tropez-&-the-Côte-dAzur
       tags:
-        - Travel
-        - Number 11
-      title: Three's a Charm
-      description: >-
-        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
-        and breathed in the jasmine and wild thyme-fragranced...
+        - ' Travel I'
+        - ' number 02'
+      title: ' Hidden Gems: St Tropez & the Côte d’Azur '
+      description: ' Saint-Tropez is known more for its international yachting lifestyle than its authentic French culture: a honey-pot for celebrity beach clubs, world-class regattas and luxury boutiques. But beyond this sparkling veneer, there are secret beach cafes and snorkelling spots to be uncovered in and around the Côte d''Azur jewel. Balancing the best of rugged Provence and Riviera dazzle, the Gulf and its environs are blessed with as much tranquillity and authenticity as you’re willing to seek out. What remains at the heart of it all? The sea. In all its worshipped turquoise glory.  '
 cards4:
   - image: /images/sailing-stockholm.png
     alt: Sailing Stockholm
