@@ -32,6 +32,15 @@ cards:
       and innovative techniques to create a food legacy all of its own.  Here,
       Maria Sollivellas, Chef and co-owner of Restaurant Ca na Toneta, 
       celebrates her home’s past and present with a much-loved intrinsic dish 
+  - image: >-
+      /uploads/tide-magazine-sailing-lifestyle-travel-issue09-gourmand-barcelona-1.jpg
+    alt: ' The Gourmand''s Guide to Barcelona '
+    link: /articles/gourmand-barcelona
+    tags:
+      - 'Lifestyle '
+      - number 09
+    title: ' The Gourmand''s Guide to Barcelona '
+    description: ' Sleep, Eat, Sail, Repeat: here are all the restaurants you need to know for the second part of that equation – to be tasted while the America’s Cup’s in the Catalan town  '
 content_on_image:
   image: /images/tide-banner2.png
   alt: TIDE's Top Ten Sailing Destinations
