@@ -61,6 +61,15 @@ cards:
       - number 07
     title: ' A Flying Lunch '
     description: ' TIDE’s Caribbean contingent hops aboard a helicopter with CalvinAir and heads to Barbuda’s most beautiful restaurant, Nobu '
+  - image: >-
+      /uploads/tide-magazine-sailing-lifestyle-travel-issue07-baltic-rendezvous2.jpg
+    alt: ' A Family Affair: The Baltic Yachts Rendezvous 2023 '
+    link: /articles/baltic-rendezvous
+    tags:
+      - Lifestyle
+      - number 07
+    title: ' A Family Affair: The Baltic Yachts Rendezvous 2023 '
+    description: ' There aren’t many shipyards that can still claim to be industry leaders after 50 years in the game. But Baltic Yachts is not most shipyards, showcased by the large, tight-knit community that gathered for its latest legendary Rendezvous  '
 content_on_image:
   image: /images/tide-banner2.png
   alt: TIDE's Top Ten Sailing Destinations
