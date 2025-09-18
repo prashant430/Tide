@@ -160,15 +160,13 @@ cards4:
       Romeu, founder of CubaPlus Travel agency, has planned your visit for you
 cards5:
   - image: /images/sailing-stockholm.png
-    alt: ' A Taste Of Tuscany '
-    link: /articles/taste-of-tuscany
+    alt: ' Sailing Stockholm '
+    link: articles/sailing-stockholm
     tags:
       - Travel
       - Number 11
-    title: ' A Taste Of Tuscany '
-    description: >-
-      The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
-      and breathed in the jasmine and wild thyme-fragranced...
+    title: ' Sailing Stockholm '
+    description: ' There’s a simple beauty in the stillness of Stockholm’s archipelago. With tens of thousands of isles, the region offers an itinerary very much intended to slow one down: think straight-forward food and the easy pleasure of days spent immersed in nature  '
   - image: >-
       /uploads/tide-magazine-sailing-lifestyle-travel-issue09-gourmand-barcelona-1-1.jpg
     alt: Three's a Charm
