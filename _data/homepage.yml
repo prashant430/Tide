@@ -169,9 +169,10 @@ cards5:
     description: >-
       The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
       and breathed in the jasmine and wild thyme-fragranced...
-  - image: /images/Three-a-Charm.png
+  - image: >-
+      /uploads/tide-magazine-sailing-lifestyle-travel-issue09-gourmand-barcelona-1-1.jpg
     alt: Three's a Charm
-    link: /articles/itinerary-cuba
+    link: /articles/gourmand-barcelona
     tags:
       - Travel
       - Number 11
