@@ -41,12 +41,12 @@ cards:
     tags: []
     title: ' Sailing Stockholm '
     description: ' There’s a simple beauty in the stillness of Stockholm’s archipelago. With tens of thousands of isles, the region offers an itinerary very much intended to slow one down: think straight-forward food and the easy pleasure of days spent immersed in nature  '
-  - image: ''
-    alt: ''
-    link: ''
+  - image: /uploads/download-14.jpg
+    alt: ' Hidden Gems: Project Ö, Skjulskäret '
+    link: /articles/project-o
     tags: []
-    title: ''
-    description: ''
+    title: ' Hidden Gems: Project Ö, Skjulskäret '
+    description: ' With a growing number of smart eco-focused stays across the Finnish archipelago, this little-known part of the world is having a – very quiet – moment  '
   - image: ''
     alt: ''
     link: ''
