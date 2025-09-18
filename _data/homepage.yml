@@ -97,16 +97,18 @@ cards2:
       - number 12
     title: ' On Point:  Supersloop Sarissa '
     description: ' The 60m Sarissa, named after the ancient Greek word for a long, sharp spear, is cutting-edge in every way, from her record-holding square-top mainsail to her impressive speed and unique quietness. We meet her designer Malcolm McKeon and Captain Iain Cook to find out her secret '
-  - image: /images/sailing-stockholm.png
-    alt: Nilaya Rises
-    link: /articles/itinerary-cuba
+  - image: >-
+      /uploads/issue-12/tide-magazine-sailing-lifestyle-travel-issue12-ocean-breeze-1.jpg
+    alt: ' Ocean Breeze '
+    link: /articles/ocean-breeze
     tags:
-      - Travel
-      - Number 11
-    title: Nilaya Rises
+      - Lifestyle
+      - number 12
+    title: ' Ocean Breeze '
     description: >-
-      The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
-      and breathed in the jasmine and wild thyme-fragranced...
+      Imbibe the special treasures of the location surrounding you via a glass
+      of wine crafted at Bodega Oceánica José Ignacio, situated just back from
+      Uruguay’s Atlantic coastline 
 cards3:
   - image: /images/sailing-stockholm.png
     alt: Sailing Stockholm
