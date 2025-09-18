@@ -252,12 +252,12 @@ cards3:
     tags: []
     title: ' Finding Fjorland '
     description: ' Half inside the Arctic Circle and bristling with glaciers, sea cliffs and deep fjords, Norway is a cruising ground which inspires a mix of trepidation and longing among sailors worldwide '
-  - image: ''
-    alt: ''
-    link: ''
+  - image: /uploads/download-40.jpg
+    alt: ' A French-Créole sweet spot - Colibri, Antigua '
+    link: /articles/colibri-antigua
     tags: []
-    title: ''
-    description: ''
+    title: ' A French-Créole sweet spot - Colibri, Antigua '
+    description: ' Run by husband and wife team Didier and Leah Deleau, relaxed yet sophisticated Colibri brings French-Créole flair to the island’s culinary scene.  '
 subscribe_section:
   left_image: /images/magazine.png
   right_image: /images/tablet.png
