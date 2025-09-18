@@ -138,17 +138,15 @@ cards3:
     title: 'Checking in: Refugia Chiloé '
     description: ' This just-rebranded island retreat is as welcoming and soul-reviving as its name suggests. Nicola Chilton shares what to expect following her stay, from ravishing sunsets to unique local dishes and bathtubs with a view '
 cards4:
-  - image: /images/sailing-stockholm.png
-    alt: Sailing Stockholm
-    link: /articles/itinerary-cuba
+  - image: >-
+      /uploads/issue-12/tide-magazine-sailing-lifestyle-travel-issue12-checking-in-1.jpg
+    alt: ' Checking in: Posada Ayana '
+    link: /articles/posada-ayana
     tags:
       - Travel
-      - Number 11
-    title: Sailing Stockholm
-    description: >-
-      The North American island nation has so much more beyond Havana, from
-      isolated sandy cays to lively, vibrant city centres. Here, Cuba-born Maria
-      Romeu, founder of CubaPlus Travel agency, has planned your visit for you
+      - number 12
+    title: ' Checking in: Posada Ayana '
+    description: ' Originally from Austria, Edda and Robert Kofler relocated to the tiny Uruguayan village of José Ignacio and never looked back. The result? An elegant, modern hotel with ocean views and the kind of calm one would cross oceans for '
   - image: /images/Three-a-Charm.png
     alt: Three's a Charm
     link: /articles/itinerary-cuba
