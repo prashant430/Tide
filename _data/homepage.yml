@@ -112,16 +112,13 @@ cards2:
 cards3:
   - image: >-
       /uploads/issue-12/tide-magazine-sailing-lifestyle-travel-issue12-hidden-gems-3.jpg
-    alt: Sailing Stockholm
-    link: /articles/itinerary-cuba
+    alt: 'Hidden Gems: Islas Secas '
+    link: /articles/hidden-gems-islas-secas
     tags:
       - Travel
-      - Number 11
-    title: Sailing Stockholm
-    description: >-
-      The North American island nation has so much more beyond Havana, from
-      isolated sandy cays to lively, vibrant city centres. Here, Cuba-born Maria
-      Romeu, founder of CubaPlus Travel agency, has planned your visit for you
+      - number 12
+    title: ' Hidden Gems: Islas Secas '
+    description: ' Explore this relatively undiscovered archipelago off Panama’s Gulf of Chiriquí for both natural, untamed wonders and the last word in eco-luxe '
   - image: /images/Three-a-Charm.png
     alt: Three's a Charm
     link: /articles/itinerary-cuba
