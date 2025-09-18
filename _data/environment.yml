@@ -92,14 +92,14 @@ featured_section:
       title: 'The 11th Hour '
       description: ' Using the power of sport and travel to restore a balanced relationship between people and planet, 11th Hour Racing are working against the clock to enable others to protect and restore the health of our ocean '
 cards2:
-  - image: /images/sailing-stockholm.png
-    alt: Sailing Stockholm
-    link: /articles/itinerary-cuba
+  - image: /uploads/untitled-design-50-1.png
+    alt: ' Rewilding the Sea '
+    link: /articles/rewilding-the-sea
     tags:
-      - Travel
-      - Number 11
-    title: Sailing Stockholm
-    description: The North American island nation...
+      - 'Environment '
+      - number 03
+    title: ' Rewilding the Sea '
+    description: ' Environmental campaigner and acclaimed author Charles Clover explains how – with a little patience and optimism – simply leaving the oceans alone to heal themselves is the best thing we can do.  '
   - image: /images/Three-a-Charm.png
     alt: Three's a Charm
     link: /articles/itinerary-cuba
