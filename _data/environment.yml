@@ -100,14 +100,14 @@ cards2:
       - number 03
     title: ' Rewilding the Sea '
     description: ' Environmental campaigner and acclaimed author Charles Clover explains how – with a little patience and optimism – simply leaving the oceans alone to heal themselves is the best thing we can do.  '
-  - image: /images/Three-a-Charm.png
-    alt: Three's a Charm
-    link: /articles/itinerary-cuba
+  - image: /uploads/1-1-1.png
+    alt: 'Rebuilding Reefs '
+    link: /articles/rebuilding-reefs
     tags:
-      - Travel
-      - Number 11
-    title: Three's a Charm
-    description: The day Marie-Louise Sciò...
+      - 'Environment '
+      - ' number 02'
+    title: 'Rebuilding Reefs '
+    description: ' Marine scientists Genevieve Renaud-Byrne and Dr Molly Wilson on their mission to save Antigua’s marine ecosystems '
 subscribe_section:
   left_image: /images/magazine.png
   right_image: /images/tablet.png

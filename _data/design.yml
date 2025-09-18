@@ -61,7 +61,7 @@ content_on_image:
     class: width-fit btn white-btn
 featured_section:
   cards:
-    - image: /images/sailing-stockholm.png
+    - image: /uploads/download-5.jpg
       alt: Sailing Stockholm
       link: /articles/itinerary-cuba
       tags:
