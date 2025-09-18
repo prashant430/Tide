@@ -47,12 +47,12 @@ cards:
     tags: []
     title: ' Hidden Gems: Project Ö, Skjulskäret '
     description: ' With a growing number of smart eco-focused stays across the Finnish archipelago, this little-known part of the world is having a – very quiet – moment  '
-  - image: ''
-    alt: ''
-    link: ''
+  - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue11-hermitage-2.jpg
+    alt: ' Checking In: Hermitage Bay, Antigua '
+    link: /articles/hermitage-bay
     tags: []
-    title: ''
-    description: ''
+    title: ' Checking In: Hermitage Bay, Antigua '
+    description: ' The Antiguan hideaway is open once more following a large-scale but sensitive update. We met with new owner, Daniel Shamoon, to find out more    '
 content_on_image:
   image: /images/tide-banner2.png
   alt: TIDE's Top Ten Sailing Destinations
