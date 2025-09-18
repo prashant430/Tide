@@ -69,16 +69,15 @@ cards:
       - number 12
     title: ' The High Low '
     description: ' These two beach spots offer barefoot escapes in South America: one firmly on the Atlantic Ocean in Uruguay, the other hidden away in the turquoise Caribbean in Colombia. Each is paradisiacal, just with different vibes '
-  - image: /images/sailing-stockholm.png
-    alt: Nilaya Rises
+  - image: >-
+      /uploads/issue-12/tide-magazine-sailing-lifestyle-travel-issue12-itinerary-4.jpg
+    alt: ' Sailing Cuba '
     link: /articles/itinerary-cuba
     tags:
       - Travel
       - Number 11
-    title: Nilaya Rises
-    description: >-
-      The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
-      and breathed in the jasmine and wild thyme-fragranced...
+    title: ' Sailing Cuba '
+    description: ' The North American island nation has so much more beyond Havana, from isolated sandy cays to lively, vibrant city centres. Here, Cuba-born Maria Romeu, founder of CubaPlus Travel agency, has planned your visit for you '
 cards2:
   - image: /images/sailing-stockholm.png
     alt: Sailing Stockholm
