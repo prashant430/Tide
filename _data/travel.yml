@@ -70,16 +70,14 @@ content_on_image:
     class: width-fit btn white-btn
 featured_section:
   cards:
-    - image: /images/sailing-stockholm.png
-      alt: Sailing Stockholm
-      link: /articles/itinerary-cuba
+    - image: /uploads/download-15.jpg
+      alt: ' Checking In: Bawah Reserve, Indonesia '
+      link: /articles/bawah-reserve
       tags:
-        - Travel
-        - Number 11
-      title: 'Checking In: Petunia Hotel, Ibiza'
-      description: >-
-        With a growing number of smart eco-focused stays across the Finnish
-        archipelago, this little-known part of the world is having...
+        - ' Travel I'
+        - ' number 11'
+      title: ' Checking In: Bawah Reserve, Indonesia '
+      description: ' This unique eco-resort offers guests a life-giving sojourn in the arms of Mother Nature '
     - image: /images/Three-a-Charm.png
       alt: Three's a Charm
       link: /articles/itinerary-cuba
