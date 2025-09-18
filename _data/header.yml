@@ -1,63 +1,58 @@
 header_columns:
-  - heading: "Categories"
+  - heading: Categories
     links:
-      - name: "Sailing"
-        url: "/sailing"
-      - name: "Lifestyle"
-        url: "/lifestyle"
-      - name: "Environment"
-        url: "/environment"
-      - name: "Travel"
-        url: "/travel"
-      - name: "Design"
-        url: "/design"
+      - name: Sailing
+        url: /sailing
+      - name: Lifestyle
+        url: /lifestyle
+      - name: Environment
+        url: /environment
+      - name: Travel
+        url: /travel
+      - name: Design
+        url: /design
     image_with_text_block:
-      image: "../images/hidden_gems.png"
-      label: "NEW"
-      title: "Three's a Charm"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-      view_link: "#"
+      image: ../images/hidden_gems.png
+      label: NEW
+      title: Three's a Charm
+      description: >-
+        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
+        and breathed in the jasmine and wild thyme-fragranced...
+      view_link: '#'
     related_articles:
-      - image: "../images/hidden_gems.png"
-        alt: "Three's a Charm"
-        text: "Three's a Charm"
-        url: "#"
-      - image: "../images/hidden_gems.png"
-        alt: "Hidden Gems 1"
-        text: "Hidden Gems: The Cyclades"
-        url: "#"
-
-  - heading: "More from TIDE"
-  
-  - heading: "Company"
+      - image: ../images/hidden_gems.png
+        alt: Three's a Charm
+        text: Three's a Charm
+        url: '#'
+      - image: ../images/hidden_gems.png
+        alt: Hidden Gems 1
+        text: 'Hidden Gems: The Cyclades'
+        url: '#'
+  - heading: More from TIDE
+  - heading: Company
     related_articles: []
-
 legal:
   links:
-    - name: "Legal"
-      url: "/legal"
-    - name: "Stay connected"
-      url: "#"
-
+    - name: Legal
+      url: /legal
+    - name: Stay connected
+      url: '#'
 logo_header:
-  default: "/images/tide-magazine-sailing-lifestyle-travel-logo-blue-white.png"
-  scrolled: "/images/tide-magazine-sailing-lifestyle-travel-logo-blue.png"
-  url: "/index"
-
+  default: /images/tide-magazine-sailing-lifestyle-travel-logo-blue-white.png
+  scrolled: /images/tide-magazine-sailing-lifestyle-travel-logo-blue.png
+  url: /index
 burger_menu:
-  image: "../images/burger_menu.svg"
-
-subscribe_link: "/subscribe"
-
+  image: ../images/burger_menu.svg
+subscribe_link: /subscribe
 header_main:
   burger_menu:
-    image: "../images/burger_menu.svg"
-    alt: "Burger Menu"
+    image: ../images/burger_menu.svg
+    alt: Burger Menu
   logo_header:
-    url: "/index"
-    scrolled: "/images/tide-magazine-sailing-lifestyle-travel-logo-blue.png"
-    alt: "Tide Magazine Logo"
+    url: /index
+    scrolled: /images/tide-magazine-sailing-lifestyle-travel-logo-blue.png
+    alt: Tide Magazine Logo
   subscribe_button:
-    text: "SUBSCRIBE"
-    url: "/subscribe"
-    class: "btn-border"
+    text: SUBSCRIBE
+    url: /subscribe
+    class: btn-border
