@@ -52,16 +52,13 @@ homepage_banner:
       style: white-btn
 cards:
   - image: /images/event-banner.png
-    alt: Sailing Stockholm
+    alt: 'The Rule of Aragon '
     link: /articles/high-low-south-america
     tags:
-      - Travel
-      - Number 11
-    title: Sailing Stockholm
-    description: >-
-      The North American island nation has so much more beyond Havana, from
-      isolated sandy cays to lively, vibrant city centres. Here, Cuba-born Maria
-      Romeu, founder of CubaPlus Travel agency, has planned your visit for you
+      - 'Sailing '
+      - number 12
+    title: 'The Rule of Aragon '
+    description: ' Owner Karin van Leeuwen and Skipper Tom Rohde Pearce reveal why they chose to sail the 94’ Southern Wind sloop through one of the toughest sea routes on earth, straight from New Zealand to Patagonia – and how it went  '
   - image: /images/blog-featured.png
     alt: Three's a Charm
     link: /articles/expanding-horizons
