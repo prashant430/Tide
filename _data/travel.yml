@@ -271,16 +271,14 @@ subscribe_section:
       arrow: right
 featured_section3:
   cards:
-    - image: /images/sailing-stockholm.png
-      alt: Sailing Stockholm
-      link: /articles/itinerary-cuba
+    - image: /uploads/download-41.jpg
+      alt: ' The Nature Island: Secret Bay, Dominica '
+      link: /articles/secret-bay-dominica
       tags:
-        - Travel
-        - Number 11
-      title: 'Checking In: Petunia Hotel, Ibiza'
-      description: >-
-        With a growing number of smart eco-focused stays across the Finnish
-        archipelago, this little-known part of the world is having...
+        - ' Travel I number 03'
+        - number 03
+      title: ' The Nature Island: Secret Bay, Dominica '
+      description: ' Discover eco-luxury at its finest on the verdant Caribbean island of Dominica, where night snorkelling, waterfall hiking and stargazing and are a way of life. '
     - image: /images/Three-a-Charm.png
       alt: Three's a Charm
       link: /articles/itinerary-cuba
