@@ -131,6 +131,14 @@ cards2:
       small design initiative called Studio Swine offers a glimmer of
       positivity, using plastic sifted from the oceans to create unique and
       highly sought-after furniture.  
+  - image: /uploads/tide-magazine-sailing-great-circle-1-1.jpg
+    alt: ' The Great Circle '
+    link: /articles/great-circle
+    tags:
+      - 'Environment '
+      - number 01
+    title: ' The Great Circle '
+    description: ' Olympic gold sailing medallists Blair Tuke and Peter Burling on the preservation and restoration of the world’s oceans… '
 subscribe_section:
   left_image: /images/magazine.png
   right_image: /images/tablet.png
