@@ -119,6 +119,18 @@ cards2:
       Is it really possible to have a sustainable superyacht? TIDE talks to some
       of the leading yacht designers who are reimagining yacht interiors with a
       lighter carbon footprint. 
+  - image: /uploads/tide-magazine-environment-seachair-3-1.jpg
+    alt:
+    link: /articles/sea-chair
+    tags:
+      - environment
+      - number 02
+    title: 'Fantastic Plastic: The Sea Chair '
+    description: >-
+      In the face of an overwhelming plastic waste disaster in our oceans, a
+      small design initiative called Studio Swine offers a glimmer of
+      positivity, using plastic sifted from the oceans to create unique and
+      highly sought-after furniture.  
 subscribe_section:
   left_image: /images/magazine.png
   right_image: /images/tablet.png

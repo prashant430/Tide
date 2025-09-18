@@ -62,15 +62,13 @@ content_on_image:
 featured_section:
   cards:
     - image: /uploads/download-5.jpg
-      alt: Sailing Stockholm
+      alt: ' A Kind of Magic '
       link: /articles/german-frers
       tags:
         - ' Design I'
         - ' number 05'
-      title: 'Checking In: Petunia Hotel, Ibiza'
-      description: >-
-        With a growing number of smart eco-focused stays across the Finnish
-        archipelago, this little-known part of the world is having...
+      title: ' A Kind of Magic '
+      description: ' For 65 years, Germán Frers has been enchanting the sailing world with his designs. TIDE falls under his spell. '
     - image: /images/Three-a-Charm.png
       alt: Three's a Charm
       link: /articles/itinerary-cuba
