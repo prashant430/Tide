@@ -137,19 +137,14 @@ cards2:
       - number 10
     title: ' Above and Beyond '
     description: ' Former Superyacht sailing captain turned helicopter pilot for CalvinAir, Tom Hollyhomes, shares his love for aviation and Caribbean life and innovative techniques to create a food legacy all of its own.  Here, Maria Sollivellas, Chef and co-owner of Restaurant Ca na Toneta,  celebrates her home’s past and present with a much-loved intrinsic dish '
-  - image: >-
-      /uploads/tide-magazine-sailing-lifestyle-travel-issue09-mallorcan-food-1.jpg
-    alt: ' The Spirit Of  Mallorca In A Recipe '
-    link: /articles/mallorcan-food
+  - image: /uploads/wlitymjm-2.jpg
+    alt: ' A Cooking Collaboration - The Galley Gang '
+    link: /articles/a-cooking-collaboration-the-galley-gang
     tags:
       - 'Lifestyle '
-      - number 09
-    title: ' The Spirit Of  Mallorca In A Recipe '
-    description: >2-
-       On Mallorca, ancient traditions are woven together with local produce 
-      and innovative techniques to create a food legacy all of its own.  Here,
-      Maria Sollivellas, Chef and co-owner of Restaurant Ca na Toneta, 
-      celebrates her home’s past and present with a much-loved intrinsic dish 
+      - number 03
+    title: ' A Cooking Collaboration - The Galley Gang '
+    description: ' Chef Jemma Harrison shares stories from life inside some of the industry’s most prestigious galleys, and explains how her immersive chef workshops, The Galley Gang, are raising the game for Superyacht gastronomy. '
   - image: >-
       /uploads/tide-magazine-sailing-lifestyle-travel-issue09-gourmand-barcelona-1.jpg
     alt: ' The Gourmand''s Guide to Barcelona '
