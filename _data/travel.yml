@@ -119,13 +119,14 @@ cards2:
       - number 09
     title: ' The High Low: Ibiza '
     description: ' All those who visit Spain know she’s a culinary wonderland. Ibiza is no different. This tale of two restaurants is the perfect example of what makes the nation’s gastronomic legacy so great: its restaurants are out to impress '
-  - image: ''
-    alt: ''
-    link: ''
+  - image: /uploads/download-21.jpg
+    alt: ' Sun Kissed Shores: The Balearics '
+    link: /articles/balearics
     tags:
-      - ''
-    title: ''
-    description: ''
+      - ' Travel I '
+      - number 09
+    title: ' Sun Kissed Shores: The Balearics '
+    description: ' A yachting playground synonymous with sunshine and sophistication, for the seasoned sailor Spain’s renowned archipelago harbours a treasure trove of nautical experiences '
   - image: ''
     alt: ''
     link: ''
