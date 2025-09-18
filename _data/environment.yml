@@ -67,16 +67,14 @@ featured_section:
         - number 06
       title: ' Open Source '
       description: ' How Foundation Zero is throwing out the rulebook to build a fossil-free sailing yacht '
-    - image: /images/Three-a-Charm.png
-      alt: Three's a Charm
-      link: /articles/itinerary-cuba
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue05-environment1.jpg
+      alt: 'The Winds of Change '
+      link: /articles/veer
       tags:
-        - Travel
-        - Number 11
-      title: La Dolce Vita Itinerary
-      description: >-
-        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
-        and breathed in the jasmine and wild thyme-fragranced...
+        - Environment
+        - ' number 05'
+      title: 'The Winds of Change '
+      description: ' Casting aside conventional norms, Danielle Southcott is charting a revolutionary new course in maritime shipping. With a groundbreaking new sailing cargo ship powered by the wind and clean hydrogen fuel, Veer is setting a new standard for eco-responsible practices on the high seas. '
     - image: /images/sailing-stockholm.png
       alt: Sailing Stockholm
       link: /articles/itinerary-cuba
