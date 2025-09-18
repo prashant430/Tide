@@ -147,7 +147,7 @@ cards4:
       - number 12
     title: ' Checking in: Posada Ayana '
     description: ' Originally from Austria, Edda and Robert Kofler relocated to the tiny Uruguayan village of José Ignacio and never looked back. The result? An elegant, modern hotel with ocean views and the kind of calm one would cross oceans for '
-  - image: /images/Three-a-Charm.png
+  - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue10-chef-1-2.jpg
     alt: Three's a Charm
     link: /articles/itinerary-cuba
     tags:
@@ -199,13 +199,6 @@ cards5:
     description: >-
       The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
       and breathed in the jasmine and wild thyme-fragranced...
-  - image: ''
-    alt: ''
-    link: ''
-    tags:
-      - ''
-    title: ''
-    description: ''
 content_on_image:
   image:
     src: /images/gems.png

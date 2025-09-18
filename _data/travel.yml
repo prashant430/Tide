@@ -205,13 +205,13 @@ featured_section2:
       description: ' The Mediterranean islands reward those who explore off the beaten track by revealing their secrets: wild interiors, powdery white beaches, delicious local cuisine and colourful festivals '
 cards3:
   - image: /uploads/download-32.jpg
-    alt: Sailing Stockholm
-    link: /articles/itinerary-cuba
+    alt: ' Checking In: Les Regalia, Corsica '
+    link: /articles/les-regalia
     tags:
-      - Travel
-      - Number 11
-    title: Sailing Stockholm
-    description: The North American island nation...
+      - ' Travel I '
+      - number 06
+    title: ' Checking In: Les Regalia, Corsica '
+    description: ' The Mediterranean islands reward those who explore off the beaten track by revealing their secrets: wild interiors, powdery white beaches, delicious local cuisine and colourful festivals '
   - image: /images/Three-a-Charm.png
     alt: Three's a Charm
     link: /articles/itinerary-cuba
