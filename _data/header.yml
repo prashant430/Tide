@@ -39,7 +39,7 @@ legal:
       url: '#'
 logo_header:
   default: /images/tide-magazine-sailing-lifestyle-travel-logo-blue-white.png
-  scrolled: /images/tide-magazine-sailing-lifestyle-travel-logo-blue.png
+  scrolled: /images/tide-magazine-sailing-lifestyle-travel-logo-blue-white.png
   url: /index
 burger_menu:
   image: ../images/burger_menu.svg
