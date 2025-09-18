@@ -163,12 +163,12 @@ cards2:
     tags: []
     title: ' Checking In: Le Taha''a '
     description: ' There’s a subtle scent of vanilla flower mixed in with the gentle breeze that’s pulling in salty sea air. Underfoot is the palest blue-turquoise water of a shallow lagoon. Ahead: nothing but the horizon. This is Le Taha’a by Pearl Resorts, an award-winning resort by a motu of the same name '
-  - image: ''
-    alt: ''
-    link: ''
+  - image: /uploads/download-28.jpg
+    alt: ' The Kamalame Cay '
+    link: /articles/kamalame-cay
     tags: []
-    title: ''
-    description: ''
+    title: ' The Kamalame Cay '
+    description: ' Under the careful watch of the Hew family, an untouched strip of sand in the Bahamas was transformed into Kamalame Cay, a laidback private-island resort  '
 featured_section2:
   cards:
     - image: /images/sailing-stockholm.png
