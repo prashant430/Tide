@@ -196,15 +196,13 @@ featured_section2:
       title: ' West Coast Wilderness '
       description: ' Here are the essential stops to make on a journey along British Columbia’s coastline, one of the most naturally magnificent and wildlife-rich on earth '
     - image: /images/Three-a-Charm.png
-      alt: Three's a Charm
-      link: /articles/itinerary-cuba
+      alt: ' Hidden Gems: Sardinia and Corsica '
+      link: /articles/sardinia-corsica
       tags:
-        - Travel
-        - Number 11
-      title: Three's a Charm
-      description: >-
-        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
-        and breathed in the jasmine and wild thyme-fragranced...
+        - ' Travel I '
+        - number 06
+      title: ' Hidden Gems: Sardinia and Corsica '
+      description: ' The Mediterranean islands reward those who explore off the beaten track by revealing their secrets: wild interiors, powdery white beaches, delicious local cuisine and colourful festivals '
 cards3:
   - image: /images/sailing-stockholm.png
     alt: Sailing Stockholm

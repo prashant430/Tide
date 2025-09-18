@@ -128,16 +128,15 @@ cards3:
       - number 12
     title: ' Evolving Modernism '
     description: ' Family-run architectural firm Estudio Ramos has been progressing high design for 35 years – putting nature first from the very beginning. We catch up with father-and-son team Juan Ignacio and Ignacio Ramos to find out more about their renowned but hushed approach '
-  - image: /images/sailing-stockholm.png
-    alt: Nilaya Rises
-    link: /articles/itinerary-cuba
+  - image: >-
+      /uploads/issue-12/tide-magazine-sailing-lifestyle-travel-issue12-refugia-chiloe-3.jpg
+    alt: 'Checking in: Refugia Chiloé '
+    link: /articles/refugia-chiloe
     tags:
       - Travel
-      - Number 11
-    title: Nilaya Rises
-    description: >-
-      The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
-      and breathed in the jasmine and wild thyme-fragranced...
+      - number 12
+    title: 'Checking in: Refugia Chiloé '
+    description: ' This just-rebranded island retreat is as welcoming and soul-reviving as its name suggests. Nicola Chilton shares what to expect following her stay, from ravishing sunsets to unique local dishes and bathtubs with a view '
 cards4:
   - image: /images/sailing-stockholm.png
     alt: Sailing Stockholm
