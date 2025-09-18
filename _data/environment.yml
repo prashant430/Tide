@@ -83,16 +83,14 @@ featured_section:
         - number 04
       title: ' The Conscious Traveller '
       description: ' More and more, the sailing Superyacht community are looking for ways to add meaning and purpose to their travels without compromising on luxury. Here, we look at a few companies working to connect owners and sailors with conservationists, creating a more positive impact on local flora, fauna, and communities '
-    - image: /images/Three-a-Charm.png
+    - image: /uploads/tide-magazine-issue04-11th-hour.jpg
       alt: Three's a Charm
-      link: /articles/itinerary-cuba
+      link: /articles/11th-hour
       tags:
-        - Travel
-        - Number 11
-      title: Three's a Charm
-      description: >-
-        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
-        and breathed in the jasmine and wild thyme-fragranced...
+        - Environment
+        - number 04
+      title: 'The 11th Hour '
+      description: ' Using the power of sport and travel to restore a balanced relationship between people and planet, 11th Hour Racing are working against the clock to enable others to protect and restore the health of our ocean '
 cards2:
   - image: /images/sailing-stockholm.png
     alt: Sailing Stockholm
