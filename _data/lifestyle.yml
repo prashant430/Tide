@@ -41,6 +41,18 @@ cards:
       - number 09
     title: ' The Gourmand''s Guide to Barcelona '
     description: ' Sleep, Eat, Sail, Repeat: here are all the restaurants you need to know for the second part of that equation – to be tasted while the America’s Cup’s in the Catalan town  '
+  - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue10-chef-1-1.jpg
+    alt: ' A Taste Of Tuscany '
+    link: /articles/a-taste-of-tuscany
+    tags:
+      - Lifestyle
+      - number 10
+    title: ' A Taste Of Tuscany '
+    description: >2-
+       In this much-revered Italian region, life’s simple pleasures are celebrated as its most important, starting with its food. Spanish yacht chef Núria Cascante explains the particular culinary magic and cultural appeal of the central area she’s fallen for, both professionally and personally 
+      and innovative techniques to create a food legacy all of its own.  Here,
+      Maria Sollivellas, Chef and co-owner of Restaurant Ca na Toneta, 
+      celebrates her home’s past and present with a much-loved intrinsic dish 
 content_on_image:
   image: /images/tide-banner2.png
   alt: TIDE's Top Ten Sailing Destinations
