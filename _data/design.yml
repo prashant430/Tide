@@ -23,25 +23,32 @@ cards:
     alt: ' Changing the game '
     link: /articles/design-jarkko
     tags:
-      - ' Design I number 09'
+      - ' Design I '
+      - number 11
     title: ' Changing the game '
     description: ' Jarkko Jämsén, the Finnish designer behind Raven, potentially the boat build of the decade, reveals how he told the owner not to have her made – and why she’s just the first of her kind '
   - image: /uploads/download-2.jpg
     alt: ' The View From Here '
     link: /articles/design-mckeon
-    tags: []
+    tags: 
+      - ' Design I '
+      - number 11
     title: ' The View From Here '
     description: ' Having spent his younger years messing about in dinghies, self-taught sailor and world-class designer Malcolm McKeon knows a thing or two about sailing yachts. Here, the award-winning naval architect shares some personal insights on his four decades in the industry, as well as his ideas for the future '
   - image: /uploads/download-3.jpg
     alt: ' From Land to Sea '
     link: /articles/zemi
-    tags: []
+    tags: 
+      - ' Design I '
+      - number 11
     title: ' From Land to Sea '
     description: ' Featuring a contemporary, warm and crafted look by Swedish architects Andreas Martin-Löf Arkitekter, the 34m sailing yacht ZEMI is a fine example of how shore-side designers can adapt to create stunning, boundary-pushing yacht interiors '
   - image: /uploads/download-4.jpg
     alt: ' Lighting the Way '
     link: /articles/mark-whiteley
-    tags: []
+    tags: 
+      - ' Design I '
+      - number 11
     title: ' Lighting the Way '
     description: ' Designer Mark Whiteley explains why he’s keeping it simple '
 content_on_image:
