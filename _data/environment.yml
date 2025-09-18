@@ -58,16 +58,15 @@ content_on_image:
     class: width-fit btn white-btn
 featured_section:
   cards:
-    - image: /images/sailing-stockholm.png
-      alt: Sailing Stockholm
-      link: /articles/itinerary-cuba
+    - image: >-
+        /uploads/tide-magazine-sailing-lifestyle-travel-issue06-environment-1.jpg
+      alt: ' Open Source '
+      link: /articles/foundation-zero
       tags:
-        - Travel
-        - Number 11
-      title: 'Checking In: Petunia Hotel, Ibiza'
-      description: >-
-        With a growing number of smart eco-focused stays across the Finnish
-        archipelago, this little-known part of the world is having...
+        - Environment
+        - number 06
+      title: ' Open Source '
+      description: ' How Foundation Zero is throwing out the rulebook to build a fossil-free sailing yacht '
     - image: /images/Three-a-Charm.png
       alt: Three's a Charm
       link: /articles/itinerary-cuba
