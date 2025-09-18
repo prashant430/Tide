@@ -163,14 +163,6 @@ cards2:
     description: |2-
        Chef Pippa Crowley on spicing up galley life
        
-  - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue07-flying-lunch2.jpg
-    alt: ' A Flying Lunch '
-    link: /articles/flying-lunch
-    tags:
-      - Lifestyle
-      - number 07
-    title: ' A Flying Lunch '
-    description: ' TIDE’s Caribbean contingent hops aboard a helicopter with CalvinAir and heads to Barbuda’s most beautiful restaurant, Nobu '
 subscribe_section:
   left_image: /images/magazine.png
   right_image: /images/tablet.png
