@@ -51,9 +51,10 @@ homepage_banner:
       text: MORE
       style: white-btn
 cards:
-  - image: /images/event-banner.png
+  - image: >-
+      /uploads/issue-12/tide-magazine-sailing-lifestyle-travel-issue12-aragon-5.jpg
     alt: 'The Rule of Aragon '
-    link: /articles/high-low-south-america
+    link: /articles/aragon
     tags:
       - 'Sailing '
       - number 12
