@@ -94,16 +94,14 @@ featured_section:
         - number 10
       title: ' The High Low: Elba '
       description: ' If you’re going to drink sundowners overlooking the Med and eat pasta in Italy – do it right. Introducing Elba’s Ibiza-infused Bleep bar and Ischia’s thoroughly Italian La Baia restaurant, which are each as different as they are exciting '
-    - image: /images/Three-a-Charm.png
-      alt: Three's a Charm
-      link: /articles/itinerary-cuba
+    - image: /uploads/download-18.jpg
+      alt: ' La Dolce Vita Itinerary '
+      link: /articles/dolce-vita
       tags:
-        - Travel
-        - Number 11
-      title: Three's a Charm
-      description: >-
-        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
-        and breathed in the jasmine and wild thyme-fragranced...
+        - ' Travel I'
+        - ' number 10'
+      title: ' La Dolce Vita Itinerary '
+      description: ' From imperial Elba to rustic Ponza, here’s a sailing schedule that serves up the innately Italian ‘good life’ via idyllic landscapes, laid-back living and consistently phenomenal food and innovative techniques to create a food legacy all of its own.  Here, Maria Sollivellas, Chef and co-owner of Restaurant Ca na Toneta,  celebrates her home’s past and present with a much-loved intrinsic dish '
 cards2:
   - image: /images/sailing-stockholm.png
     alt: Sailing Stockholm
