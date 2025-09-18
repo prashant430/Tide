@@ -30,7 +30,7 @@ cards:
   - image: /uploads/download-2.jpg
     alt: ' The View From Here '
     link: /articles/design-mckeon
-    tags: 
+    tags:
       - ' Design I '
       - number 11
     title: ' The View From Here '
@@ -38,7 +38,7 @@ cards:
   - image: /uploads/download-3.jpg
     alt: ' From Land to Sea '
     link: /articles/zemi
-    tags: 
+    tags:
       - ' Design I '
       - number 11
     title: ' From Land to Sea '
@@ -46,7 +46,7 @@ cards:
   - image: /uploads/download-4.jpg
     alt: ' Lighting the Way '
     link: /articles/mark-whiteley
-    tags: 
+    tags:
       - ' Design I '
       - number 11
     title: ' Lighting the Way '
