@@ -75,16 +75,14 @@ featured_section:
         - ' number 05'
       title: 'The Winds of Change '
       description: ' Casting aside conventional norms, Danielle Southcott is charting a revolutionary new course in maritime shipping. With a groundbreaking new sailing cargo ship powered by the wind and clean hydrogen fuel, Veer is setting a new standard for eco-responsible practices on the high seas. '
-    - image: /images/sailing-stockholm.png
-      alt: Sailing Stockholm
-      link: /articles/itinerary-cuba
+    - image: /uploads/tide-magazine-issue04-conscious-traveller-3-1.jpg
+      alt: ' The Conscious Traveller '
+      link: /articles/conscious-traveller
       tags:
-        - Travel
-        - Number 11
-      title: Nilaya Rises
-      description: >-
-        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
-        and breathed in the jasmine and wild thyme-fragranced...
+        - 'Environment '
+        - number 04
+      title: ' The Conscious Traveller '
+      description: ' More and more, the sailing Superyacht community are looking for ways to add meaning and purpose to their travels without compromising on luxury. Here, we look at a few companies working to connect owners and sailors with conservationists, creating a more positive impact on local flora, fauna, and communities '
     - image: /images/Three-a-Charm.png
       alt: Three's a Charm
       link: /articles/itinerary-cuba
