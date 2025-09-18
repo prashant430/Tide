@@ -112,16 +112,14 @@ featured_section:
         - number 05
       title: 'The High Low: Cyclades '
       description: ' Greece’s Cyclades islands are an absolute joy to sail, but strong winds can also make them a challenge. Slow down, take your time and savour local delicacies at tiny tavernas, or seek out some of the finest dining the country has to offer.  '
-    - image: /images/Three-a-Charm.png
-      alt: Three's a Charm
-      link: /articles/itinerary-cuba
+    - image: /uploads/tide-magazine-issue04-high-low-2-1.jpg
+      alt: ' The High Low: Croatia '
+      link: /articles/high-low-croatia
       tags:
-        - Travel
-        - Number 11
-      title: Three's a Charm
-      description: >-
-        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
-        and breathed in the jasmine and wild thyme-fragranced...
+        - Lifestyle
+        - ' number 04'
+      title: ' The High Low: Croatia '
+      description: ' Whether you’re after an impressive tasting menu or some freshly grilled fish to the sound of cicadas and lapping waves, Croatia has got all the bases covered if you know where to look. Superyacht chef Jemma Harrison lets you in on two of her favourite spots around the glistening waters of the Adriatic '
 subscribe_section:
   left_image: /images/magazine.png
   right_image: /images/tablet.png
