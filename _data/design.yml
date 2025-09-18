@@ -71,14 +71,12 @@ featured_section:
       description: ' For 65 years, Germán Frers has been enchanting the sailing world with his designs. TIDE falls under his spell. '
     - image: /uploads/download-6.jpg
       alt: ' Sense and Sensibility '
-      link: /articles/itinerary-cuba
+      link: /articles/sense-and-sensibility
       tags:
         - ' Design I number 04'
         - Number 11
-      title: La Dolce Vita Itinerary
-      description: >-
-        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
-        and breathed in the jasmine and wild thyme-fragranced...
+      title: ' Sense and Sensibility '
+      description: ' Form always follows function, says designer Adriana Monk, but for the best results there should also be an element of fun '
     - image: /images/sailing-stockholm.png
       alt: Sailing Stockholm
       link: /articles/itinerary-cuba
