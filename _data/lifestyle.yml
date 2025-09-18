@@ -145,15 +145,14 @@ cards2:
       - number 03
     title: ' A Cooking Collaboration - The Galley Gang '
     description: ' Chef Jemma Harrison shares stories from life inside some of the industry’s most prestigious galleys, and explains how her immersive chef workshops, The Galley Gang, are raising the game for Superyacht gastronomy. '
-  - image: >-
-      /uploads/tide-magazine-sailing-lifestyle-travel-issue09-gourmand-barcelona-1.jpg
-    alt: ' The Gourmand''s Guide to Barcelona '
-    link: /articles/gourmand-barcelona
+  - image: /uploads/vrnfwu7c.jpg
+    alt: ' Diving for dinner '
+    link: /articles/diving-for-dinner
     tags:
-      - 'Lifestyle '
-      - number 09
-    title: ' The Gourmand''s Guide to Barcelona '
-    description: ' Sleep, Eat, Sail, Repeat: here are all the restaurants you need to know for the second part of that equation – to be tasted while the America’s Cup’s in the Catalan town  '
+      - Lifestyle
+      - number 01
+    title: ' Diving for dinner '
+    description: ' Chef Nathan Clements has his boning knife on the pulse '
   - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue10-chef-1-1.jpg
     alt: ' A Taste Of Tuscany '
     link: /articles/a-taste-of-tuscany
