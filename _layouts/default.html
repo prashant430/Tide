@@ -180,34 +180,32 @@
            </div>
           <div style="display: none;"> {% include footer-burger.html %} </div> 
         </div>
-        <div>
-          <div class="centered mob-left thisone header  onscroll-show relative">
+        
+
+        <div class="grid-spaceBetween justify-between container-full flex-display header-main pb-0 w-full main-block">
+          <div class="centered mob-left logo-block">
             <a href="{{ site.data.header.logo_header.url }}">
-             <img class="logo_header" src="{{ site.data.header.logo_header.default }}" />
+                <img class="logo_header" src="{{ site.data.header.logo_header.scrolled }}" />
             </a>
         </div>
-       </div>
-
         <div class="scrolled-nav onscroll-show">
           {% include navigation-bar.html %}
         </div>
 
-        <div class="grid-spaceBetween justify-between container-full flex-display header-main pb-0 w-full main-block">
         <nav class="z-index-2 burger-menu-block">
             <div class="burger-button">
                 <img src="{{ site.data.header.header_main.burger_menu.image }}" alt="{{ site.data.header.header_main.burger_menu.alt }}" height="100%">
             </div>
         </nav>
 
-        <div class="centered mob-left logo-block">
-            <a href="{{ site.data.header.logo_header.url }}">
-                <img class="logo_header" src="{{ site.data.header.logo_header.scrolled }}" />
-            </a>
-        </div>
+        
+        <div class="block-header-menu">
 
         <div class="nav block z-index-2">
             <a href="{{site.data.links.subscribe_link}}" class="btn-border ">SUBSCRIBE</a>
         </div>
+        </div>
+        
       </div>
     {% include navigation-bar.html %}
 
@@ -227,11 +225,58 @@
 </section>
 
 
+<!-- Popup Overlay -->
+<div class="newsletter-popup w-full" id="newsletterPopup">
+  <div class="newsletter-popup-content w-full">
+    <button class="popup-close" id="closePopup">&times;</button>
+    
+    <section class="newsletter-section w-full">
+      <div class="newsletter-wrapper w-full">
+        
+        <!-- Left Content -->
+        <div class="content-block">
+          <div class="content-container">
+            <p class="tagline">DIGITAL TIDE</p>
+            <h2>Our latest, tailored for you</h2>
+            <p class="content">
+              Get a curated selection of our latest stories and articles based on your 
+              interest categories below. Select a few categories:
+            </p>
+
+            <!-- Categories -->
+            <div class="categories">
+              <button class="category-btn crimson"><img src="./images/sailing-stockholm.png" /> Sailing</button>
+              <button class="category-btn crimson active"><img src="./images/sailing-stockholm.png" /> Lifestyle</button>
+              <button class="category-btn crimson"><img src="./images/sailing-stockholm.png" /> Design</button>
+              <button class="category-btn crimson"><img src="./images/sailing-stockholm.png" /> Travel</button>
+              <button class="category-btn crimson"><img src="./images/sailing-stockholm.png" /> Environment</button>
+            </div>
+
+            <!-- Subscribe -->
+            <form class="subscribe-form">
+              <input type="email" placeholder="your email" />
+              <button class="btn width-fit" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Right Image -->
+        <div class="image-block">
+          <img src="../images/newslatter.png" alt="Tablet preview" />
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+
+
 <footer class="grid-center bg-grey padded0">
 
 <div class="container footer-logo w-full justify-between d-flex centered align-center container-full">
   <img src="{{ site.data.footer.footer_logo.image }}" style="height: {{ site.data.footer.footer_logo.height }}" />
-  <a class="btn" href="{{ site.data.footer.footer_logo.subscribe_link }}"> {{ site.data.footer.footer_logo.subscribe_text }} </a>
+  <!-- <a class="btn subscribe-btn" href="{{ site.data.footer.footer_logo.subscribe_link }}"> {{ site.data.footer.footer_logo.subscribe_text }} </a> -->
+  <a class="btn subscribe-btn"> {{ site.data.footer.footer_logo.subscribe_text }} </a>
 </div>
 
 <div class="container w-full d-flex footer-main">
@@ -250,7 +295,7 @@
 
 
   
-   <div class="col-4_sm-12 right footer-column-2 desktop-show">
+   <div class="col-4_sm-12 right footer-column-2">
     <div class="mob-center px-4 social-links">
       {% for social in site.data.footer.social_links %}
       <a class="black block social-link" href="{{ social.url }}" target="_blank">
@@ -284,11 +329,36 @@
     yearMobElement.innerHTML = new Date().getFullYear();
   }
 
+
 $(document).on('mouseenter', '.targettedparent a.link', function() {
+
   const val = $(this).attr('data-value');
+
   $('.sidebar-content .matched-item').removeClass('active');
+
   $('.sidebar-content .matched-item[data-value="' + val + '"]').addClass('active');
+
+
+// Open popup when .subscribe-btn is clicked
+document.querySelectorAll(".subscribe-btn").forEach(btn => {
+  btn.addEventListener("click", function(e) {
+    e.preventDefault(); // prevent page jump if it's a link
+    document.getElementById("newsletterPopup").style.display = "flex";
+  });
 });
+
+// Close popup
+document.getElementById("closePopup").addEventListener("click", function() {
+  document.getElementById("newsletterPopup").style.display = "none";
+});
+
+// Optional: close when clicking on background overlay
+document.getElementById("newsletterPopup").addEventListener("click", function(e) {
+  if (e.target === this) {
+    this.style.display = "none";
+  }
+});
+
 </script>
 
   
@@ -299,3 +369,5 @@ $(document).on('mouseenter', '.targettedparent a.link', function() {
 
 </body>
 </html>
+
+
