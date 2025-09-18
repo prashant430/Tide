@@ -7,14 +7,14 @@ cards:
       - ' number 12'
     title: ' The High Low '
     description: ' These two beach spots offer barefoot escapes in South America: one firmly on the Atlantic Ocean in Uruguay, the other hidden away in the turquoise Caribbean in Colombia. Each is paradisiacal, just with different vibes '
-  - image: /images/Three-a-Charm.png
-    alt: Three's a Charm
+  - image: /uploads/download-9.jpg
+    alt: ' Sailing Cuba '
     link: /articles/itinerary-cuba
     tags:
-      - Travel
-      - Number 11
-    title: Three's a Charm
-    description: The day Marie-Louise Sciò...
+      - ' Travel I '
+      - number 12
+    title: ' Sailing Cuba '
+    description: ' The North American island nation has so much more beyond Havana, from isolated sandy cays to lively, vibrant city centres. Here, Cuba-born Maria Romeu, founder of CubaPlus Travel agency, has planned your visit for you '
   - image: ''
     alt: ''
     link: ''
