@@ -139,12 +139,12 @@ cards2:
     tags: []
     title: ' Checking In: Petunia Hotel, Ibiza '
     description: ' Step into a world of tranquillity, where nature reigns and Balearic flavours tantalise the palate '
-  - image: ''
-    alt: ''
-    link: ''
+  - image: /uploads/download-24.jpg
+    alt: ' The High Low: French Polynesia '
+    link: /articles/the-brando
     tags: []
-    title: ''
-    description: ''
+    title: ' The High Low: French Polynesia '
+    description: ' French Polynesia brings to mind ambrosia; lush days spent lounging on chalk-fine sand, crystalline waters lapping gently along the shore. But there’s more to this archipelago nation than palm trees and beaches, and one way to get to know her is through her rich food heritage '
   - image: ''
     alt: ''
     link: ''
