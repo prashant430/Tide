@@ -7,19 +7,29 @@ cards:
       - ' number 12'
     title: ' Evolving Modernism '
     description: ' Family-run architectural firm Estudio Ramos has been progressing high design for 35 years – putting nature first from the very beginning. We catch up with father-and-son team Juan Ignacio and Ignacio Ramos to find out more about their renowned but hushed approach '
-  - image: /images/Three-a-Charm.png
-    alt: Three's a Charm
-    link: /articles/itinerary-cuba
+  - image: /uploads/download.jpg
+    alt: ' Expanding Horizons '
+    link: /articles/expanding-horizons
     tags:
-      - Travel
-      - Number 11
-    title: Three's a Charm
-    description: The day Marie-Louise Sciò...
+      - ' Design I '
+      - number 11
+    title: ' Expanding Horizons '
+    description: >-
+      T Marco Bonelli and Marijana Radovic, the duo behind Milan-based studio
+      m2atelier, share insights on their recent move into yacht design, plus
+      what inspires their equally pioneering and practical creations  he day
+      Marie-Louise Sciò...
   - image: ''
     alt: ''
     link: ''
     tags:
       - ''
+    title: ''
+    description: ''
+  - image: ''
+    alt: ''
+    link: ''
+    tags: []
     title: ''
     description: ''
 content_on_image:

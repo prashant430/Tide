@@ -7,14 +7,15 @@ cards:
       - number 11
     title: 'A Letter from Norway '
     description: ' The Nordic country’s dramatic fjords are a major drawcard for the millions who travel to see the local landscape each year. We explore how the uniquely wild water wonders are currently being future-proofed '
-  - image: /images/Three-a-Charm.png
-    alt: Three's a Charm
-    link: /articles/itinerary-cuba
+  - image: >-
+      /uploads/tide-magazine-sailing-lifestyle-travel-issue10-environment-1-1.jpg
+    alt: ' Evolving Modernism '
+    link: /articles/pianosa
     tags:
-      - Travel
-      - Number 11
-    title: Three's a Charm
-    description: The day Marie-Louise Sciò...
+      - Environment
+      - number 10
+    title: ' The Force Of Nature '
+    description: ' Family-run architectural firm Estudio Ramos has been progressing high design for 35 years – putting nature first from the very beginning. We catch up with father-and-son team Juan Ignacio and Ignacio Ramos to find out more about their renowned but hushed approach '
 content_on_image:
   image: /images/tide-banner2.png
   alt: TIDE's Top Ten Sailing Destinations
