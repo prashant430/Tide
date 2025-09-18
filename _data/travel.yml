@@ -15,14 +15,14 @@ cards:
       - number 12
     title: ' Sailing Cuba '
     description: ' The North American island nation has so much more beyond Havana, from isolated sandy cays to lively, vibrant city centres. Here, Cuba-born Maria Romeu, founder of CubaPlus Travel agency, has planned your visit for you '
-  - image: ''
-    alt: ''
-    link: ''
+  - image: /uploads/download-10.jpg
+    alt: ' Hidden Gems: Islas Secas '
+    link: /articles/hidden-gems-islas-secas
     tags:
-      - ''
-      - ''
-    title: ''
-    description: ''
+      - ' Travel I '
+      - number 12
+    title: ' Hidden Gems: Islas Secas '
+    description: ' Explore this relatively undiscovered archipelago off Panama’s Gulf of Chiriquí for both natural, untamed wonders and the last word in eco-luxe '
   - image: ''
     alt: ''
     link: ''
