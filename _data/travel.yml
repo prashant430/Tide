@@ -103,14 +103,14 @@ featured_section:
       title: ' La Dolce Vita Itinerary '
       description: ' From imperial Elba to rustic Ponza, here’s a sailing schedule that serves up the innately Italian ‘good life’ via idyllic landscapes, laid-back living and consistently phenomenal food and innovative techniques to create a food legacy all of its own.  Here, Maria Sollivellas, Chef and co-owner of Restaurant Ca na Toneta,  celebrates her home’s past and present with a much-loved intrinsic dish '
 cards2:
-  - image: /images/sailing-stockholm.png
-    alt: Sailing Stockholm
-    link: /articles/itinerary-cuba
+  - image: /uploads/download-19.jpg
+    alt: ' Hidden Gems: Elba '
+    link: /articles/elba
     tags:
-      - Travel
-      - Number 11
-    title: Sailing Stockholm
-    description: The North American island nation...
+      - ' Travel I '
+      - number 10
+    title: ' Hidden Gems: Elba '
+    description: ' Look beyond the overly repeated fact that Napoleon was briefly exiled here to discover many other intriguing twists and tales about this particular Tuscany-on-Sea  '
   - image: /images/Three-a-Charm.png
     alt: Three's a Charm
     link: /articles/itinerary-cuba
