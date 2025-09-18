@@ -86,12 +86,12 @@ cards2:
     title: ' The Future is Now '
     description: ' At the dawn of the early Twenties, we find ourselves on the threshold of a new era in sailing; the America’s Cup enacted at speeds in excess of 40 knots and the drive towards environmental responsibility set against a backdrop of ever larger motor yacht builds. So, what does the future hold for the humble sailing yacht? '
 content_on_image:
-  image: /images/Evolving.png
+  image: /images/TIDE_Magazine_Issue2_Mockup_Bequia03.png
   alt: TIDE's Top Ten Sailing Destinations
   tags:
     - Travel
     - Number 11
-  title: TIDE's Top Ten Sailing Destinations
+  title: 'TIDE''s Top Ten Sailing Destinations '
   description: >-
     For decades, sailors have set a course for the Cyclades, but not only for
     its myriad cultural attractions, sandy beaches, hidden coves and gin-clear
@@ -273,49 +273,63 @@ featured_section:
         - number 03
       title: 'Nautor Swan: Innovating through tradition '
       description: ' Redefining high-performance cruising, the new generation of Swan 98 offers speed and luxury. Just as comfortable crossing oceans as hopping between shallow tropical islands, racing around headlands or navigating the fjords, the Finnish-built yachts are widely touted as the best of all worlds. TIDE speaks with Nautor Swan’s team to find out what the 98 is all about. '
-
 cards6:
-    - image: /uploads/tide-magazine-issue04-two-ketches-2-1.jpg
-      alt: ' A Tale of  Two Ketches '
-      link: /articles/two-ketches
-      tags:
-        - Sailing
-        - number 04
-      title: ' A Tale of  Two Ketches '
-      description: ' As Vitters launch another ketch of extraordinary proportions this summer, TIDE looks back on Adele, who broke the mould 20 years ago and still turns heads today. '
-    - image: /uploads/tide-magazine-issue04-pot-of-gold-4-1.jpg
-      alt: ' A Pot of Gold: J Class Rainbow '
-      link: /articles/a-pot-of-gold
-      tags:
-        - 'Sailing '
-        - number 04
-      title: ' A Pot of Gold: J Class Rainbow '
-      description: ' The original ‘super’ yacht, the J-Class may be a throwback to the golden age of sailing, but these titans of the sea continue to turn heads as they carve through the waves with grace and power. As the J-Class racing scene gathers momentum in the lead up to the 2024 World Championship, TIDE takes a look behind the lens of one of the most beautiful modern-day J-Class yachts, the 131ft (39.95m) Rainbow '
-    - image: /uploads/fs-h8yzu-2.jpg
-      alt: 'A Touch of Nordic Cool - Sørvind '
-      link: /articles/a-touch-of-nordic-cool-sorvind
-      tags:
-        - 'Sailing '
-        - number 03
-      title: 'A Touch of Nordic Cool - Sørvind '
-      description: ' With the latest yachts on show in Monaco, TIDE checks in with South African yacht builder Southern Wind to take a close look at their new launch, Sørvind. '
-    - image: /uploads/deiz3z3k.jpg
-      alt: 'Nautor Swan: Innovating through tradition '
-      link: /articles/nautor-swan
-      tags:
-        - ' Sailing '
-        - number 03
-      title: 'Nautor Swan: Innovating through tradition '
-      description: ' Redefining high-performance cruising, the new generation of Swan 98 offers speed and luxury. Just as comfortable crossing oceans as hopping between shallow tropical islands, racing around headlands or navigating the fjords, the Finnish-built yachts are widely touted as the best of all worlds. TIDE speaks with Nautor Swan’s team to find out what the 98 is all about. '
-    - image: /uploads/deiz3z3k.jpg
-      alt: 'Nautor Swan: Innovating through tradition '
-      link: /articles/nautor-swan
-      tags:
-        - ' Sailing '
-        - number 03
-      title: 'Nautor Swan: Innovating through tradition '
-      description: ' Redefining high-performance cruising, the new generation of Swan 98 offers speed and luxury. Just as comfortable crossing oceans as hopping between shallow tropical islands, racing around headlands or navigating the fjords, the Finnish-built yachts are widely touted as the best of all worlds. TIDE speaks with Nautor Swan’s team to find out what the 98 is all about. '
-
+  - image: /uploads/glclzrga-1.jpg
+    alt: ' A Global Range: The Schooner '
+    link: /articles/a-global-range-the-schooner
+    tags:
+      - ' Sailing'
+      - number 03
+    title: ' A Global Range: The Schooner '
+    description: ' With the forthcoming re-launch of ATHOS, we take a look at some of the most famous Schooners afloat today, and show how the multi-mast sailing yachts are hard to beat for a truly authentic sailing experience. '
+  - image: /uploads/lsr8twys.jpg
+    alt: ' A True Classic '
+    link: /articles/a-true-classic
+    tags:
+      - Sailing
+      - number 01
+    title: ' A True Classic '
+    description: ' Invoking memories of a bygone era, the charm of the Truly Classic 128 has been proven by the realisation of four builds (and a fifth on its way). TIDE explores the success of the concept with Hoek Design and hears from the owners of the second hull in the series about the joy that Vijonara brings. '
+  - image: /uploads/qhxzfote.jpg
+    alt: 'The Pocket Superyacht '
+    link: /articles/the-pocket-superyacht
+    tags:
+      - 'Sailing '
+      - number 02
+    title: 'The Pocket Superyacht '
+    description: ' Superyacht is an evocative word-enormous craft with lofty rigs and loftier budgets, fully customised, complex creations. But the core values of what make a superyacht (luxury, style and personal expression)are not the sole preserve of custom vessels well in excess of24m....let’s take a look at the pocket superyacht. '
+  - image: /uploads/tide-magazine-sailing-sorvind-1-1.jpg
+    alt: ' A Touch of Nordic Cool - Sørvind '
+    link: /articles/sorvind
+    tags:
+      - 'Sailing I '
+      - Number 03
+    title: ' A Touch of Nordic Cool - Sørvind '
+    description: ' With the latest yachts on show in Monaco, TIDE checks in with South African yacht builder Southern Wind to take a close look at their new launch, Sørvind. '
+  - image: /uploads/deiz3z3k.jpg
+    alt: ' A Global Range: The Schooner '
+    link: /articles/schooner
+    tags:
+      - Sailing
+      - Number 03
+    title: ' A Global Range: The Schooner '
+    description: ' With the upcoming launch of 63m Athos, TIDE takes a look at some of the most famous schooners afloat today. Inspired by both past and future, these multi-mast vessels are hard to beat for a truly authentic sailing experience. '
+  - image: /uploads/tide-magazine-sailing-sonny-5-1.jpg
+    alt: ' The Adventure Squad '
+    link: /articles/sonny
+    tags:
+      - ' Sailing'
+      - number 02
+    title: ' The Adventure Squad '
+    description: ' When time is the ultimate luxury, what does a $2.5 million refurbishment of a sailing yacht look like? Patrick Gavin-Brynes, captain of the newly re-launched Sonny III, talks hydraulic systems, custom carbon-fibre rigging and hoisting 192 square metres of sail in under 60 seconds '
+  - image: /uploads/tide-magazine-sailing-perseverance-3-1.jpg
+    alt: ' Perseverance on Charter '
+    link: /articles/perseverance
+    tags:
+      - Sailing
+      - number 02
+    title: ' Perseverance on Charter '
+    description: ' The price put on superyacht charters is famously opaque, with unexpected add-ons making it hard to predict how much you’ll spend. Bypassing brokers and agents, the owners of Perseverance are taking a different approach, bringing bespoke yet all-inclusive packages to the ultra-luxury sphere. '
 subscribe_section:
   left_image: /images/magazine.png
   right_image: /images/tablet.png

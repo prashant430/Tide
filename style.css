@@ -3028,6 +3028,7 @@ body.active-header .overlay-work {
 }
 .featured-card img {
   min-height: 375px;
+  height:600px;
 }
 .image-with-text .content-block {
   padding-inline: 20px;
@@ -3183,11 +3184,18 @@ body.active-header .overlay-work {
     gap: 35px 75px;
   }
 }
-
+body .featured-card img {
+    height: 600px;
+    object-fit: fill;
+} 
 /* Show only on screens <= 767px */
 @media screen and (max-width: 767px) {
   .header-main {
     gap: 7px;
+  }
+  body .featured-card img {
+    height: 400px;
+    object-fit: fill;
   }
   .text-on-image {
     width: 100%;
@@ -3364,10 +3372,7 @@ body.active-header .overlay-work {
   display: block;
 }
 }
-body .featured-card img {
-    height: 600px;
-    object-fit: fill;
-}
+
 @media screen and (max-width: 500px) {
   .navigation-bar,
   .scrolled .header-main {
