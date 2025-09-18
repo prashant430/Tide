@@ -161,7 +161,7 @@ cards4:
 cards5:
   - image: /images/sailing-stockholm.png
     alt: ' A Taste Of Tuscany '
-    link: /articles/itinerary-cuba
+    link: /articles/taste-of-tuscany
     tags:
       - Travel
       - Number 11
