@@ -88,16 +88,15 @@ cards2:
       - number 12
     title: ' Revolutionary Rigging  '
     description: ' As one of the most pioneering advancements in sailing design this century, DynaRig has been turning heads and Superyacht sails for nearly two decades. TIDE gets the inside track on the system and its potential future use  '
-  - image: /images/Three-a-Charm.png
-    alt: Three's a Charm
-    link: /articles/itinerary-cuba
+  - image: >-
+      /uploads/issue-12/tide-magazine-sailing-lifestyle-travel-issue12-sarissa-1.jpg
+    alt: ' On Point:  Supersloop Sarissa '
+    link: /articles/sarissa
     tags:
-      - Travel
-      - Number 11
-    title: Three's a Charm
-    description: >-
-      The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
-      and breathed in the jasmine and wild thyme-fragranced...
+      - Sailing
+      - number 12
+    title: ' On Point:  Supersloop Sarissa '
+    description: ' The 60m Sarissa, named after the ancient Greek word for a long, sharp spear, is cutting-edge in every way, from her record-holding square-top mainsail to her impressive speed and unique quietness. We meet her designer Malcolm McKeon and Captain Iain Cook to find out her secret '
   - image: /images/sailing-stockholm.png
     alt: Nilaya Rises
     link: /articles/itinerary-cuba

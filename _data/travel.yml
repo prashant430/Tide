@@ -171,16 +171,14 @@ cards2:
     description: ' Under the careful watch of the Hew family, an untouched strip of sand in the Bahamas was transformed into Kamalame Cay, a laidback private-island resort  '
 featured_section2:
   cards:
-    - image: /images/sailing-stockholm.png
-      alt: Sailing Stockholm
+    - image: /uploads/download-29.jpg
+      alt: ' Bermuda to the Bahamas '
       link: /articles/itinerary-cuba
       tags:
-        - Travel
-        - Number 11
-      title: 'Checking In: Petunia Hotel, Ibiza'
-      description: >-
-        With a growing number of smart eco-focused stays across the Finnish
-        archipelago, this little-known part of the world is having...
+        - ' Travel I '
+        - number 07
+      title: ' Bermuda to the Bahamas '
+      description: ' From antique cavalry to secret beaches, it’s possible to experience some real riches among the Atlantic Oceans’ more remote anchorages. Here we share how to find them  '
     - image: /images/Three-a-Charm.png
       alt: Three's a Charm
       link: /articles/itinerary-cuba
