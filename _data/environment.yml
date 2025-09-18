@@ -27,7 +27,7 @@ cards:
     description: ' Seagrass meadows, among the oldest life on earth, are our secret weapon in fighting climate change. But these hidden forests are under threat. Luckily, a Mallorcan project is diving in to help save them '
   - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue08-environment-1.jpg
     alt: ' Atoll Protected '
-    link: ''
+    link: /articles/atoll-protected
     tags:
       - 'Environment '
       - number 08
