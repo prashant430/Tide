@@ -220,13 +220,14 @@ cards3:
       - number 05
     title: ' Hidden Gems: The Cyclades '
     description: ' Challenging sailing conditions in this corner of the Greek islands during July and August means they’re not always the first choice for sailors. Those who do take them on are rewarded with azure waters, excellent food and strong winds adding a sense of adventure, as well as long and pleasant shoulder seasons in Spring and Autumn. '
-  - image: ''
-    alt: ''
-    link: ''
+  - image: /uploads/download-34.jpg
+    alt: ' Hailing Maine '
+    link: /articles/maine
     tags:
-      - ''
-    title: ''
-    description: ''
+      - ' Travel I '
+      - number 05
+    title: ' Hailing Maine '
+    description: ' Maine is a place with a humble appreciation for fine craftsmanship and a love for the sea. Its coast lures the sailor in with its quaint nautical heritage and bountiful charm. Whether these are familiar waters or the first inklings of a plan, the abundance of islands, bays, inlets and passageways will satisfy any voyager for a lifetime.  '
   - image: ''
     alt: ''
     link: ''
