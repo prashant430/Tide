@@ -77,16 +77,14 @@ featured_section:
         - number 04
       title: ' Sense and Sensibility '
       description: ' Form always follows function, says designer Adriana Monk, but for the best results there should also be an element of fun '
-    - image: /images/sailing-stockholm.png
+    - image: /uploads/download-7.jpg
       alt: ' A Fresh Wave - Spinta Studio '
-      link: /articles/itinerary-cuba
+      link: /articles/a-fresh-wave-spinta-studio
       tags:
         - ' Lifestyle  I '
         - number 03
       title: ' A Fresh Wave - Spinta Studio '
-      description: >-
-        The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
-        and breathed in the jasmine and wild thyme-fragranced...
+      description: ' With the launch of Spinta Studio, Italian-born naval architect Vittorio Papa balances function and aesthetic with a strong environmental conscience. '
     - image: /images/Three-a-Charm.png
       alt: Three's a Charm
       link: /articles/itinerary-cuba
