@@ -110,7 +110,8 @@ cards2:
       of wine crafted at Bodega Oceánica José Ignacio, situated just back from
       Uruguay’s Atlantic coastline 
 cards3:
-  - image: /images/sailing-stockholm.png
+  - image: >-
+      /uploads/issue-12/tide-magazine-sailing-lifestyle-travel-issue12-hidden-gems-3.jpg
     alt: Sailing Stockholm
     link: /articles/itinerary-cuba
     tags:
