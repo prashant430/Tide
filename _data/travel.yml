@@ -127,12 +127,12 @@ cards2:
       - number 09
     title: ' Sun Kissed Shores: The Balearics '
     description: ' A yachting playground synonymous with sunshine and sophistication, for the seasoned sailor Spain’s renowned archipelago harbours a treasure trove of nautical experiences '
-  - image: ''
-    alt: ''
-    link: ''
+  - image: /uploads/download-22.jpg
+    alt: 'Hidden Gems: Menorca '
+    link: /articles/hidden-gems-menorca
     tags: []
-    title: ''
-    description: ''
+    title: ' Hidden Gems: Menorca '
+    description: ' More peaceful than sister islands Ibiza and Mallorca and with UNESCO status as a Biosphere Reserve, this Balearic may offer as close to an unspoilt paradise as you can get  '
   - image: ''
     alt: ''
     link: ''
