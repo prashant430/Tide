@@ -33,6 +33,14 @@ cards:
       - number 08
     title: ' Atoll Protected '
     description: ' As it undertakes its mission to conserve the islet’s special environment and culture, the hard-working Teti’aroa Society has also sketched out a pathway for the restoration of oceanic islands in general '
+  - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue07-environment3.jpg
+    alt: ' Dominica And The Whales '
+    link: /articles/dominica-whales
+    tags:
+      - Environment
+      - number 07
+    title: ' Dominica And The Whales '
+    description: ' With a massive decline in the global Sperm whale population caused by a combination of hunting, pollution and climate change, the species is in grave danger. But things are set to change thanks to an ambitious plan by an unlikely ally '
 content_on_image:
   image: /images/tide-banner2.png
   alt: TIDE's Top Ten Sailing Destinations
