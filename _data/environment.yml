@@ -108,6 +108,17 @@ cards2:
       - ' number 02'
     title: 'Rebuilding Reefs '
     description: ' Marine scientists Genevieve Renaud-Byrne and Dr Molly Wilson on their mission to save Antigua’s marine ecosystems '
+  - image: /uploads/tide-magazine-issue02-design-1-1.jpg
+    alt: 'Nature In Design '
+    link: /articles/nature-in-design
+    tags:
+      - 'Environment '
+      - number 02
+    title: 'Nature In Design '
+    description: >-
+      Is it really possible to have a sustainable superyacht? TIDE talks to some
+      of the leading yacht designers who are reimagining yacht interiors with a
+      lighter carbon footprint. 
 subscribe_section:
   left_image: /images/magazine.png
   right_image: /images/tablet.png
