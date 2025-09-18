@@ -18,23 +18,30 @@ footer_columns:
       - name: "Design"
         url: "/design"
 
-  - heading: "More from TIDE"
+  - heading: "More"
     links:
-      - name: "Magazine"
-        url: "/magazine"
       - name: "Events"
         url: "/events"
-      - name: "Shop"
-        url: "/shop"
+      - name: "Print Magazine"
+        url: "/magazine"
 
   - heading: "Company"
     links:
       - name: "About Us"
         url: "/about"
+      - name: "For Partners"
+        url: "/partner"
+      - name: "For Media"
+        url: "/media"
       - name: "Contact"
         url: "/contact"
-      - name: "Careers"
-        url: "/careers"
+
+  - heading: "Legal"
+    links:
+      - name: "Terms & Conditions"
+        url: "/terms"
+      - name: "Privacy Policy"
+        url: "/policies"
 
 social_links:
   - icon_class: "fab fa-facebook-f"  # FontAwesome icon class
