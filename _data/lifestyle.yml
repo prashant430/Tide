@@ -132,6 +132,16 @@ featured_section:
         - ' number 04'
       title: ' The High Low: Croatia '
       description: ' Whether you’re after an impressive tasting menu or some freshly grilled fish to the sound of cicadas and lapping waves, Croatia has got all the bases covered if you know where to look. Superyacht chef Jemma Harrison lets you in on two of her favourite spots around the glistening waters of the Adriatic '
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue11-joysail-1-1.jpg
+      alt: ' A Good Weekend '
+      link: /articles/joysail
+      tags:
+        - Lifestyle
+        - number 11
+      title: ' A Good Weekend '
+      description: |2-
+         The hot, new regatta on the summer circuit, Ibiza JoySail has become 
+        the go-to event for sailing – and the Balearic’s legendary vibe 
 cards2:
   - image: /uploads/tide-magazine-issue04-food-as-medicine-1-1.jpg
     alt: ' Food as Medicine '
