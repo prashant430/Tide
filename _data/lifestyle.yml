@@ -120,16 +120,15 @@ featured_section:
         - ' number 04'
       title: ' The High Low: Croatia '
       description: ' Whether you’re after an impressive tasting menu or some freshly grilled fish to the sound of cicadas and lapping waves, Croatia has got all the bases covered if you know where to look. Superyacht chef Jemma Harrison lets you in on two of her favourite spots around the glistening waters of the Adriatic '
-
 cards2:
-  - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue10-top-ten-2.jpg
-    alt: ' TIDE''s Top Ten Sailing Destinations '
-    link: /articles/top-ten
+  - image: /uploads/tide-magazine-issue04-food-as-medicine-1-1.jpg
+    alt: ' Food as Medicine '
+    link: /articles/food-as-medicine
     tags:
-      - Lifestyle
-      - number 10
-    title: ' TIDE''s Top Ten Sailing Destinations '
-    description: ' In celebration of our tenth issue, we consider the many destinations we’ve featured so far to bring you our essential shortlist (in no particular order) '
+      - 'Lifestyle '
+      - number 04
+    title: ' Food as Medicine '
+    description: ' Plant-based cooking, food justice, and life in the galley of a Superyacht cruising around the atolls of French Polynesia '
   - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue10-chef-1.jpg
     alt: ' A Taste Of Tuscany '
     link: /articles/taste-of-tuscany
@@ -184,16 +183,6 @@ cards2:
       - number 07
     title: ' A Flying Lunch '
     description: ' TIDE’s Caribbean contingent hops aboard a helicopter with CalvinAir and heads to Barbuda’s most beautiful restaurant, Nobu '
-  - image: >-
-      /uploads/tide-magazine-sailing-lifestyle-travel-issue07-baltic-rendezvous2.jpg
-    alt: ' A Family Affair: The Baltic Yachts Rendezvous 2023 '
-    link: /articles/baltic-rendezvous
-    tags:
-      - Lifestyle
-      - number 07
-    title: ' A Family Affair: The Baltic Yachts Rendezvous 2023 '
-    description: ' There aren’t many shipyards that can still claim to be industry leaders after 50 years in the game. But Baltic Yachts is not most shipyards, showcased by the large, tight-knit community that gathered for its latest legendary Rendezvous  '
-
 subscribe_section:
   left_image: /images/magazine.png
   right_image: /images/tablet.png
