@@ -111,14 +111,14 @@ cards2:
       - number 10
     title: ' Hidden Gems: Elba '
     description: ' Look beyond the overly repeated fact that Napoleon was briefly exiled here to discover many other intriguing twists and tales about this particular Tuscany-on-Sea  '
-  - image: /images/Three-a-Charm.png
-    alt: Three's a Charm
-    link: /articles/itinerary-cuba
+  - image: /uploads/download-20.jpg
+    alt: ' The High Low: Ibiza '
+    link: /articles/high-low-ibiza
     tags:
-      - Travel
-      - Number 11
-    title: Three's a Charm
-    description: The day Marie-Louise Sciò...
+      - ' Travel I '
+      - number 09
+    title: ' The High Low: Ibiza '
+    description: ' All those who visit Spain know she’s a culinary wonderland. Ibiza is no different. This tale of two restaurants is the perfect example of what makes the nation’s gastronomic legacy so great: its restaurants are out to impress '
   - image: ''
     alt: ''
     link: ''
