@@ -119,12 +119,13 @@ cards3:
       - number 12
     title: ' Hidden Gems: Islas Secas '
     description: ' Explore this relatively undiscovered archipelago off Panama’s Gulf of Chiriquí for both natural, untamed wonders and the last word in eco-luxe '
-  - image: /images/Three-a-Charm.png
+  - image: >-
+      /uploads/issue-12/tide-magazine-sailing-lifestyle-travel-issue12-design-1.jpg
     alt: Three's a Charm
     link: /articles/itinerary-cuba
     tags:
-      - Travel
-      - Number 11
+      - 'Design I '
+      - number 12
     title: Three's a Charm
     description: >-
       The day Marie-Louise Sciò first set foot on the island of Ischia in 2018
