@@ -320,13 +320,15 @@ cards4:
       - Number 03
     title: ' Costa Rica - Pura Verde! '
     description: ' The pristine national parks of Costa Rica’s rugged Pacific Coast offer dramatic scenery, sandy beaches, some sweet surf spots, and wildlife at every turn. '
-  - image: ''
-    alt: ''
-    link: ''
+  - image: /uploads/download-47.jpg
+    alt: ' Panama to the Pacific '
+    link: /articles/panama-pacific
     tags:
-      - ''
-    title: ''
-    description: ''
+      - ' Travel I '
+      - number 02
+    title: ' Panama to the Pacific '
+    description: |2
+       An epic voyage spanning over 7000 nautical miles, we follow photographer Stuart M Boliter to bring you to our favourite destinations in Panama and across the Pacific: luminescent turquoise waters, world class surfing, impossibly white beaches and myriad tiny islands teeming with sea life.
   - image: ''
     alt: ''
     link: ''
