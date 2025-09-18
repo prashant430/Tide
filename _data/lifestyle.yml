@@ -1,100 +1,207 @@
 cards:
-  - image: "/images/sailing-stockholm.png"
-    alt: "Sailing Stockholm"
-    link: "/articles/itinerary-cuba"
+  - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue10-top-ten-2.jpg
+    alt: ' TIDE''s Top Ten Sailing Destinations '
+    link: /articles/top-ten
     tags:
-      - "Travel"
-      - "Number 11"
-    title: "Sailing Stockholm"
-    description: "The North American island nation..."
-
-  - image: "/images/Three-a-Charm.png"
-    alt: "Three's a Charm"
-    link: "/articles/itinerary-cuba"
+      - Lifestyle
+      - number 10
+    title: ' TIDE''s Top Ten Sailing Destinations '
+    description: ' In celebration of our tenth issue, we consider the many destinations we’ve featured so far to bring you our essential shortlist (in no particular order) '
+  - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue10-chef-1.jpg
+    alt: ' A Taste Of Tuscany '
+    link: /articles/taste-of-tuscany
     tags:
-      - "Travel"
-      - "Number 11"
-    title: "Three's a Charm"
-    description: "The day Marie-Louise Sciò..."
-
+      - 'Lifestyle I '
+      - number 10
+    title: ' A Taste Of Tuscany '
+    description: >2-
+       In this much-revered Italian region, life’s simple pleasures are celebrated as its most important, starting with its food. Spanish yacht chef Núria Cascante explains the particular culinary magic and cultural appeal of the central area she’s fallen for, both professionally and personally 
+      and innovative techniques to create a food legacy all of its own.  Here,
+      Maria Sollivellas, Chef and co-owner of Restaurant Ca na Toneta, 
+      celebrates her home’s past and present with a much-loved intrinsic dish 
+  - image: >-
+      /uploads/tide-magazine-sailing-lifestyle-travel-issue09-mallorcan-food-1.jpg
+    alt: ' The Spirit Of  Mallorca In A Recipe '
+    link: /articles/mallorcan-food
+    tags:
+      - 'Lifestyle '
+      - number 09
+    title: ' The Spirit Of  Mallorca In A Recipe '
+    description: >2-
+       On Mallorca, ancient traditions are woven together with local produce 
+      and innovative techniques to create a food legacy all of its own.  Here,
+      Maria Sollivellas, Chef and co-owner of Restaurant Ca na Toneta, 
+      celebrates her home’s past and present with a much-loved intrinsic dish 
+  - image: >-
+      /uploads/tide-magazine-sailing-lifestyle-travel-issue09-gourmand-barcelona-1.jpg
+    alt: ' The Gourmand''s Guide to Barcelona '
+    link: /articles/gourmand-barcelona
+    tags:
+      - 'Lifestyle '
+      - number 09
+    title: ' The Gourmand''s Guide to Barcelona '
+    description: ' Sleep, Eat, Sail, Repeat: here are all the restaurants you need to know for the second part of that equation – to be tasted while the America’s Cup’s in the Catalan town  '
+  - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue10-chef-1-1.jpg
+    alt: ' A Taste Of Tuscany '
+    link: /articles/a-taste-of-tuscany
+    tags:
+      - Lifestyle
+      - number 10
+    title: ' A Taste Of Tuscany '
+    description: >2-
+       In this much-revered Italian region, life’s simple pleasures are celebrated as its most important, starting with its food. Spanish yacht chef Núria Cascante explains the particular culinary magic and cultural appeal of the central area she’s fallen for, both professionally and personally 
+      and innovative techniques to create a food legacy all of its own.  Here,
+      Maria Sollivellas, Chef and co-owner of Restaurant Ca na Toneta, 
+      celebrates her home’s past and present with a much-loved intrinsic dish 
+  - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue07-flying-lunch2.jpg
+    alt: ' A Flying Lunch '
+    link: /articles/flying-lunch
+    tags:
+      - Lifestyle
+      - number 07
+    title: ' A Flying Lunch '
+    description: ' TIDE’s Caribbean contingent hops aboard a helicopter with CalvinAir and heads to Barbuda’s most beautiful restaurant, Nobu '
+  - image: >-
+      /uploads/tide-magazine-sailing-lifestyle-travel-issue07-baltic-rendezvous2.jpg
+    alt: ' A Family Affair: The Baltic Yachts Rendezvous 2023 '
+    link: /articles/baltic-rendezvous
+    tags:
+      - Lifestyle
+      - number 07
+    title: ' A Family Affair: The Baltic Yachts Rendezvous 2023 '
+    description: ' There aren’t many shipyards that can still claim to be industry leaders after 50 years in the game. But Baltic Yachts is not most shipyards, showcased by the large, tight-knit community that gathered for its latest legendary Rendezvous  '
 content_on_image:
-  image: "/images/tide-banner2.png"
-  alt: "TIDE's Top Ten Sailing Destinations"
+  image: /images/tide-banner2.png
+  alt: TIDE's Top Ten Sailing Destinations
   tags:
-    - "Travel"
-    - "Number 11"
-  title: "TIDE's Top Ten Sailing Destinations"
-  description: "For decades, sailors have set a course for the Cyclades, but not only for its myriad cultural attractions, sandy beaches, hidden coves and gin-clear seas."
+    - Travel
+    - Number 11
+  title: TIDE's Top Ten Sailing Destinations
+  description: >-
+    For decades, sailors have set a course for the Cyclades, but not only for
+    its myriad cultural attractions, sandy beaches, hidden coves and gin-clear
+    seas.
   button:
-    text: "More"
-    link: "/destinations"
-    class: "width-fit btn white-btn"
-
+    text: More
+    link: /destinations
+    class: width-fit btn white-btn
 featured_section:
   cards:
-    - image: "/images/sailing-stockholm.png"
-      alt: "Sailing Stockholm"
-      link: "/articles/itinerary-cuba"
+    - image: >-
+        /uploads/tide-magazine-sailing-lifestyle-travel-issue06-superyacht-gathering2.jpg
+      alt: ' Pacific Time '
+      link: /articles/superyacht-gathering
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Checking In: Petunia Hotel, Ibiza"
-      description: "With a growing number of smart eco-focused stays across the Finnish archipelago, this little-known part of the world is having..."
-
-    - image: "/images/Three-a-Charm.png"
-      alt: "Three's a Charm"
-      link: "/articles/itinerary-cuba"
+        - 'Lifestyle '
+        - number 06
+      title: ' Pacific Time '
+      description: ' Luring sailors away from the Mediterranean and Caribbean to the wild of the South Pacific is no easy feat but Linda Berry, founder of The Superyacht Gathering, has sparked a ripple… '
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue06-restaurant1.jpg
+      alt: ' Corsican Bounty '
+      link: /articles/restaurant-corsica
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "La Dolce Vita Itinerary"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-    - image: "/images/sailing-stockholm.png"
-      alt: "Sailing Stockholm"
-      link: "/articles/itinerary-cuba"
+        - Lifestyle
+        - number 06
+      title: ' Corsican Bounty '
+      description: ' Discover Domaine de Murtoli, a 2,500-hectare ode to slow, sustainable living – and simply incredible food '
+    - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue05-cyclades1.jpg
+      alt: 'The High Low: Cyclades '
+      link: /articles/cyclades
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Nilaya Rises"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
-
-    - image: "/images/Three-a-Charm.png"
-      alt: "Three's a Charm"
-      link: "/articles/itinerary-cuba"
+        - Lifestyle
+        - number 05
+      title: 'The High Low: Cyclades '
+      description: ' Greece’s Cyclades islands are an absolute joy to sail, but strong winds can also make them a challenge. Slow down, take your time and savour local delicacies at tiny tavernas, or seek out some of the finest dining the country has to offer.  '
+    - image: /uploads/tide-magazine-issue04-high-low-2-1.jpg
+      alt: ' The High Low: Croatia '
+      link: /articles/high-low-croatia
       tags:
-        - "Travel"
-        - "Number 11"
-      title: "Three's a Charm"
-      description: "The day Marie-Louise Sciò first set foot on the island of Ischia in 2018 and breathed in the jasmine and wild thyme-fragranced..."
+        - Lifestyle
+        - ' number 04'
+      title: ' The High Low: Croatia '
+      description: ' Whether you’re after an impressive tasting menu or some freshly grilled fish to the sound of cicadas and lapping waves, Croatia has got all the bases covered if you know where to look. Superyacht chef Jemma Harrison lets you in on two of her favourite spots around the glistening waters of the Adriatic '
 
 cards2:
-  - image: "/images/sailing-stockholm.png"
-    alt: "Sailing Stockholm"
-    link: "/articles/itinerary-cuba"
+  - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue10-top-ten-2.jpg
+    alt: ' TIDE''s Top Ten Sailing Destinations '
+    link: /articles/top-ten
     tags:
-      - "Travel"
-      - "Number 11"
-    title: "Sailing Stockholm"
-    description: "The North American island nation..."
-
-  - image: "/images/Three-a-Charm.png"
-    alt: "Three's a Charm"
-    link: "/articles/itinerary-cuba"
+      - Lifestyle
+      - number 10
+    title: ' TIDE''s Top Ten Sailing Destinations '
+    description: ' In celebration of our tenth issue, we consider the many destinations we’ve featured so far to bring you our essential shortlist (in no particular order) '
+  - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue10-chef-1.jpg
+    alt: ' A Taste Of Tuscany '
+    link: /articles/taste-of-tuscany
     tags:
-      - "Travel"
-      - "Number 11"
-    title: "Three's a Charm"
-    description: "The day Marie-Louise Sciò..."
+      - 'Lifestyle I '
+      - number 10
+    title: ' A Taste Of Tuscany '
+    description: >2-
+       In this much-revered Italian region, life’s simple pleasures are celebrated as its most important, starting with its food. Spanish yacht chef Núria Cascante explains the particular culinary magic and cultural appeal of the central area she’s fallen for, both professionally and personally 
+      and innovative techniques to create a food legacy all of its own.  Here,
+      Maria Sollivellas, Chef and co-owner of Restaurant Ca na Toneta, 
+      celebrates her home’s past and present with a much-loved intrinsic dish 
+  - image: >-
+      /uploads/tide-magazine-sailing-lifestyle-travel-issue09-mallorcan-food-1.jpg
+    alt: ' The Spirit Of  Mallorca In A Recipe '
+    link: /articles/mallorcan-food
+    tags:
+      - 'Lifestyle '
+      - number 09
+    title: ' The Spirit Of  Mallorca In A Recipe '
+    description: >2-
+       On Mallorca, ancient traditions are woven together with local produce 
+      and innovative techniques to create a food legacy all of its own.  Here,
+      Maria Sollivellas, Chef and co-owner of Restaurant Ca na Toneta, 
+      celebrates her home’s past and present with a much-loved intrinsic dish 
+  - image: >-
+      /uploads/tide-magazine-sailing-lifestyle-travel-issue09-gourmand-barcelona-1.jpg
+    alt: ' The Gourmand''s Guide to Barcelona '
+    link: /articles/gourmand-barcelona
+    tags:
+      - 'Lifestyle '
+      - number 09
+    title: ' The Gourmand''s Guide to Barcelona '
+    description: ' Sleep, Eat, Sail, Repeat: here are all the restaurants you need to know for the second part of that equation – to be tasted while the America’s Cup’s in the Catalan town  '
+  - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue10-chef-1-1.jpg
+    alt: ' A Taste Of Tuscany '
+    link: /articles/a-taste-of-tuscany
+    tags:
+      - Lifestyle
+      - number 10
+    title: ' A Taste Of Tuscany '
+    description: >2-
+       In this much-revered Italian region, life’s simple pleasures are celebrated as its most important, starting with its food. Spanish yacht chef Núria Cascante explains the particular culinary magic and cultural appeal of the central area she’s fallen for, both professionally and personally 
+      and innovative techniques to create a food legacy all of its own.  Here,
+      Maria Sollivellas, Chef and co-owner of Restaurant Ca na Toneta, 
+      celebrates her home’s past and present with a much-loved intrinsic dish 
+  - image: /uploads/tide-magazine-sailing-lifestyle-travel-issue07-flying-lunch2.jpg
+    alt: ' A Flying Lunch '
+    link: /articles/flying-lunch
+    tags:
+      - Lifestyle
+      - number 07
+    title: ' A Flying Lunch '
+    description: ' TIDE’s Caribbean contingent hops aboard a helicopter with CalvinAir and heads to Barbuda’s most beautiful restaurant, Nobu '
+  - image: >-
+      /uploads/tide-magazine-sailing-lifestyle-travel-issue07-baltic-rendezvous2.jpg
+    alt: ' A Family Affair: The Baltic Yachts Rendezvous 2023 '
+    link: /articles/baltic-rendezvous
+    tags:
+      - Lifestyle
+      - number 07
+    title: ' A Family Affair: The Baltic Yachts Rendezvous 2023 '
+    description: ' There aren’t many shipyards that can still claim to be industry leaders after 50 years in the game. But Baltic Yachts is not most shipyards, showcased by the large, tight-knit community that gathered for its latest legendary Rendezvous  '
 
 subscribe_section:
-  left_image: "/images/magazine.png"
-  right_image: "/images/tablet.png"
-  title: "Subscribe"
+  left_image: /images/magazine.png
+  right_image: /images/tablet.png
+  title: Subscribe
   buttons:
-    - text: "IN PRINT"
-      class: "btn-border"
-      arrow: "left"
-    - text: "DIGITAL"
-      class: "btn-border"
-      arrow: "right"
+    - text: IN PRINT
+      class: btn-border
+      arrow: left
+    - text: DIGITAL
+      class: btn-border
+      arrow: right
